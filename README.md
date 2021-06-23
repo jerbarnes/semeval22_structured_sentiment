@@ -27,8 +27,8 @@ We provide the data in json format.
 ## Task organizers
 
 * Corresponding organizers
-    * [Jeremy Barnes](jeremycb@ifi.uio.no)
-    * [Andrey Kutuzov](andreku@ifi.uio.no)
+    * [Jeremy Barnes]<jeremycb@ifi.uio.no>
+    * [Andrey Kutuzov]<andreku@ifi.uio.no>
 * Organizers
     * Jan Buchman
     * Laura Ana Maria Oberländer
