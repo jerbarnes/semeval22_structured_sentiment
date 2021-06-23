@@ -4,9 +4,9 @@ This Github repository hosts the data and baseline models for the SemEval-2022 s
 
 ## Problem description
 
-The task is to extract all of the opinion tuples O = O<sub>i</sub>,...,O<sub>n</sub> in a text. Each opinion O<sub>i</sub> is a tuple (h, t, e, p)
+The task is to extract all of the opinion tuples **O** = *O*<sub>i</sub>,...,*O*<sub>n</sub> in a text. Each opinion *O*<sub>i</sub> is a tuple *(h, t, e, p)*
 
-where h is a holder who expresses a polarity p towards a target t through a sentiment expression e, implicitly defining the relationships between these elements.
+where *h* is a **holder** who expresses a **polarity** *p* towards a **target** *t* through a **sentiment expression** *e*, implicitly defining the relationships between these elements.
 
 The two examples below (first in English, then in Basque) show how we define *sentiment graphs*.
 
