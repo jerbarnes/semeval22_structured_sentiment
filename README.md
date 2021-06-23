@@ -14,6 +14,29 @@ The two examples below (first in English, then in Basque) show how we define *se
 
 You can then either treat this as a sequence-labelling task, or as a graph prediction task.
 
+## Monolingual Track
+The first track is
+
+## Cross-lingual Track
+
+## Data
+
+We provide the data in json format.
+
+
+## Task organizers
+
+* Corresponding organizers
+    * [Jeremy Barnes](jeremycb@ifi.uio.no)
+    * [Andrey Kutuzov](andreku@ifi.uio.no)
+* Organizers
+    * Jan Buchman
+    * Laura Ana Maria Oberländer
+    * Enrica Troiano
+    * Rodrigo Agerri
+    * Lilja Øvrelid
+    * Erik Velldal
+    * Stephan Oepen
 
 ## Requirements
 
@@ -28,6 +51,3 @@ You can then either treat this as a sequence-labelling task, or as a graph predi
 9. tqdm
 
 
-## Data
-
-We provide the data in json format.
