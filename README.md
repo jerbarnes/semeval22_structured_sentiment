@@ -23,7 +23,7 @@ This track will explore how well
 
 ## Data and formatting
 
-We provide the data in json format.
+We provide the data in json lines format.
 
 Each sentence has a dictionary with the following keys and values:
 
