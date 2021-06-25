@@ -122,7 +122,7 @@ def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
                     tp.append(1)
             else:
                 fp.append(1)
-    return sum(weighted_tp) / (sum(tp) + sum(fp) + 0.0000000000001)
+    return sum(weighted_tp) / (sum(tp) + sum(fp) + 0.0000000000000001)
 
 def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
     """
@@ -147,12 +147,12 @@ def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
                     tp.append(1)
             else:
                 fn.append(1)
-    return sum(weighted_tp) / (sum(tp) + sum(fn) + 0.0000000000001)
+    return sum(weighted_tp) / (sum(tp) + sum(fn) + 0.0000000000000001)
 
 def tuple_F1(gold, pred, keep_polarity=True, weighted=True):
     prec = tuple_precision(gold, pred, keep_polarity, weighted)
     rec = tuple_recall(gold, pred, keep_polarity, weighted)
-    return 2 * (prec * rec) / (prec + rec + 0.0000000000001)
+    return 2 * (prec * rec) / (prec + rec + 0.00000000000000001)
 
 
 def main():
