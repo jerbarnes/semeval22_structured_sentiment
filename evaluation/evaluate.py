@@ -6,6 +6,7 @@ import os
 import json
 
 from nltk.tokenize.simple import SpaceTokenizer
+
 tk = SpaceTokenizer()
 
 
@@ -16,7 +17,8 @@ def convert_char_offsets_to_token_idxs(char_offsets, token_offsets):
 
     >>> text = "I think the new uni ( ) is a great idea"
     >>> char_offsets = ["8:19"]
-    >>> token_offsets = [(0,1), (2,7), (8,11), (12,15), (16,19), (20,21), (22,23), (24,26), (27,28), (29,34), (35,39)]
+    >>> token_offsets =
+    [(0,1), (2,7), (8,11), (12,15), (16,19), (20,21), (22,23), (24,26), (27,28), (29,34), (35,39)]
 
     >>> convert_char_offsets_to_token_idxs(char_offsets, token_offsets)
     >>> (2,3,4)
@@ -36,6 +38,7 @@ def convert_char_offsets_to_token_idxs(char_offsets, token_offsets):
                 intoken = False
     return frozenset(token_idxs)
 
+
 def convert_opinion_to_tuple(sentence):
     text = sentence["text"]
     opinions = sentence["opinions"]
@@ -49,12 +52,9 @@ def convert_opinion_to_tuple(sentence):
             exp_char_idxs = opinion["Polar_expression"][1]
             polarity = opinion["Polarity"]
             #
-            holder = convert_char_offsets_to_token_idxs(holder_char_idxs,
-                                                        token_offsets)
-            target = convert_char_offsets_to_token_idxs(target_char_idxs,
-                                                        token_offsets)
-            exp = convert_char_offsets_to_token_idxs(exp_char_idxs,
-                                                     token_offsets)
+            holder = convert_char_offsets_to_token_idxs(holder_char_idxs, token_offsets)
+            target = convert_char_offsets_to_token_idxs(target_char_idxs, token_offsets)
+            exp = convert_char_offsets_to_token_idxs(exp_char_idxs, token_offsets)
             opinion_tuples.append((holder, target, exp, polarity))
     return opinion_tuples
 
@@ -70,15 +70,19 @@ def sent_tuples_in_list(sent_tuple1, list_of_sent_tuples, keep_polarity=True):
             holder2 = frozenset(["_"])
         if len(target2) == 0:
             target2 = frozenset(["_"])
-        if len(holder1.intersection(holder2)) > 0 and len(target1.intersection(target2)) > 0 and len(exp1.intersection(exp2)) > 0:
+        if (
+            len(holder1.intersection(holder2)) > 0
+            and len(target1.intersection(target2)) > 0
+            and len(exp1.intersection(exp2)) > 0
+        ):
             if keep_polarity:
                 if pol1 == pol2:
-                    #print(holder1, target1, exp1, pol1)
-                    #print(holder2, target2, exp2, pol2)
+                    # print(holder1, target1, exp1, pol1)
+                    # print(holder2, target2, exp2, pol2)
                     return True
             else:
-                #print(holder1, target1, exp1, pol1)
-                #print(holder2, target2, exp2, pol2)
+                # print(holder1, target1, exp1, pol1)
+                # print(holder2, target2, exp2, pol2)
                 return True
     return False
 
@@ -94,12 +98,17 @@ def weighted_score(sent_tuple1, list_of_sent_tuples):
             holder2 = frozenset(["_"])
         if len(target2) == 0:
             target2 = frozenset(["_"])
-        if len(holder2.intersection(holder1)) > 0 and len(target2.intersection(target1)) > 0 and len(exp2.intersection(exp1)) > 0:
-                holder_overlap = len(holder2.intersection(holder1)) / len(holder1)
-                target_overlap = len(target2.intersection(target1)) / len(target1)
-                exp_overlap = len(exp2.intersection(exp1)) / len(exp1)
-                return (holder_overlap + target_overlap + exp_overlap) / 3
+        if (
+            len(holder2.intersection(holder1)) > 0
+            and len(target2.intersection(target1)) > 0
+            and len(exp2.intersection(exp1)) > 0
+        ):
+            holder_overlap = len(holder2.intersection(holder1)) / len(holder1)
+            target_overlap = len(target2.intersection(target1)) / len(target1)
+            exp_overlap = len(exp2.intersection(exp1)) / len(exp1)
+            return (holder_overlap + target_overlap + exp_overlap) / 3
     return 0
+
 
 def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
     """
@@ -123,6 +132,7 @@ def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
             else:
                 fp.append(1)
     return sum(weighted_tp) / (sum(tp) + sum(fp) + 0.0000000000000001)
+
 
 def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
     """
@@ -149,7 +159,8 @@ def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
                 fn.append(1)
     return sum(weighted_tp) / (sum(tp) + sum(fn) + 0.0000000000000001)
 
-def tuple_F1(gold, pred, keep_polarity=True, weighted=True):
+
+def tuple_f1(gold, pred, keep_polarity=True, weighted=True):
     prec = tuple_precision(gold, pred, keep_polarity, weighted)
     rec = tuple_recall(gold, pred, keep_polarity, weighted)
     return 2 * (prec * rec) / (prec + rec + 0.00000000000000001)
@@ -175,7 +186,15 @@ def main():
     output_filename = os.path.join(output_dir, "scores.txt")
     output_file = open(output_filename, "w")
 
-    datasets = ["norec", "multibooked_ca", "multibooked_eu", "opener_en", "opener_es", "mpqa", "darmstadt_unis"]
+    datasets = [
+        "norec",
+        "multibooked_ca",
+        "multibooked_eu",
+        "opener_en",
+        "opener_es",
+        "mpqa",
+        "darmstadt_unis",
+    ]
     results = []
 
     for dataset in datasets:
@@ -196,7 +215,7 @@ def main():
         # Todo: make the error message more useful by including the missing values
         assert sorted(gold.keys()) == sorted(preds.keys()), "missing some sentences"
 
-        f1 = tuple_F1(gold, preds)
+        f1 = tuple_f1(gold, preds)
         results.append(f1)
         print("SF1 on {0}: {1:.3f}".format(dataset, f1))
         output_file.write("{0}: {1:.3f}\n".format(dataset, f1))
@@ -204,6 +223,7 @@ def main():
     ave_score = sum(results) / len(results)
     print("Average score: {:.3f}".format(ave_score))
     output_file.write("ave_score: {:.3f}\n".format(ave_score))
+
 
 if __name__ == "__main__":
     main()
