@@ -173,8 +173,9 @@ def main():
     input_dir = sys.argv[1]
     output_dir = sys.argv[2]
 
-    submit_dir = os.path.join(input_dir, "submission")
-    truth_dir = os.path.join(input_dir, "data")
+    # Paths correspond to what Codalab expects
+    submit_dir = os.path.join(input_dir, "res/")
+    truth_dir = os.path.join(input_dir, "ref/data")
 
     if not os.path.isdir(submit_dir):
         print("%s doesn't exist" % submit_dir)
