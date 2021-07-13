@@ -105,7 +105,7 @@ We also provide some links to what we believe could be helpful resources:
 
 
 ## Submission via Codalab
-Submissions will be handled through our [codalab competition website](https://competitions.codalab.org/competitions/33307).
+Submissions will be handled through our [codalab competition website](https://competitions.codalab.org/competitions/33556).
 
 ## Baselines
 
@@ -115,7 +115,7 @@ The task organizers provide two baselines: one that takes a sequence-labelling a
 
 Q: How do I participate?
 
-A: Sign up at our [codalab website](https://competitions.codalab.org/competitions/33307), download the [data](./data), train the [baselines](./baselines) and submit the results to the codalab website.
+A: Sign up at our [codalab website](https://competitions.codalab.org/competitions/33556), download the [data](./data), train the [baselines](./baselines) and submit the results to the codalab website.
 
 ## Requirements
 
