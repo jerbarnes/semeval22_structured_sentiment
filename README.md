@@ -8,7 +8,7 @@ This Github repository hosts the data and baseline models for the SemEval-2022 s
 2. [Subtasks](#subtasks)
     1. [Track 1: Monolingual structured sentiment](#track-1:-monolingual-structured-sentiment)
     2. [Track 1: Monolingual structured sentiment](#track-2:-cross-lingual-structured-sentiment)
-3. [Data and data format](data-and-data-format)
+3. [Data and data format](#data-and-data-format)
 4. [Codalab](#codalab)
 5. [Baselines](#baselines)
 6. [Requirements](#requirements)
@@ -90,6 +90,10 @@ You can import the data by using the json library in python:
 >>> with open("data/norec/train.json") as infile:
             norec_train = json.load(infile)
 ```
+
+## Baselines
+
+The task organizers provide two baselines: one that takes a sequence-labelling approach and a second that converts the problem to a dependency graph parsing task.
 
 ## Requirements
 
