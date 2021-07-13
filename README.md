@@ -30,6 +30,7 @@ Participants can then either approach this as a sequence-labelling task, or as a
 ### Monolingual
 This track assumes that you train and test on the same language. Participants will need to submit results for five languages. For further information see the [data](./data) directory.
 
+
 ### Cross-lingual
 This track will explore how well models can generalize across languages.
 
@@ -90,6 +91,17 @@ You can import the data by using the json library in python:
 >>> with open("data/norec/train.json") as infile:
             norec_train = json.load(infile)
 ```
+
+## Resources:
+The task organizers provide training data, but participants are free to use other resources (word embeddings, pretrained models, sentiment lexicons, translation lexicons, translation datasets, etc). We do ask that participants document and cite their resources well.
+
+We also provide some links to what we believe could be helpful resources:
+
+1. [pretrained word embeddings](http://vectors.nlpl.eu/repository/)
+2. [pretrained language models](https://huggingface.co/models)
+3. [translation data](https://opus.nlpl.eu/)
+4. [sentiment resources](https://github.com/jerbarnes/sentiment_resources)
+
 
 ## Submission via Codalab
 Submissions will be handled through our [codalab competition website](https://competitions.codalab.org/competitions/33307).
