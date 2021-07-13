@@ -1,0 +1,136 @@
+title: SemEval-2022 structured sentiment competition
+description: SemEval-2022 shared task on structured sentiment
+start_date: 2021-07-01 00:00:00+00:00
+end_date: null
+competition_docker_image: ''
+image: sa.png
+has_registration: true
+force_submission_to_leaderboard: false
+disallow_leaderboard_modifying: false
+enable_detailed_results: false
+admin_names: akutuzov,jeremycb
+html:
+  data: data.html
+  evaluation: evaluation.html
+  overview: overview.html
+  terms: terms_and_conditions.html
+
+phases:
+  0:
+    auto_migration: false
+    color: blue
+    description: Development phase
+    is_scoring_only: true
+    label: Development
+    max_submissions: 1000
+    max_submissions_per_day: 10
+    phasenumber: 0
+    reference_data: eval_data.zip
+    scoring_program: scoring_eval.zip
+    start_date: 2021-09-01 00:00:00+00:00
+  1:
+    auto_migration: false
+    color: orange
+    description: Evaluation phase
+    is_scoring_only: true
+    label: Evaluation
+    max_submissions: 10
+    max_submissions_per_day: 10
+    phasenumber: 1
+    reference_data: eval_data.zip
+    scoring_program: scoring_eval.zip
+    start_date: 2022-01-01 00:00:00+00:00
+  2:
+    auto_migration: true
+    color: green
+    description: Post-evaluation phase
+    is_scoring_only: true
+    label: Post-evaluation
+    max_submissions: 100
+    max_submissions_per_day: 100
+    phasenumber: 2
+    reference_data: eval_data.zip
+    scoring_program: scoring_eval.zip
+    start_date: 2022-02-01 00:00:00+00:00
+
+leaderboard:
+  leaderboards:
+    Results: &RESULTS
+      label: Monolingual                      # This will be the title of the table
+      rank: 1
+    Results2: &RESULTS2
+      label: Crosslingual                      # This will be the title of the table
+      rank: 2
+  columns:
+    ave_score:
+      leaderboard: *RESULTS
+      label: Average score
+      numeric_format: 3
+      rank: 8
+      sort: desc
+    norec:
+      leaderboard: *RESULTS
+      label: norec
+      numeric_format: 3
+      rank: 1
+      sort: desc
+    multibooked_ca:
+      leaderboard: *RESULTS
+      label: multibooked_ca
+      numeric_format: 3
+      rank: 2
+      sort: desc
+    multibooked_eu:
+      leaderboard: *RESULTS
+      label: multibooked_eu
+      numeric_format: 3
+      rank: 3
+      sort: desc
+    opener_en:
+      leaderboard: *RESULTS
+      label: opener_en
+      numeric_format: 3
+      rank: 4
+      sort: desc
+    opener_es:
+      leaderboard: *RESULTS
+      label: opener_es
+      numeric_format: 3
+      rank: 5
+      sort: desc
+    mpqa:
+      leaderboard: *RESULTS
+      label: mpqa
+      numeric_format: 3
+      rank: 6
+      sort: desc
+    darmstadt_unis:
+      leaderboard: *RESULTS
+      label: darmstadt_unis
+      numeric_format: 3
+      rank: 7
+      sort: desc
+    cross_ave_score:
+      leaderboard: *RESULTS2
+      label: Average score
+      numeric_format: 3
+      rank: 4
+      sort: desc
+    cross_opener_es:
+      leaderboard: *RESULTS2
+      label: EN-ES
+      numeric_format: 3
+      rank: 1
+      sort: desc
+    cross_multibooked_ca:
+      leaderboard: *RESULTS2
+      label: EN-CA
+      numeric_format: 3
+      rank: 2
+      sort: desc
+    cross_multibooked_eu:
+      leaderboard: *RESULTS2
+      label: EN-EU
+      numeric_format: 3
+      rank: 3
+      sort: desc
