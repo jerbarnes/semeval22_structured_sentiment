@@ -1,31 +1,44 @@
 ## Structured Sentiment
 
-This Github repository hosts the data and baseline models for the SemEval-2022 shared task on structured sentiment.
+This Github repository hosts the data and baseline models for the SemEval-2022 shared task 10 on structured sentiment.
+
+**Table of contents:**
+
+1. [Problem description](#problem-description)
+2. [Subtasks](#subtasks)
+    1. [Track 1: Monolingual structured sentiment](#track-1:-monolingual-structured-sentiment)
+    2. [Track 1: Monolingual structured sentiment](#track-2:-cross-lingual-structured-sentiment)
+3. [Data and data format](data-and-data-format)
+4. [Codalab](#codalab)
+5. [Baselines](#baselines)
+6. [Requirements](#requirements)
+7. [Task organizers](#task-organizers)
 
 ## Problem description
 
-The task is to extract all of the opinion tuples **O** = *O*<sub>i</sub>,...,*O*<sub>n</sub> in a text. Each opinion *O*<sub>i</sub> is a tuple *(h, t, e, p)*
+The task is to predict all structured sentiment graphs in a text (see the examples below). We can formalize this as finding all the opinion tuples *O* = *O*<sub>i</sub>,...,*O*<sub>n</sub> in a text. Each opinion *O*<sub>i</sub> is a tuple *(h, t, e, p)*
 
-where *h* is a **holder** who expresses a **polarity** *p* towards a **target** *t* through a **sentiment expression** *e*, implicitly defining the relationships between these elements.
+where *h* is a **holder** who expresses a **polarity** *p* towards a **target** *t* through a **sentiment expression** *e*, implicitly defining the relationships between the elements of a sentiment graph.
 
-The two examples below (first in English, then in Basque) show how we define *sentiment graphs*.
+The two examples below (first in English, then in Basque) give a visual representation of these *sentiment graphs*.
 
 ![multilingual example](./figures/multi_sent_graph.png)
 
-You can then either treat this as a sequence-labelling task, or as a graph prediction task.
+Participants can then either approach this as a sequence-labelling task, or as a graph prediction task.
 
-## Track 1: Monolingual structured sentiment
-The first track is
+## Subtasks
+### Track 1: Monolingual structured sentiment
+This track assumes that you train and test on the same language. Participants will need to submit results for five languages. For further information see the [data](./data) directory.
 
-## Track 2: Cross-lingual structured sentiment
-This track will explore how well
+### Track 2: Cross-lingual structured sentiment
+This track will explore how well models can generalize across languages.
 
 
-## Data and formatting
+## Data and data format
 
 We provide the data in json lines format.
 
-Each sentence has a dictionary with the following keys and values:
+Each line is an annotated sentence, represented as a dictionary with the following keys and values:
 
 * 'sent_id': unique sentence identifiers
 
@@ -78,6 +91,18 @@ You can import the data by using the json library in python:
             norec_train = json.load(infile)
 ```
 
+## Requirements
+
+1. python3
+2. pytorch
+3. matplotlib
+4. sklearn
+5. gensim
+6. numpy
+7. h5py
+8. transformers
+9. tqdm
+
 
 ## Task organizers
 
@@ -93,16 +118,5 @@ You can import the data by using the json library in python:
     * Erik Velldal
     * Stephan Oepen
 
-## Requirements
-
-1. python3
-2. pytorch
-3. matplotlib
-4. sklearn
-5. gensim
-6. numpy
-7. h5py
-8. transformers
-9. tqdm
 
 
