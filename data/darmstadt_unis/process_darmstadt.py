@@ -278,26 +278,26 @@ def get_opinions(base_file, markable_file):
                                  "Polarity": label,
                                  "Intensity": intensity})
 
-        elif m.get("annotation_type") == "polar_target":
-            idx = m.get("id")
-            #print(idx)
-            tspan = m.get("span")
-            label = m.get("polar_target_polarity")
+        # elif m.get("annotation_type") == "polar_target":
+        #     idx = m.get("id")
+        #     #print(idx)
+        #     tspan = m.get("span")
+        #     label = m.get("polar_target_polarity")
 
-            target_span = expand_span(tspan)
-            target_tokens = " ".join([tokens[i] for i in target_span])
-            trg_off1 = spans[target_span[0]][0]
-            trg_off2 = spans[target_span[-1]][1]
-            #trg_off1 = text.find(target_tokens)
-            #trg_off2 = trg_off1 + len(target_tokens)
-            target = [[target_tokens], ["{0}:{1}".format(trg_off1, trg_off2)]]
+        #     target_span = expand_span(tspan)
+        #     target_tokens = " ".join([tokens[i] for i in target_span])
+        #     trg_off1 = spans[target_span[0]][0]
+        #     trg_off2 = spans[target_span[-1]][1]
+        #     #trg_off1 = text.find(target_tokens)
+        #     #trg_off2 = trg_off1 + len(target_tokens)
+        #     target = [[target_tokens], ["{0}:{1}".format(trg_off1, trg_off2)]]
 
-            # for each target, add an opinion to the list
-            opinions.append({"Source": [[], []],
-                             "Target": target,
-                             "Polar_expression": [[], []],
-                             "Polarity": label,
-                             "Intensity": "average"})
+        #     # for each target, add an opinion to the list
+        #     opinions.append({"Source": [[], []],
+        #                      "Target": target,
+        #                      "Polar_expression": [[], []],
+        #                      "Polarity": label,
+        #                      "Intensity": "average"})
 
     #
     new["text"] = text
