@@ -91,6 +91,9 @@ You can import the data by using the json library in python:
             norec_train = json.load(infile)
 ```
 
+## Codalab
+Submissions will be handled through our [codalab competition website](https://competitions.codalab.org/competitions/33307).
+
 ## Baselines
 
 The task organizers provide two baselines: one that takes a sequence-labelling approach and a second that converts the problem to a dependency graph parsing task.
