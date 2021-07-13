@@ -6,10 +6,10 @@ This Github repository hosts the data and baseline models for the SemEval-2022 s
 
 1. [Problem description](#problem-description)
 2. [Subtasks](#subtasks)
-    1. [Track 1: Monolingual structured sentiment](#track-1:-monolingual-structured-sentiment)
-    2. [Track 1: Monolingual structured sentiment](#track-2:-cross-lingual-structured-sentiment)
+   1. [Track 1: Monolingual structured sentiment](#track-1:-monolingual-structured-sentiment)
+   2. [Track 1: Monolingual structured sentiment](#track-2:-cross-lingual-structured-sentiment)
 3. [Data and data format](#data-and-data-format)
-4. [Codalab](#codalab)
+4. [Submission via Codalab](#submission-via-codalab)
 5. [Baselines](#baselines)
 6. [Requirements](#requirements)
 7. [Task organizers](#task-organizers)
@@ -91,7 +91,7 @@ You can import the data by using the json library in python:
             norec_train = json.load(infile)
 ```
 
-## Codalab
+## Submission via Codalab
 Submissions will be handled through our [codalab competition website](https://competitions.codalab.org/competitions/33307).
 
 ## Baselines
