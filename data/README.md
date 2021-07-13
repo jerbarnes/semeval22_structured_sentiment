@@ -1,0 +1,84 @@
+
+## Subtask 1: Monolingual structured sentiment
+This track assumes that we train and test on the same languages. For this we will use the following datasets:
+
+1. norec (Norwegian professional reviews in multiple domains)
+2. multibooked_ca (Catalan hotel reviews)
+3. multibooked_eu (Basque hotel reviews)
+4. opener_en (English hotel reviews)
+5. opener_es (Spanish hotel reviews)
+6. darmstadt_unis (English online university reviews)
+
+## Subtask 2: Cross-lingual structured sentiment
+This track will instead train only on a high-resource language (English) and test on several languages.
+
+Train:
+1. opener_en
+
+Test:
+1. opener_es
+2. multibooked_ca
+3. multibooked_eu
+4. Several surprise languages that will not be available until the evaluation phase.
+
+That means that the cross-lingual models should be able to adapt quickly to new languages.
+
+
+## Data and formatting
+
+We provide the data in json lines format.
+
+Each line is an annotated sentence, represented as a dictionary with the following keys and values:
+
+* 'sent_id': unique sentence identifiers
+
+* 'text': raw text
+
+* 'opinions': list of all opinions (dictionaries) in the sentence
+
+Additionally, each opinion in a sentence is a dictionary with the following keys and values:
+
+* 'Source': a list of text and character offsets for the opinion holder
+
+* 'Target': a list of text and character offsets for the opinion target
+
+* 'Polar_expression': a list of text and character offsets for the opinion expression
+
+* 'Polarity': sentiment label ('Negative', 'Positive', 'Neutral')
+
+* 'Intensity': sentiment intensity ('Standard', 'Strong', 'Slight')
+
+
+```
+{
+    "sent_id": "../opener/en/kaf/hotel/english00164_c6d60bf75b0de8d72b7e1c575e04e314-6",
+
+    "text": "Even though the price is decent for Paris , I would not recommend this hotel .",
+
+    "opinions": [
+                 {
+                    "Source": [["I"], ["44:45"]],
+                    "Target": [["this hotel"], ["66:76"]],
+                    "Polar_expression": [["would not recommend"], ["46:65"]],
+                    "Polarity": "Negative",
+                    "Intensity": "Standard"
+                  },
+                 {
+                    "Source": [[], []],
+                    "Target": [["the price"], ["12:21"]],
+                    "Polar_expression": [["decent"], ["25:31"]],
+                    "Polarity": "Positive",
+                    "Intensity": "Standard"}
+                ]
+}
+```
+
+You can import the data by using the json library in python:
+
+```
+>>> import json
+>>> with open("data/norec/train.json") as infile:
+            norec_train = json.load(infile)
+```
+
+
