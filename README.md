@@ -6,8 +6,8 @@ This Github repository hosts the data and baseline models for the SemEval-2022 s
 
 1. [Problem description](#problem-description)
 2. [Subtasks](#subtasks)
-   1. [Track 1: Monolingual structured sentiment](#track-1:-monolingual-structured-sentiment)
-   2. [Track 2: Cross-lingual structured sentiment](#track-2:-cross-lingual-structured-sentiment)
+   1. [Monolingual](#monolingual)
+   2. [Cross-lingual](#cross-lingual)
 3. [Data and data format](#data-and-data-format)
 4. [Submission via Codalab](#submission-via-codalab)
 5. [Baselines](#baselines)
@@ -27,10 +27,10 @@ The two examples below (first in English, then in Basque) give a visual represen
 Participants can then either approach this as a sequence-labelling task, or as a graph prediction task.
 
 ## Subtasks
-### Track 1: Monolingual structured sentiment
+### Monolingual
 This track assumes that you train and test on the same language. Participants will need to submit results for five languages. For further information see the [data](./data) directory.
 
-### Track 2: Cross-lingual structured sentiment
+### Cross-lingual
 This track will explore how well models can generalize across languages.
 
 
