@@ -25,7 +25,6 @@ That means that the cross-lingual models should be able to adapt quickly to new 
 
 
 ## Data and formatting
-
 We provide the data in json lines format.
 
 Each line is an annotated sentence, represented as a dictionary with the following keys and values:
@@ -44,9 +43,9 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
 * 'Polar_expression': a list of text and character offsets for the opinion expression
 
-* 'Polarity': sentiment label ('Negative', 'Positive', 'Neutral')
+* 'Polarity': sentiment label ('negative', 'positive', 'neutral')
 
-* 'Intensity': sentiment intensity ('Standard', 'Strong', 'Slight')
+* 'Intensity': sentiment intensity ('average', 'strong', 'weak')
 
 
 ```
@@ -60,15 +59,15 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
                     "Source": [["I"], ["44:45"]],
                     "Target": [["this hotel"], ["66:76"]],
                     "Polar_expression": [["would not recommend"], ["46:65"]],
-                    "Polarity": "Negative",
-                    "Intensity": "Standard"
+                    "Polarity": "negative",
+                    "Intensity": "average"
                   },
                  {
                     "Source": [[], []],
                     "Target": [["the price"], ["12:21"]],
                     "Polar_expression": [["decent"], ["25:31"]],
-                    "Polarity": "Positive",
-                    "Intensity": "Standard"}
+                    "Polarity": "positive",
+                    "Intensity": "average"}
                 ]
 }
 ```
