@@ -9,10 +9,11 @@ This Github repository hosts the data and baseline models for the SemEval-2022 s
    1. [Monolingual](#monolingual)
    2. [Cross-lingual](#cross-lingual)
 3. [Data and data format](#data-and-data-format)
-4. [Submission via Codalab](#submission-via-codalab)
-5. [Baselines](#baselines)
-6. [Frequently Asked Questions](#frequently-asked-questions)
-7. [Task organizers](#task-organizers)
+4. [Resources](#resources)
+5. [Submission via Codalab](#submission-via-codalab)
+6. [Baselines](#baselines)
+7. [Frequently Asked Questions](#frequently-asked-questions)
+8. [Task organizers](#task-organizers)
 
 ## Problem description
 
@@ -55,9 +56,9 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
 * 'Polar_expression': a list of text and character offsets for the opinion expression
 
-* 'Polarity': sentiment label ('Negative', 'Positive')
+* 'Polarity': sentiment label ('negative', 'positive', 'neutral')
 
-* 'Intensity': sentiment intensity ('Standard', 'Strong', 'Slight')
+* 'Intensity': sentiment intensity ('average', 'strong', 'weak')
 
 
 ```
@@ -71,15 +72,15 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
                     "Source": [["I"], ["44:45"]],
                     "Target": [["this hotel"], ["66:76"]],
                     "Polar_expression": [["would not recommend"], ["46:65"]],
-                    "Polarity": "Negative",
-                    "Intensity": "Standard"
+                    "Polarity": "negative",
+                    "Intensity": "average"
                   },
                  {
                     "Source": [[], []],
                     "Target": [["the price"], ["12:21"]],
                     "Polar_expression": [["decent"], ["25:31"]],
-                    "Polarity": "Positive",
-                    "Intensity": "Standard"}
+                    "Polarity": "positive",
+                    "Intensity": "average"}
                 ]
 }
 ```
