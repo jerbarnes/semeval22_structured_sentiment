@@ -101,6 +101,7 @@ The task organizers provide two baselines: one that takes a sequence-labelling a
 ## Frequently asked questions
 
 Q: How do I participate?
+
 A: Sign up at our [codalab website](https://competitions.codalab.org/competitions/33307), download the [data](./data), train the [baselines](./baselines) and submit the results to the codalab website.
 
 ## Requirements
