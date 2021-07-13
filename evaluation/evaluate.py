@@ -201,7 +201,7 @@ def main():
     output_filename = os.path.join(output_dir, "scores.txt")
     output_file = open(output_filename, "w")
 
-    datasets = [
+    monolingual_datasets = [
         "norec",
         "multibooked_ca",
         "multibooked_eu",
@@ -210,34 +210,54 @@ def main():
         "mpqa",
         "darmstadt_unis",
     ]
+    crosslingual_datasets = [
+        "opener_es",
+        "multibooked_ca",
+        "multibooked_eu"
+        ]
     results = []
 
-    for dataset in datasets:
-        gold_file = os.path.join(truth_dir, dataset, "test.json")
-        submission_answer_file = os.path.join(submit_dir, dataset, "predictions.json")
+    for subtask, datasets in [("monolingual", monolingual_datasets),
+                             ("crosslingual", crosslingual_datasets)]:
 
-        # read in gold and predicted data, convert to dictionaries
-        # where the sent_ids are keys
-        with open(gold_file) as infile:
-            gold = json.load(infile)
-        gold = dict([(s["sent_id"], convert_opinion_to_tuple(s)) for s in gold])
+        print("{}".format(subtask))
+        print("#" * 40)
 
-        with open(submission_answer_file) as infile:
-            preds = json.load(infile)
-        preds = dict([(s["sent_id"], convert_opinion_to_tuple(s)) for s in preds])
+        for dataset in datasets:
+            gold_file = os.path.join(truth_dir, subtask, dataset, "test.json")
+            submission_answer_file = os.path.join(submit_dir, subtask, dataset,  "predictions.json")
 
-        # make sure they have the same keys
-        # Todo: make the error message more useful by including the missing values
-        assert sorted(gold.keys()) == sorted(preds.keys()), "missing some sentences"
+            # read in gold and predicted data, convert to dictionaries
+            # where the sent_ids are keys
+            with open(gold_file) as infile:
+                gold = json.load(infile)
+            gold = dict([(s["sent_id"], convert_opinion_to_tuple(s)) for s in gold])
 
-        f1 = tuple_f1(gold, preds)
-        results.append(f1)
-        print("SF1 on {0}: {1:.3f}".format(dataset, f1))
-        output_file.write("{0}: {1:.3f}\n".format(dataset, f1))
+            with open(submission_answer_file) as infile:
+                preds = json.load(infile)
+            preds = dict([(s["sent_id"], convert_opinion_to_tuple(s)) for s in preds])
 
-    ave_score = sum(results) / len(results)
-    print("Average score: {:.3f}".format(ave_score))
-    output_file.write("ave_score: {:.3f}\n".format(ave_score))
+            # make sure they have the same keys
+            # Todo: make the error message more useful by including the missing values
+            assert sorted(gold.keys()) == sorted(preds.keys()), "missing some sentences"
+
+            f1 = tuple_f1(gold, preds)
+            results.append(f1)
+            print("SF1 on {0}: {1:.3f}".format(dataset, f1))
+            if subtask == "crosslingual":
+                crossdataset = "cross_" + dataset
+                output_file.write("{0}: {1:.3f}\n".format(crossdataset, f1))
+            else:
+                output_file.write("{0}: {1:.3f}\n".format(dataset, f1))
+
+        ave_score = sum(results) / len(results)
+        print("Average score: {:.3f}".format(ave_score))
+        print()
+
+        if subtask == "crosslingual":
+            output_file.write("cross_ave_score: {:.3f}\n".format(ave_score))
+        else:
+            output_file.write("ave_score: {:.3f}\n".format(ave_score))
 
 
 if __name__ == "__main__":
