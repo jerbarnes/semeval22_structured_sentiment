@@ -88,6 +88,7 @@ def sent_tuples_in_list(sent_tuple1, list_of_sent_tuples, keep_polarity=True):
 
 
 def weighted_score(sent_tuple1, list_of_sent_tuples):
+    best_overlap = 0
     holder1, target1, exp1, pol1 = sent_tuple1
     if len(holder1) == 0:
         holder1 = frozenset(["_"])
@@ -106,8 +107,10 @@ def weighted_score(sent_tuple1, list_of_sent_tuples):
             holder_overlap = len(holder2.intersection(holder1)) / len(holder1)
             target_overlap = len(target2.intersection(target1)) / len(target1)
             exp_overlap = len(exp2.intersection(exp1)) / len(exp1)
-            return (holder_overlap + target_overlap + exp_overlap) / 3
-    return 0
+            overlap = (holder_overlap + target_overlap + exp_overlap) / 3
+            if overlap > best_overlap:
+                best_overlap = overlap
+    return best_overlap
 
 
 def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
@@ -124,13 +127,22 @@ def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
         for stuple in ptuples:
             if sent_tuples_in_list(stuple, gtuples, keep_polarity):
                 if weighted:
+                    #sc = weighted_score(stuple, gtuples)
+                    #if sc != 1:
+                        #print(sent_idx)
+                        #print(sc)
+                        #print()
                     weighted_tp.append(weighted_score(stuple, gtuples))
                     tp.append(1)
                 else:
                     weighted_tp.append(1)
                     tp.append(1)
             else:
+                print(sent_idx)
                 fp.append(1)
+    #print("weighted tp: {}".format(sum(weighted_tp)))
+    #print("tp: {}".format(sum(tp)))
+    #print("fp: {}".format(sum(fp)))
     return sum(weighted_tp) / (sum(tp) + sum(fp) + 0.0000000000000001)
 
 
@@ -163,12 +175,14 @@ def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
 def tuple_f1(gold, pred, keep_polarity=True, weighted=True):
     prec = tuple_precision(gold, pred, keep_polarity, weighted)
     rec = tuple_recall(gold, pred, keep_polarity, weighted)
+    #print("prec: {}".format(prec))
+    #print("rec: {}".format(rec))
     return 2 * (prec * rec) / (prec + rec + 0.00000000000000001)
 
 
 def main():
     """
-    Evaluate lexical semantic change detection results.
+    Evaluate monolingual structured sentiment results.
     """
     input_dir = sys.argv[1]
     output_dir = sys.argv[2]
