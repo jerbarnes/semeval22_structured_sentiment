@@ -11,7 +11,7 @@ This Github repository hosts the data and baseline models for the SemEval-2022 s
 3. [Data and data format](#data-and-data-format)
 4. [Submission via Codalab](#submission-via-codalab)
 5. [Baselines](#baselines)
-6. [Requirements](#requirements)
+6. [Frequently Asked Questions](#frequently-asked-questions)
 7. [Task organizers](#task-organizers)
 
 ## Problem description
@@ -97,6 +97,11 @@ Submissions will be handled through our [codalab competition website](https://co
 ## Baselines
 
 The task organizers provide two baselines: one that takes a sequence-labelling approach and a second that converts the problem to a dependency graph parsing task.
+
+## Frequently asked questions
+
+Q: How do I participate?
+A: Sign up at our [codalab website](https://competitions.codalab.org/competitions/33307), download the [data](./data), train the [baselines](./baselines) and submit the results to the codalab website.
 
 ## Requirements
 
