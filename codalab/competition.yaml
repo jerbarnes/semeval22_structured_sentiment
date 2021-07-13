@@ -116,7 +116,7 @@ leaderboard:
       numeric_format: 3
       rank: 4
       sort: desc
-    opener_es:
+    cross_opener_es:
       leaderboard: *RESULTS2
       label: EN-ES
       numeric_format: 3
