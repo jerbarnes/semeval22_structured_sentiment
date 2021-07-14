@@ -12,26 +12,26 @@ echo EXTERNAL EMBEDDINGS
 echo "###########################"
 
 if [ $DATASET == norec ]; then
-    EXTERNAL=vectors/58.zip
+    EXTERNAL=embeddings/58.zip
 elif [ $DATASET == multibooked_eu ]; then
-    EXTERNAL=vectors/32.zip
+    EXTERNAL=embeddings/32.zip
 elif [ $DATASET == multibooked_ca ]; then
-    EXTERNAL=vectors/34.zip
+    EXTERNAL=embeddings/34.zip
 elif [ $DATASET == mpqa ]; then
-    EXTERNAL=vectors/18.zip
+    EXTERNAL=embeddings/18.zip
 elif [ $DATASET == darmstadt_unis ]; then
-    EXTERNAL=vectors/18.zip
+    EXTERNAL=embeddings/18.zip
 elif [ $DATASET == opener_en ]; then
-    EXTERNAL=vectors/18.zip
+    EXTERNAL=embeddings/18.zip
 elif [ $DATASET == opener_es ]; then
-    EXTERNAL=vectors/68.zip
+    EXTERNAL=embeddings/68.zip
 else
     echo "NO EMBEDDINGS SUPPLIED FOR THIS DATASET"
     echo "EXITING TRAINING PROCEDURE"
     exit
 fi
 
-echo using external vectors: $EXTERNAL
+echo using external embeddings: $EXTERNAL
 echo
 
 # INPUT FILES
@@ -41,12 +41,12 @@ echo INPUT FILES
 echo "###########################"
 
 TRAIN=sentiment_graphs/$DATASET/$SETUP/train.conllu
-DEV=sentiment_graphs/$DATASET/$SETUP/dev.conllu
-TEST=sentiment_graphs/$DATASET/$SETUP/test.conllu
+
+# During the development phase, you will not have access to gold development labels, but in the evaluation phase you can uncomment the line below and make the appropriate changes to use the gold development labels
+# DEV=sentiment_graphs/$DATASET/$SETUP/dev.conllu
 
 echo train data: $TRAIN
-echo dev data: $DEV
-echo test data: $TEST
+# echo dev data: $DEV
 echo
 
 
@@ -64,7 +64,11 @@ pwd
 rm -rf $DIR
 mkdir $DIR
 
-python3 ./src/main.py --config configs/sgraph.cfg --train $TRAIN --val $DEV --predict_file $TEST --dir $DIR --external $EXTERNAL --seed $SEED
+
+python3 ./src/main.py --config configs/sgraph.cfg --train $TRAIN --enable_train_eval true --disable_val_eval true --dir $DIR --external $EXTERNAL --seed $SEED
+
+# When you receive the gold development labels, you can use them in training
+# python3 ./src/main.py --config configs/sgraph.cfg --train $TRAIN --val $DEV --predict_file $DEV --dir $DIR --external $EXTERNAL --seed $SEED
 
 
 # The models can be quite big and eat up a lot of space

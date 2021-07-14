@@ -7,14 +7,18 @@ mkdir logs
 mkdir experiments
 
 # Download word vectors
-mkdir vectors
-cd vectors
-#wget http://vectors.nlpl.eu/repository/20/58.zip
-#wget http://vectors.nlpl.eu/repository/20/32.zip
-#wget http://vectors.nlpl.eu/repository/20/34.zip
-#wget http://vectors.nlpl.eu/repository/20/18.zip
-#wget http://vectors.nlpl.eu/repository/20/68.zip
+if [ -d embeddings ]; then
+    echo "Using downloaded word embeddings"
+else
+    mkdir embeddings
+    cd embeddings
+    #wget http://vectors.nlpl.eu/repository/20/58.zip
+    wget http://vectors.nlpl.eu/repository/20/32.zip
+    #wget http://vectors.nlpl.eu/repository/20/34.zip
+    #wget http://vectors.nlpl.eu/repository/20/18.zip
+    #wget http://vectors.nlpl.eu/repository/20/68.zip
 cd ..
+fi
 
 # Iterate over datsets
 #for DATASET in darmstadt_unis mpqa multibooked_ca multibooked_eu norec opener_es opener_en; do
@@ -26,13 +30,12 @@ for DATASET in multibooked_eu; do
     for SETUP in head_final; do
         mkdir experiments/$DATASET/$SETUP;
         echo "Running $DATASET - $SETUP"
-        i=$(($RUN - 1))
-        SEED=${SEEDS[i]}
-        OUTDIR=experiments/$DATASET/$SETUP/$RUN;
-        mkdir experiments/$DATASET/$SETUP/$RUN;
+        SEED=${SEEDS[0]}
+        OUTDIR=experiments/$DATASET/$SETUP;
+        mkdir experiments/$DATASET/$SETUP;
         # If a model is already trained, don't retrain
         if [ -f "$OUTDIR"/test.conllu.pred ]; then
-            echo "$DATASET-$SETUP-$RUN already trained"
+            echo "$DATASET-$SETUP already trained"
         else
             mkdir logs/$DATASET/$SETUP;
             bash ./sentgraph.sh  $DATASET $SETUP $SEED
