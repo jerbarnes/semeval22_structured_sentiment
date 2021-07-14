@@ -298,30 +298,27 @@ def get_args(forced_args=None):
 
 def predict(model, settings, to_predict, elmo, vocabs):
     pred_path = settings.dir + to_predict.split("/")[-1] + ".pred"
+    json_path = settings.dir + to_predict.split("/")[-1] + ".json"
     entries, predicted, other_predicted = model.predict(to_predict, elmo)
-    f1, _ = sc.score(*zip(*((entry[1][settings.pt].numpy(), predicted[entry[0]].numpy()) for entry in entries)))
-    print("F1 is {:.2%}".format(f1))
 
-    if len(other_predicted) > 0:
-        other_f1, _ = sc.score(*zip(*((entry[1][settings.ot].numpy(), other_predicted[entry[0]].numpy()) for entry in entries)))
-        print("Other F1 is {:.2%}".format(other_f1))
+    json_sentences = []
+
     with open(pred_path, "w") as fh:
         for sentence in cd.read_col_data(to_predict):
             pred = predicted[sentence.id].numpy()
             if settings.target_style == "scope-":
-                cue_matrix = sentence.make_matrix("cues", True, vocabs[settings.td["cue"]].w2i)
+                cue_matrix = sentence.make_matrix("cues",
+                                                  True,
+                                                  vocabs[settings.td["cue"]].w2i)
                 pred = np.maximum(pred, cue_matrix)
-            #pred = other_predicted[sentence.id].numpy()
-            sentence.update_parse(pred, settings.target_style, vocabs[settings.pt].i2w)
-            if len(other_predicted) > 0:
-                pred = other_predicted[sentence.id].numpy()
-                # NOTE sem == sem hopefully
-                if settings.target_style == settings.other_target_style:
-                    sentence.update_parse(pred, "syn", vocabs[settings.pt].i2w)
-                else:
-                    sentence.update_parse(pred, settings.other_target_style, vocabs[settings.pt].i2w)
-            # print(sentence, file=fh)
-            fh.write(sentence)
+            sentence.update_parse(pred,
+                                  settings.target_style,
+                                  vocabs[settings.pt].i2w)
+            json_sentences.append(cd.convert_col_sent_to_json(sentence))
+            fh.write(str(sentence) + "\n")
+
+    with open(json_path, "w") as outfile:
+        json.dump(json_sentences, outfile)
     return True
 
 
