@@ -1,6 +1,6 @@
 ## SemEval-2022 Shared Task 10: Structured Sentiment Analysis
 
-This Github repository hosts the data and baseline models for the [SemEval-2022 shared task 10](https://competitions.codalab.org/competitions/33556) on structured sentiment.
+This Github repository hosts the data and baseline models for the [SemEval-2022 shared task 10](https://competitions.codalab.org/competitions/33556) on structured sentiment. In this repository you will find the datasets, baselines, and other useful information on the shared task.
 
 **Table of contents:**
 
