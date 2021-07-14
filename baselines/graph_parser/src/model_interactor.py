@@ -226,11 +226,29 @@ class ModelInteractor:
             if settings.enable_train_eval:
                 entries, predicted, other_predicted = self.predict(settings.train, settings.elmo_train)
                 train_f1, _ = sc.score(*zip(*((entry[1][self.pt].numpy(), predicted[entry[0]].numpy()) for entry in entries)))
-                print("Sem Train F1 on epoch {} is {:.2%}".format(epoch, train_f1))
+                print("Train F1 on epoch {} is {:.2%}".format(epoch, train_f1))
 
                 if len(other_predicted) > 0:
                     other_train_f1, _ = sc.score(*zip(*((entry[1][self.ot].numpy(), other_predicted[entry[0]].numpy()) for entry in entries)))
                     print("Syn Train F1 on epoch {} is {:.2%}".format(epoch, other_train_f1))
+                if settings.disable_val_eval:
+                    improvement = train_f1 > best_f1
+                    elapsed = epoch - best_f1_epoch
+                    es_active = settings.early_stopping > 0
+                    if (es_active and not improvement
+                        and elapsed == settings.early_stopping):
+                        print("Have not seen any improvement for {} epochs".format(elapsed))
+                        print("Best F1 was {} seen at epoch #{}".format(best_f1, best_f1_epoch))
+                        break
+                    else:
+                        if improvement:
+                            best_f1 = train_f1
+                            best_f1_epoch = epoch
+                            print("Saving {} model".format(best_f1_epoch))
+                            self.save("best_model.save", epoch)
+                        else:
+                            print("Have not seen any improvement for {} epochs".format(elapsed))
+                        print("Best F1 was {:.2%} seen at epoch #{}".format(best_f1, best_f1_epoch))
 
             if settings.save_every:
                 self.save("{}_epoch{}.save".format(int(time.time()), epoch), epoch)
