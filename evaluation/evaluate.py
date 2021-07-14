@@ -208,7 +208,7 @@ def main():
         "opener_en",
         "opener_es",
         "mpqa",
-        #"darmstadt_unis",
+        "darmstadt_unis",
     ]
     crosslingual_datasets = [
         "opener_es",
