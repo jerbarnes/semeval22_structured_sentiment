@@ -20,7 +20,7 @@ Rather than treating the sentiment graph prediction task as sequence-labeling, w
 9. tqdm
 
 
-## Experimental results
+## Get the baseline models
 
 In order to train the baseline models, we provide scripts which will download pretrained embeddings and train monolingual models:
 
