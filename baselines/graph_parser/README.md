@@ -22,27 +22,16 @@ Rather than treating the sentiment graph prediction task as sequence-labeling, w
 
 ## Experimental results
 
-To reproduce the results, first you will need to download the word vectors used:
+In order to train the baseline models, we provide scripts which will download pretrained embeddings and train monolingual models:
 
 ```
-mkdir vectors
-cd vectors
-wget http://vectors.nlpl.eu/repository/20/58.zip
-wget http://vectors.nlpl.eu/repository/20/32.zip
-wget http://vectors.nlpl.eu/repository/20/34.zip
-wget http://vectors.nlpl.eu/repository/20/18.zip
-cd ..
+bash ./get_baseline.sh
 ```
 
-You will similarly need to extract mBERT token representations for all datasets.
-```
-./do_bert.sh
-```
-
-Finally, you can run the SLURM scripts to reproduce the experimental results.
+The models will be saved as pytorch models in /experiments under the name best_model.save. You can then use the inference.sh script to use the models to predict on unseen data:
 
 ```
-./scripts/run_SLURM_all_BERT.sh
-./scripts/run_SLURM_no_BERT.sh
+bash ./inference.sh sentiment_graphs/multibooked_eu/head_final/dev.conllu experiments/multibooked_eu/head_final/ embeddings/32.zip
 ```
 
+The predictions (dev.conllu.pred, dev.conllu.json) will be written to the same directory where the model is found. The json files contain the predictions converted to the appropriate submission format, while the conllu.pred files show the actual predictions.
