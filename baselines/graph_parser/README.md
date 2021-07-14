@@ -4,7 +4,7 @@ This subrepository contains the code and datasets described in following paper: 
 
 Rather than treating the sentiment graph prediction task as sequence-labeling, we can treat it as a bilexical dependency graph prediction task, although some decisions must be made. We provide two versions (a) *head-first* and (b) *head-final*, shown below:
 
-![bilexical](./figures/bilexical.png)
+![bilexical](../../figures/bilexical.png)
 
 
 ## Requirements
