@@ -15,10 +15,6 @@ Rather than treating the sentiment graph prediction task as sequence-labeling, w
 4. sklearn
 5. gensim
 6. numpy
-7. h5py
-8. transformers
-9. tqdm
-
 
 ## Get the baseline models
 
