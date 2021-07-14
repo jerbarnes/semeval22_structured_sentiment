@@ -217,7 +217,7 @@ def main():
         ]
 
     for subtask, datasets in [("monolingual", monolingual_datasets),
-                             ("crosslingual", crosslingual_datasets)]:
+                              ("crosslingual", crosslingual_datasets)]:
         results = []
 
         print("{}".format(subtask))
