@@ -138,7 +138,7 @@ def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
                     weighted_tp.append(1)
                     tp.append(1)
             else:
-                print(sent_idx)
+                #print(sent_idx)
                 fp.append(1)
     #print("weighted tp: {}".format(sum(weighted_tp)))
     #print("tp: {}".format(sum(tp)))
@@ -208,17 +208,17 @@ def main():
         "opener_en",
         "opener_es",
         "mpqa",
-        "darmstadt_unis",
+        #"darmstadt_unis",
     ]
     crosslingual_datasets = [
         "opener_es",
         "multibooked_ca",
         "multibooked_eu"
         ]
-    results = []
 
     for subtask, datasets in [("monolingual", monolingual_datasets),
                              ("crosslingual", crosslingual_datasets)]:
+        results = []
 
         print("{}".format(subtask))
         print("#" * 40)
@@ -239,7 +239,15 @@ def main():
 
             # make sure they have the same keys
             # Todo: make the error message more useful by including the missing values
-            assert sorted(gold.keys()) == sorted(preds.keys()), "missing some sentences"
+            g = sorted(gold.keys())
+            p = sorted(preds.keys())
+
+            for i in g:
+                if i not in p:
+                    print(i)
+
+            #import pdb; pdb.set_trace()
+            assert g == p, "missing some sentences"
 
             f1 = tuple_f1(gold, preds)
             results.append(f1)
