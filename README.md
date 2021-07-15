@@ -7,6 +7,7 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 1. [Problem description](#problem-description)
 2. [Subtasks](#subtasks)
    1. [Monolingual](#monolingual)
+      1. [Data](#data)
    2. [Cross-lingual](#cross-lingual)
 3. [Data format](#data-format)
 4. [Resources](#resources)
@@ -45,9 +46,6 @@ This track assumes that you train and test on the same language. Participants wi
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not come directly from the test datasets.
-
-
-#### Data
 
 
 ## Data format
