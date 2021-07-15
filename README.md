@@ -40,7 +40,7 @@ This track assumes that you train and test on the same language. Participants wi
 | [OpeNER_en]() | English | | | | |
 | [OpeNER_es]() | Spanish | | | | |
 | [MPQA]() | English | | | | |
-| [Darmstadt_unis]() | | | | |
+| [Darmstadt_unis]() | English | | | | |
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages.
