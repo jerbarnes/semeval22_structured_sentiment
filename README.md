@@ -40,8 +40,12 @@ This track assumes that you train and test on the same language. Participants wi
 | Dataset | Language | # sents | # holders | # targets | # expr. |
 | --------| -------- | ------- | --------- | --------- | ------- |
 | [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
-
-
+| [multibooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
+| [multibooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
+| [OpeNER_en]() | English | | | | |
+| [OpeNER_es]() | Spanish | | | | |
+| [MPQA]() | English | | | | |
+| [Darmstadt_unis]() | English | | | | |
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages.
