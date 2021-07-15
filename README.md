@@ -129,18 +129,6 @@ Q: How do I participate?
 
 A: Sign up at our [codalab website](https://competitions.codalab.org/competitions/33556), download the [data](./data), train the [baselines](./baselines) and submit the results to the codalab website.
 
-## Requirements
-
-1. python3
-2. pytorch
-3. matplotlib
-4. sklearn
-5. gensim
-6. numpy
-7. h5py
-8. transformers
-9. tqdm
-
 
 ## Task organizers
 
