@@ -44,7 +44,8 @@ This track assumes that you train and test on the same language. Participants wi
 | [Darmstadt_unis]() | English | | | | |
 
 ### Cross-lingual
-This track will explore how well models can generalize across languages.
+This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not come directly from the test datasets.
+
 
 #### Data
 
