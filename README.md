@@ -37,8 +37,8 @@ This track assumes that you train and test on the same language. Participants wi
 | Dataset | Language | # sents | # holders | # targets | # expr. |
 | --------| -------- | ------- | --------- | --------- | ------- |
 | [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
-| [multibooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
-| [multibooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
+| [MultiBooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
+| [MultiBooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
 | [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English | | | | |
 | [OpeNER_es](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | Spanish | | | | |
 | [MPQA](http://mpqa.cs.pitt.edu/) | English | | | | |
