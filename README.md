@@ -33,7 +33,8 @@ This track assumes that you train and test on the same language. Participants wi
 
 #### Data
 
-| Dataset | Language | # sents | # holders | # targets | # expr. |
+| Dataset                                                 | Language  | # sents | # holders | # targets | # expr. |
+| [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian |         |           |           |         |
 
 
 ### Cross-lingual
