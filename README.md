@@ -33,10 +33,6 @@ This track assumes that you train and test on the same language. Participants wi
 
 #### Data
 
-| Embedding | Model | Batch Size | Device | Min Time | Max Time |
-| --------- | ----- | ---------- | ------ | -------- | -------- |
-| GloVe     | STL   | 1          | CPU    |    10.24 |  10.45   |
-
 | Dataset | Language | # sents | # holders | # targets | # expr. |
 | --------| -------- | ------- | --------- | --------- | ------- |
 | [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
