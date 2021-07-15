@@ -30,7 +30,9 @@ Participants can then either approach this as a sequence-labelling task, or as a
 
 ## Subtasks
 ### Monolingual
-This track assumes that you train and test on the same language. Participants will need to submit results for five languages. For further information see the [data](./data) directory.
+This track assumes that you train and test on the same language. Participants will need to submit results for seven datasets in five languages. The evaluation will report the [Sentiment F<sub>1</sub>](https://arxiv.org/abs/2105.14504) for each dataset, as well as the average of all 7. The winning submission will be the one that has the highest average Sentiment F<sub>1</sub>.
+
+ The datasets can be found in the [data](./data) directory.
 
 #### Data
 
@@ -39,8 +41,8 @@ This track assumes that you train and test on the same language. Participants wi
 | [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
 | [MultiBooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
 | [MultiBooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
-| [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English | | | | |
 | [OpeNER_es](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | Spanish | | | | |
+| [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English | | | | |
 | [MPQA](http://mpqa.cs.pitt.edu/) | English | | | | |
 | [Darmstadt_unis](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) | English | | | | |
 
