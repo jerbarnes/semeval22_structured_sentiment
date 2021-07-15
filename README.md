@@ -39,10 +39,10 @@ This track assumes that you train and test on the same language. Participants wi
 | [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
 | [multibooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
 | [multibooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
-| [OpeNER_en]() | English | | | | |
-| [OpeNER_es]() | Spanish | | | | |
-| [MPQA]() | English | | | | |
-| [Darmstadt_unis]() | English | | | | |
+| [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English | | | | |
+| [OpeNER_es](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | Spanish | | | | |
+| [MPQA](http://mpqa.cs.pitt.edu/) | English | | | | |
+| [Darmstadt_unis](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) | English | | | | |
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not come directly from the test datasets.
