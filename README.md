@@ -54,23 +54,23 @@ We provide the data in json lines format.
 
 Each line is an annotated sentence, represented as a dictionary with the following keys and values:
 
-* 'sent_id': unique sentence identifiers
+* `'sent_id'`: unique sentence identifiers
 
-* 'text': raw text
+* `'text'`: raw text version of the previously tokenized sentence
 
-* 'opinions': list of all opinions (dictionaries) in the sentence
+* `opinions'`: list of all opinions (dictionaries) in the sentence
 
 Additionally, each opinion in a sentence is a dictionary with the following keys and values:
 
-* 'Source': a list of text and character offsets for the opinion holder
+* `'Source'`: a list of text and character offsets for the opinion holder
 
-* 'Target': a list of text and character offsets for the opinion target
+* `'Target'`: a list of text and character offsets for the opinion target
 
-* 'Polar_expression': a list of text and character offsets for the opinion expression
+* `'Polar_expression'`: a list of text and character offsets for the opinion expression
 
-* 'Polarity': sentiment label ('negative', 'positive', 'neutral')
+* `'Polarity'`: sentiment label ('negative', 'positive', 'neutral')
 
-* 'Intensity': sentiment intensity ('average', 'strong', 'weak')
+* `'Intensity'`: sentiment intensity ('average', 'strong', 'weak')
 
 
 ```
