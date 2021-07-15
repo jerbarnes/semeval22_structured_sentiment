@@ -8,7 +8,7 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 2. [Subtasks](#subtasks)
    1. [Monolingual](#monolingual)
    2. [Cross-lingual](#cross-lingual)
-3. [Data and data format](#data-and-data-format)
+3. [Data format](#data-format)
 4. [Resources](#resources)
 5. [Submission via Codalab](#submission-via-codalab)
 6. [Baselines](#baselines)
@@ -31,12 +31,24 @@ Participants can then either approach this as a sequence-labelling task, or as a
 ### Monolingual
 This track assumes that you train and test on the same language. Participants will need to submit results for five languages. For further information see the [data](./data) directory.
 
+#### Data
+
+| Dataset | Language | # sents | # holders | # targets | # expr. |
+| [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
+| [multibooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
+| [multibooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
+| [OpeNER_en]() | English | | | | |
+| [OpeNER_es]() | Spanish | | | | |
+| [MPQA]() | English | | | | |
+| [Darmstadt_unis]() | | | | |
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages.
 
+#### Data
 
-## Data and data format
+
+## Data format
 
 We provide the data in json lines format.
 
