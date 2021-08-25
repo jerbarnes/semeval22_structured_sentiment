@@ -38,13 +38,13 @@ This track assumes that you train and test on the same language. Participants wi
 
 | Dataset | Language | # sents | # holders | # targets | # expr. |
 | --------| -------- | ------- | --------- | --------- | ------- |
-| [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | | | | |
-| [MultiBooked_eu](https://aclanthology.org/L18-1104/) | Basque | | | | |
-| [MultiBooked_ca](https://aclanthology.org/L18-1104/) | Catalan | | | | |
-| [OpeNER_es](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | Spanish | | | | |
-| [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English | | | | |
+| [NoReC_fine](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | 11437 | 1128|8923 |11115 |
+| [MultiBooked_eu](https://aclanthology.org/L18-1104/) | Basque |1521 |296 |1775 |2328 |
+| [MultiBooked_ca](https://aclanthology.org/L18-1104/) | Catalan |1678 |235 |2336 |2756 |
+| [OpeNER_es](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | Spanish |2057 |255 |3980 |4388 |
+| [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English |2494 |413 |3850 |4150 |
 | [MPQA](http://mpqa.cs.pitt.edu/) | English | | | | |
-| [Darmstadt_unis](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) | English | | | | |
+| [Darmstadt_unis](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) | English | 2803 | 86 | 1119 | 1119 |
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not come directly from the test datasets.
