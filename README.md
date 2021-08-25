@@ -116,6 +116,7 @@ We also provide some links to what we believe could be helpful resources:
 2. [pretrained language models](https://huggingface.co/models)
 3. [translation data](https://opus.nlpl.eu/)
 4. [sentiment resources](https://github.com/jerbarnes/sentiment_resources)
+5. [syntactic parsers](https://stanfordnlp.github.io/stanza/)
 
 
 ## Submission via Codalab
