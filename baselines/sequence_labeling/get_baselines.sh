@@ -6,8 +6,7 @@ python3 convert_to_bio.py
 python3 convert_to_rels.py
 
 # Iterate over datsets
-#for DATASET in darmstadt_unis mpqa multibooked_ca multibooked_eu norec opener_es opener_en; do
-for DATASET in multibooked_ca; do
+for DATASET in darmstadt_unis mpqa multibooked_ca multibooked_eu norec opener_es opener_en; do
     if [ $DATASET == norec ]; then
         EXTERNAL=$EMBEDDINGDIR/58.zip
     elif [ $DATASET == multibooked_eu ]; then
