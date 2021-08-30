@@ -1,9 +1,40 @@
-### Building an evaluation program that works with CodaLab
+### Evaluation script
 
-This example uses python.
+evaluate.py contains the script to evaluate the Sentiment Tuple F1.
 
-`evaluate.py` - is an example that checks that the submission data matches the truth data, which is "Hello World!"
-`metadata` - this is a file that lists the contents of the program.zip bundle for the CodaLab system.
+### Submission structure
 
-Once these pieces are assembled they are packages as program.zip which CodaLab can then use to evaluate the submissions
-for a competition.
+We provide an example (example_submission.zip) to show what your submission should look like. Notice that you will need to submit to both tracks, even if only competing in one. Feel free to use the files from the example_submission.zip if you plan on only participating in one subtask.
+
+submission
+|
+└─── crosslingual
+|   |
+|   └─── multibooked_ca
+|   |   └─── predictions.json
+|   |
+|   └─── multibooked_eu
+|   |   └─── predictions.json
+|   |
+|   └─── opener_es
+|   |   └─── predictions.json
+|
+└─── monolingual
+|   |
+|   └─── darmstadt_unis
+|   |   └─── predictions.json
+|   |
+|   └─── mpqa
+|   |   └─── predictions.json
+|   |
+|   └─── multibooked_ca
+|   |   └─── predictions.json
+|   |
+|   └─── multibooked_eu
+|   |   └─── predictions.json
+|   |
+|   └─── opener_en
+|   |   └─── predictions.json
+|   |
+|   └─── opener_es
+|   |   └─── predictions.json
