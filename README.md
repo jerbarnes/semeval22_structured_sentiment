@@ -9,12 +9,14 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
    1. [Monolingual](#monolingual)
       1. [Data](#data)
    2. [Cross-lingual](#cross-lingual)
-3. [Data format](#data-format)
-4. [Resources](#resources)
-5. [Submission via Codalab](#submission-via-codalab)
-6. [Baselines](#baselines)
-7. [Frequently Asked Questions](#frequently-asked-questions)
-8. [Task organizers](#task-organizers)
+3. [Evaluation](#evaluation)
+4. [Data format](#data-format)
+5. [Resources](#resources)
+6. [Submission via Codalab](#submission-via-codalab)
+7. [Baselines](#baselines)
+8. [Important dates](#important-dates)
+9. [Frequently Asked Questions](#frequently-asked-questions)
+10. [Task organizers](#task-organizers)
 
 ## Problem description
 
@@ -30,7 +32,7 @@ Participants can then either approach this as a sequence-labelling task, or as a
 
 ## Subtasks
 ### Monolingual
-This track assumes that you train and test on the same language. Participants will need to submit results for seven datasets in five languages. The evaluation will report the [Sentiment F<sub>1</sub>](https://arxiv.org/abs/2105.14504) for each dataset, as well as the average of all 7. The winning submission will be the one that has the highest average Sentiment F<sub>1</sub>.
+This track assumes that you train and test on the same language. Participants will need to submit results for seven datasets in five languages.
 
  The datasets can be found in the [data](./data) directory.
 
@@ -48,6 +50,25 @@ This track assumes that you train and test on the same language. Participants wi
 
 ### Cross-lingual
 This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not come directly from the test datasets.
+
+## Evaluation
+
+The two subtasks will be evaluated separately. In both tasks, the evaluation will be based on [Sentiment Graph F<sub>1</sub>](https://arxiv.org/abs/2105.14504).
+
+
+This metric defines true positive as an *exact match* at
+graph-level, *weighting the overlap* in predicted and
+gold spans for each element, averaged across all
+three spans.
+
+For *precision* we weight the number
+of correctly predicted tokens divided by the total
+number of predicted tokens (for *recall*, we divide
+instead by the number of gold tokens), allowing
+for empty holders and targets which exist in the gold standard.
+
+
+ The leaderboard for each dataset, as well as the average of all 7. The winning submission will be the one that has the highest average Sentiment Graph F<sub>1</sub>.
 
 
 ## Data format
@@ -124,7 +145,17 @@ Submissions will be handled through our [codalab competition website](https://co
 
 ## Baselines
 
-The task organizers provide two baselines: one that takes a sequence-labelling approach and a second that converts the problem to a dependency graph parsing task.
+The task organizers provide two baselines: one that takes a sequence-labelling approach and a second that converts the problem to a dependency graph parsing task. You can find both of them in [baselines](./baselines).
+
+## Important dates
+
+   - Training data ready: September 3, 2021
+   - Evaluation data ready: December 3, 2021
+   - Evaluation start: January 10, 2022
+   - Evaluation end: by January 31, 2022
+   - Paper submissions due: roughly February 23, 2022
+   - Notification to authors: March 31, 2022
+
 
 ## Frequently asked questions
 
