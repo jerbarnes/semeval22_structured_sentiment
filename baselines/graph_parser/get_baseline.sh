@@ -6,23 +6,28 @@ SEEDS=(17181920)
 mkdir logs
 mkdir experiments
 
+
+# Convert json files to conllu for training
+for DATASET in darmstadt_unis mpqa multibooked_ca multibooked_eu norec opener_es opener_en; do
+    python3 convert_to_conllu.py --json_dir ../../data/"$DATASET" --out_dir sentiment_graphs/"$DATASET"
+done;
+
 # Download word vectors
 if [ -d embeddings ]; then
     echo "Using downloaded word embeddings"
 else
     mkdir embeddings
     cd embeddings
-    #wget http://vectors.nlpl.eu/repository/20/58.zip
+    wget http://vectors.nlpl.eu/repository/20/58.zip
     wget http://vectors.nlpl.eu/repository/20/32.zip
-    #wget http://vectors.nlpl.eu/repository/20/34.zip
-    #wget http://vectors.nlpl.eu/repository/20/18.zip
-    #wget http://vectors.nlpl.eu/repository/20/68.zip
+    wget http://vectors.nlpl.eu/repository/20/34.zip
+    wget http://vectors.nlpl.eu/repository/20/18.zip
+    wget http://vectors.nlpl.eu/repository/20/68.zip
 cd ..
 fi
 
 # Iterate over datsets
-#for DATASET in darmstadt_unis mpqa multibooked_ca multibooked_eu norec opener_es opener_en; do
-for DATASET in multibooked_eu; do
+for DATASET in darmstadt_unis mpqa multibooked_ca multibooked_eu norec opener_es opener_en; do
     mkdir logs/$DATASET;
     mkdir experiments/$DATASET;
     # Iterate over the graph setups (head_final, head_first)
