@@ -1,0 +1,4137 @@
+# sent_id = ../opener/es/kaf/hotel/spanish00072_4d6a6a1f0849595749b4c8e149244b6c-4
+# text = El ascensor para entre dos plantas , por lo que tienes que bajar o subir por las escaleras para llegar a la habitacion .
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	ascensor	ascensor	NOUN	_	_	0	root	_	_	6:targ|23:targ
+3	para	para	ADP	_	_	6	case	_	_	6:exp-Negative
+4	entre	entre	ADP	_	_	6	case	_	_	6:exp-Negative
+5	dos	dos	NUM	_	_	6	nummod	_	_	6:exp-Negative
+6	plantas	planta	NOUN	_	_	2	nmod	_	_	0:exp-Negative
+7	,	,	PUNCT	_	_	11	punct	_	_	_
+8	por	por	ADP	_	_	11	mark	_	_	_
+9	lo	él	PRON	_	_	13	det	_	_	_
+10	que	que	PRON	_	_	13	obl	_	_	_
+11	tienes	tener	VERB	_	_	2	acl	_	_	23:exp-Negative
+12	que	que	SCONJ	_	_	13	cc	_	_	23:exp-Negative
+13	bajar	bajar	VERB	_	_	11	conj	_	_	23:exp-Negative
+14	o	o	CCONJ	_	_	15	cc	_	_	23:exp-Negative
+15	subir	subir	VERB	_	_	13	conj	_	_	23:exp-Negative
+16	por	por	ADP	_	_	18	case	_	_	23:exp-Negative
+17	las	el	DET	_	_	18	det	_	_	23:exp-Negative
+18	escaleras	escalera	NOUN	_	_	13	obl	_	_	23:exp-Negative
+19	para	para	ADP	_	_	20	mark	_	_	23:exp-Negative
+20	llegar	llegar	VERB	_	_	13	advcl	_	_	23:exp-Negative
+21	a	a	ADP	_	_	23	case	_	_	23:exp-Negative
+22	la	el	DET	_	_	23	det	_	_	23:exp-Negative
+23	habitacion	habitacion	NOUN	_	_	20	obl	_	_	0:exp-Negative
+24	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00072_4d6a6a1f0849595749b4c8e149244b6c-5
+# text = A nosotros nos cobraron de mas del precio acordado.Y sobre todo en la habitaciones HAY PULGAS .
+1	A	a	ADP	_	_	2	case	_	_	_
+2	nosotros	yo	PRON	_	_	4	obj	_	_	6:holder
+3	nos	yo	PRON	_	_	4	obj	_	_	_
+4	cobraron	cobrar	VERB	_	_	0	root	_	_	6:exp-Negative
+5	de	de	ADP	_	_	6	case	_	_	6:exp-Negative
+6	mas	mas	NOUN	_	_	4	obl	_	_	0:exp-Negative
+7	del	del	ADP	_	_	8	case	_	_	_
+8	precio	precio	NOUN	_	_	6	nmod	_	_	9:targ
+9	acordado.Y	acordado.Y	ADJ	_	_	8	amod	_	_	6:targ
+10	sobre	sobre	ADP	_	_	15	advmod	_	_	_
+11	todo	todo	PRON	_	_	10	fixed	_	_	_
+12	en	en	ADP	_	_	14	case	_	_	_
+13	la	el	DET	_	_	14	det	_	_	_
+14	habitaciones	habitación	NOUN	_	_	10	nmod	_	_	_
+15	HAY	haber	AUX	_	_	4	conj	_	_	0:exp-Negative
+16	PULGAS	PULGAS	PROPN	_	_	15	obj	_	_	15:targ
+17	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00072_4d6a6a1f0849595749b4c8e149244b6c-6
+# text = Mi señora tuvo que ir a urgencias pues es alergica a las mismas , .,
+1	Mi	mi	DET	_	_	2	det	_	_	_
+2	señora	señora	NOUN	_	_	5	nsubj	_	_	_
+3	tuvo	tener	VERB	_	_	0	root	_	_	_
+4	que	que	SCONJ	_	_	5	cc	_	_	_
+5	ir	ir	VERB	_	_	3	conj	_	_	_
+6	a	a	ADP	_	_	7	case	_	_	_
+7	urgencias	urgencia	NOUN	_	_	5	obl	_	_	_
+8	pues	pues	SCONJ	_	_	10	mark	_	_	_
+9	es	ser	AUX	_	_	10	cop	_	_	_
+10	alergica	alergico	ADJ	_	_	5	advcl	_	_	_
+11	a	a	ADP	_	_	12	case	_	_	_
+12	las	el	DET	_	_	10	det	_	_	_
+13	mismas	mismo	DET	_	_	12	compound	_	_	_
+14	,	,	PUNCT	_	_	3	punct	_	_	_
+15	.,	.,	INTJ	_	_	12	dep	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00226_fc303a5ce8960bb04c67c9cf18a5dbbc-1
+# text = Calidad a buen precio
+1	Calidad	calidad	NOUN	_	_	0	root	_	_	4:targ
+2	a	a	ADP	_	_	4	case	_	_	4:exp-Positive
+3	buen	buen	ADJ	_	_	4	amod	_	_	4:exp-Positive
+4	precio	precio	NOUN	_	_	1	nmod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00226_fc303a5ce8960bb04c67c9cf18a5dbbc-2
+# text = Quería salir de la ciudad para buscar algo tranquilo con mi pareja y lo encontré .
+1	Quería	querer	VERB	_	_	0	root	_	_	_
+2	salir	salir	VERB	_	_	1	xcomp	_	_	_
+3	de	de	ADP	_	_	5	case	_	_	_
+4	la	el	DET	_	_	5	det	_	_	_
+5	ciudad	ciudad	NOUN	_	_	2	obl	_	_	_
+6	para	para	ADP	_	_	7	mark	_	_	_
+7	buscar	buscar	VERB	_	_	2	advcl	_	_	_
+8	algo	algo	PRON	_	_	7	obj	_	_	_
+9	tranquilo	tranquilo	ADJ	_	_	8	amod	_	_	_
+10	con	con	ADP	_	_	12	case	_	_	_
+11	mi	mi	DET	_	_	12	det	_	_	_
+12	pareja	pareja	NOUN	_	_	7	obl	_	_	_
+13	y	y	CCONJ	_	_	15	cc	_	_	_
+14	lo	él	PRON	_	_	15	obj	_	_	_
+15	encontré	encontrar	VERB	_	_	1	conj	_	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00226_fc303a5ce8960bb04c67c9cf18a5dbbc-3
+# text = Un complejo para nada masificado en el que el servicio es de lo mejor .
+1	Un	uno	DET	_	_	2	det	_	_	2:targ
+2	complejo	complejo	NOUN	_	_	0	root	_	_	5:targ
+3	para	para	ADP	_	_	4	case	_	_	5:exp-Positive
+4	nada	nada	PRON	_	_	2	nmod	_	_	5:exp-Positive
+5	masificado	masificado	ADJ	_	_	4	amod	_	_	0:exp-Positive
+6	en	en	ADP	_	_	8	case	_	_	_
+7	el	el	DET	_	_	8	det	_	_	_
+8	que	que	PRON	_	_	14	obl	_	_	_
+9	el	el	DET	_	_	10	det	_	_	10:targ
+10	servicio	servicio	NOUN	_	_	14	nsubj	_	_	14:targ
+11	es	ser	AUX	_	_	14	cop	_	_	_
+12	de	de	ADP	_	_	14	case	_	_	14:exp-Positive
+13	lo	él	PRON	_	_	14	det	_	_	14:exp-Positive
+14	mejor	mejor	ADJ	_	_	2	acl	_	_	0:exp-Positive
+15	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00226_fc303a5ce8960bb04c67c9cf18a5dbbc-4
+# text = Las instalaciones están muy bien y las vistas son geniales .
+1	Las	el	DET	_	_	2	det	_	_	2:targ
+2	instalaciones	instalación	NOUN	_	_	5	nsubj	_	_	5:targ
+3	están	estar	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	bien	bien	ADV	_	_	0	root	_	_	0:exp-Positive
+6	y	y	CCONJ	_	_	10	cc	_	_	_
+7	las	el	DET	_	_	8	det	_	_	8:targ
+8	vistas	vistas	NOUN	_	_	10	nsubj	_	_	10:targ
+9	son	ser	AUX	_	_	10	cop	_	_	_
+10	geniales	genial	ADJ	_	_	5	conj	_	_	0:exp-Positive
+11	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00226_fc303a5ce8960bb04c67c9cf18a5dbbc-5
+# text = Quizás algo incómoda la cama , pero nada que estropee la estancia .
+1	Quizás	quizás	ADV	_	_	2	advmod	_	_	_
+2	algo	algo	PRON	_	_	0	root	_	_	3:exp-Negative
+3	incómoda	incómodo	ADJ	_	_	2	amod	_	_	0:exp-Negative
+4	la	el	DET	_	_	5	det	_	_	5:targ
+5	cama	cama	NOUN	_	_	2	appos	_	_	3:targ
+6	,	,	PUNCT	_	_	8	punct	_	_	_
+7	pero	pero	CCONJ	_	_	8	cc	_	_	_
+8	nada	nada	PRON	_	_	2	conj	_	_	_
+9	que	que	PRON	_	_	10	nsubj	_	_	_
+10	estropee	estropear	VERB	_	_	8	acl	_	_	_
+11	la	el	DET	_	_	12	det	_	_	_
+12	estancia	estancia	NOUN	_	_	10	obj	_	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00126_9a8f07f91d0950d0b4db61313579030e-1
+# text = Un servicio ejemplar
+1	Un	uno	DET	_	_	2	det	_	_	2:targ
+2	servicio	servicio	NOUN	_	_	0	root	_	_	3:targ
+3	ejemplar	ejemplar	ADJ	_	_	2	amod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00126_9a8f07f91d0950d0b4db61313579030e-2
+# text = Fue una experiencia muy buena con el servicio , la verdad es que quede muy satisfecho , no pase mucho tiempo ya que solo estube dos noches en el , pero como ya he dicho a parte del servicio muy bueno las instalaciones tambien lo eran
+1	Fue	ser	AUX	_	_	3	cop	_	_	_
+2	una	uno	DET	_	_	3	det	_	_	3:targ
+3	experiencia	experiencia	NOUN	_	_	0	root	_	_	8:targ
+4	muy	mucho	ADV	_	_	5	advmod	_	_	8:exp-Positive
+5	buena	buen	ADJ	_	_	3	amod	_	_	8:exp-Positive
+6	con	con	ADP	_	_	8	case	_	_	8:exp-Positive
+7	el	el	DET	_	_	8	det	_	_	8:exp-Positive
+8	servicio	servicio	NOUN	_	_	3	nmod	_	_	0:exp-Positive
+9	,	,	PUNCT	_	_	3	punct	_	_	_
+10	la	el	DET	_	_	11	det	_	_	_
+11	verdad	verdad	NOUN	_	_	12	nsubj	_	_	_
+12	es	ser	AUX	_	_	3	advcl	_	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_	_
+14	quede	quedar	VERB	_	_	12	ccomp	_	_	16:exp-Positive
+15	muy	mucho	ADV	_	_	16	advmod	_	_	16:exp-Positive
+16	satisfecho	satisfecho	ADJ	_	_	14	obj	_	_	0:exp-Positive
+17	,	,	PUNCT	_	_	19	punct	_	_	_
+18	no	no	ADV	_	_	19	advmod	_	_	_
+19	pase	pasar	VERB	_	_	12	advcl	_	_	_
+20	mucho	mucho	DET	_	_	21	det	_	_	_
+21	tiempo	tiempo	NOUN	_	_	19	nsubj	_	_	_
+22	ya	ya	ADV	_	_	25	mark	_	_	_
+23	que	que	SCONJ	_	_	22	fixed	_	_	_
+24	solo	solo	NOUN	_	_	22	fixed	_	_	_
+25	estube	estubar	VERB	_	_	19	advcl	_	_	_
+26	dos	dos	NUM	_	_	27	nummod	_	_	_
+27	noches	noche	NOUN	_	_	25	obl	_	_	_
+28	en	en	ADP	_	_	25	advmod	_	_	_
+29	el	el	DET	_	_	28	fixed	_	_	_
+30	,	,	PUNCT	_	_	35	punct	_	_	_
+31	pero	pero	CCONJ	_	_	44	cc	_	_	_
+32	como	como	SCONJ	_	_	35	mark	_	_	_
+33	ya	ya	ADV	_	_	35	advmod	_	_	_
+34	he	haber	AUX	_	_	35	aux	_	_	_
+35	dicho	decir	VERB	_	_	44	advcl	_	_	_
+36	a	a	ADP	_	_	39	case	_	_	_
+37	parte	parte	NOUN	_	_	36	fixed	_	_	_
+38	del	del	ADP	_	_	36	fixed	_	_	_
+39	servicio	servicio	NOUN	_	_	35	obl	_	_	41:targ
+40	muy	mucho	ADV	_	_	41	advmod	_	_	41:exp-Positive
+41	bueno	buen	ADJ	_	_	39	amod	_	_	0:exp-Positive
+42	las	el	DET	_	_	43	det	_	_	43:targ
+43	instalaciones	instalación	NOUN	_	_	44	nsubj	_	_	44:targ
+44	tambien	tambien	VERB	_	_	25	conj	_	_	0:exp-Positive
+45	lo	él	PRON	_	_	44	obj	_	_	_
+46	eran	ser	AUX	_	_	3	conj	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_6906d80709477608cc33f773d3a2fd74-1
+# text = Bienn
+1	Bienn	bienn	INTJ	_	_	0	root	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_6906d80709477608cc33f773d3a2fd74-2
+# text = esta es una de las mejores vacasiones que ice ademas esta super bien y ni hay nada de malo .
+1	esta	este	PRON	_	_	3	nsubj	_	_	_
+2	es	ser	AUX	_	_	3	cop	_	_	_
+3	una	uno	PRON	_	_	0	root	_	_	6:exp-Positive
+4	de	de	ADP	_	_	7	case	_	_	6:exp-Positive
+5	las	el	DET	_	_	7	det	_	_	6:exp-Positive
+6	mejores	mejor	ADJ	_	_	7	amod	_	_	0:exp-Positive
+7	vacasiones	vacasiones	NOUN	_	_	3	nmod	_	_	6:targ
+8	que	que	PRON	_	_	9	nsubj	_	_	_
+9	ice	icer	VERB	_	_	7	acl	_	_	_
+10	ademas	ademar	VERB	_	_	3	advcl	_	_	_
+11	esta	este	DET	_	_	12	det	_	_	13:exp-Positive
+12	super	super	NOUN	_	_	10	obj	_	_	13:exp-Positive
+13	bien	bien	ADV	_	_	10	advmod	_	_	0:exp-Positive
+14	y	y	CCONJ	_	_	16	cc	_	_	17:exp-Positive
+15	ni	ni	CCONJ	_	_	16	cc	_	_	17:exp-Positive
+16	hay	haber	AUX	_	_	10	conj	_	_	17:exp-Positive
+17	nada	nada	PRON	_	_	16	obj	_	_	0:exp-Positive
+18	de	de	ADP	_	_	19	case	_	_	_
+19	malo	malo	ADJ	_	_	17	amod	_	_	17:targ
+20	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_6906d80709477608cc33f773d3a2fd74-3
+# text = os la la recomiendo a todas las personas q se pasen por la ciudad es grande y muy calida bueno espero aver ayudado
+1	os	tú	PRON	_	_	4	iobj	_	_	_
+2	la	él	PRON	_	_	4	obj	_	_	_
+3	la	él	PRON	_	_	4	obj	_	_	4:targ
+4	recomiendo	recomer	VERB	_	_	0	root	_	_	0:exp-Positive
+5	a	a	ADP	_	_	8	case	_	_	_
+6	todas	todo	DET	_	_	7	det	_	_	_
+7	las	el	DET	_	_	8	det	_	_	_
+8	personas	persona	NOUN	_	_	4	iobj	_	_	_
+9	q	q	PRON	_	_	11	nsubj	_	_	_
+10	se	él	PRON	_	_	11	obj	_	_	_
+11	pasen	pasar	VERB	_	_	8	acl	_	_	_
+12	por	por	ADP	_	_	14	case	_	_	_
+13	la	el	DET	_	_	14	det	_	_	_
+14	ciudad	ciudad	NOUN	_	_	11	obl	_	_	_
+15	es	ser	AUX	_	_	16	cop	_	_	16:exp-Positive
+16	grande	grande	ADJ	_	_	4	advcl	_	_	0:exp-Positive
+17	y	y	CCONJ	_	_	19	cc	_	_	_
+18	muy	mucho	ADV	_	_	19	advmod	_	_	19:exp-Positive
+19	calida	calido	ADJ	_	_	16	conj	_	_	0:exp-Positive
+20	bueno	buen	ADJ	_	_	19	amod	_	_	_
+21	espero	esperar	VERB	_	_	16	conj	_	_	_
+22	aver	aver	PRON	_	_	21	obj	_	_	_
+23	ayudado	ayudado	ADJ	_	_	22	amod	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00112_a1a0a5a9162ea6806e7b2aa61845b53b-1
+# text = Una buena combinación
+1	Una	uno	DET	_	_	3	det	_	_	_
+2	buena	buen	ADJ	_	_	3	amod	_	_	0:exp-Positive
+3	combinación	combinación	NOUN	_	_	0	root	_	_	2:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00112_a1a0a5a9162ea6806e7b2aa61845b53b-2
+# text = La infraestructura es muy buena , cuenta con todas las comodidades para quienes viajan con niños , la pileta es grande y muy limpia , las habitaciones muy completas y cómodas , y la playa nos encantó , si bien el mar es picado , es amplia con mucha arena y el sector sombrillas muy confortable .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	infraestructura	infraestructura	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	buena	buen	ADJ	_	_	0	root	_	_	0:exp-Positive
+6	,	,	PUNCT	_	_	7	punct	_	_	_
+7	cuenta	contar	VERB	_	_	5	advcl	_	_	8:exp-Positive
+8	con	con	ADP	_	_	11	case	_	_	0:exp-Positive
+9	todas	todo	DET	_	_	10	det	_	_	16:targ
+10	las	el	DET	_	_	11	det	_	_	16:targ
+11	comodidades	comodidad	NOUN	_	_	7	obj	_	_	16:targ
+12	para	para	ADP	_	_	14	mark	_	_	16:targ
+13	quienes	quien	PRON	_	_	14	nsubj	_	_	16:targ
+14	viajan	viajar	VERB	_	_	11	acl	_	_	16:targ
+15	con	con	ADP	_	_	16	case	_	_	16:targ
+16	niños	niño	NOUN	_	_	14	obl	_	_	8:targ
+17	,	,	PUNCT	_	_	21	punct	_	_	_
+18	la	el	DET	_	_	19	det	_	_	19:targ|19:targ
+19	pileta	pileta	NOUN	_	_	21	nsubj	_	_	24:targ|21:targ
+20	es	ser	AUX	_	_	21	cop	_	_	21:exp-Positive
+21	grande	grande	ADJ	_	_	5	advcl	_	_	0:exp-Positive
+22	y	y	CCONJ	_	_	24	cc	_	_	_
+23	muy	mucho	ADV	_	_	24	advmod	_	_	24:exp-Positive
+24	limpia	limpio	ADJ	_	_	21	conj	_	_	0:exp-Positive
+25	,	,	PUNCT	_	_	27	punct	_	_	_
+26	las	el	DET	_	_	27	det	_	_	27:targ|27:targ
+27	habitaciones	habitación	NOUN	_	_	21	obj	_	_	29:targ|31:targ
+28	muy	mucho	ADV	_	_	29	advmod	_	_	29:exp-Positive
+29	completas	completo	ADJ	_	_	27	amod	_	_	0:exp-Positive
+30	y	y	CCONJ	_	_	31	cc	_	_	_
+31	cómodas	cómodo	ADJ	_	_	29	conj	_	_	0:exp-Positive
+32	,	,	PUNCT	_	_	37	punct	_	_	_
+33	y	y	CCONJ	_	_	37	cc	_	_	_
+34	la	el	DET	_	_	35	det	_	_	35:targ|35:targ|35:targ
+35	playa	playa	NOUN	_	_	37	nsubj	_	_	44:targ|47:targ|37:targ
+36	nos	yo	PRON	_	_	37	obj	_	_	44:holder|47:holder|37:holder
+37	encantó	encantar	VERB	_	_	5	conj	_	_	0:exp-Positive
+38	,	,	PUNCT	_	_	47	punct	_	_	_
+39	si	si	SCONJ	_	_	44	mark	_	_	44:exp-Negative
+40	bien	bien	ADV	_	_	39	fixed	_	_	44:exp-Negative
+41	el	el	DET	_	_	42	det	_	_	44:exp-Negative
+42	mar	mar	NOUN	_	_	44	nsubj	_	_	44:exp-Negative
+43	es	ser	AUX	_	_	44	aux	_	_	44:exp-Negative
+44	picado	picado	VERB	_	_	47	advcl	_	_	0:exp-Negative
+45	,	,	PUNCT	_	_	44	punct	_	_	_
+46	es	ser	AUX	_	_	47	cop	_	_	_
+47	amplia	amplio	ADJ	_	_	37	advcl	_	_	0:exp-Positive
+48	con	con	ADP	_	_	50	case	_	_	49:exp-Positive
+49	mucha	mucho	DET	_	_	50	det	_	_	0:exp-Positive
+50	arena	arena	NOUN	_	_	47	nmod	_	_	49:targ
+51	y	y	CCONJ	_	_	53	cc	_	_	_
+52	el	el	DET	_	_	53	det	_	_	54:targ
+53	sector	sector	NOUN	_	_	50	conj	_	_	54:targ
+54	sombrillas	sombrilla	NOUN	_	_	50	appos	_	_	56:targ
+55	muy	mucho	ADV	_	_	56	advmod	_	_	56:exp-Positive
+56	confortable	confortable	ADJ	_	_	54	amod	_	_	0:exp-Positive
+57	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00112_a1a0a5a9162ea6806e7b2aa61845b53b-3
+# text = La comida es bastante básica , los restaurants temáticos no son lo que uno imagina , son muy estructurados respecto a las mesas y no entienden el idioma , lo cual suele ser algo molesto .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	comida	comida	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	5:exp-Negative
+4	bastante	bastante	ADV	_	_	5	advmod	_	_	5:exp-Negative
+5	básica	básico	ADJ	_	_	0	root	_	_	0:exp-Negative
+6	,	,	PUNCT	_	_	11	punct	_	_	_
+7	los	el	DET	_	_	8	det	_	_	9:targ|9:targ|9:targ
+8	restaurants	restaurant	NOUN	_	_	11	nsubj	_	_	9:targ|9:targ|9:targ
+9	temáticos	temático	ADJ	_	_	8	amod	_	_	15:targ|28:targ|23:targ
+10	no	no	ADV	_	_	11	advmod	_	_	15:exp-Negative
+11	son	ser	AUX	_	_	5	advcl	_	_	15:exp-Negative
+12	lo	él	PRON	_	_	15	det	_	_	15:exp-Negative
+13	que	que	PRON	_	_	15	obj	_	_	15:exp-Negative
+14	uno	uno	PRON	_	_	15	nsubj	_	_	15:exp-Negative
+15	imagina	imaginar	VERB	_	_	11	ccomp	_	_	0:exp-Negative
+16	,	,	PUNCT	_	_	19	punct	_	_	_
+17	son	ser	AUX	_	_	19	cop	_	_	_
+18	muy	mucho	ADV	_	_	19	advmod	_	_	23:exp-Negative
+19	estructurados	estructurado	ADJ	_	_	11	advcl	_	_	23:exp-Negative
+20	respecto	respecto	NOUN	_	_	23	case	_	_	23:exp-Negative
+21	a	a	ADP	_	_	20	fixed	_	_	23:exp-Negative
+22	las	el	DET	_	_	23	det	_	_	23:exp-Negative
+23	mesas	mesa	NOUN	_	_	19	obl	_	_	0:exp-Negative
+24	y	y	CCONJ	_	_	26	cc	_	_	_
+25	no	no	ADV	_	_	26	advmod	_	_	28:exp-Negative
+26	entienden	entender	VERB	_	_	19	conj	_	_	28:exp-Negative
+27	el	el	DET	_	_	28	det	_	_	28:exp-Negative
+28	idioma	idioma	NOUN	_	_	26	obj	_	_	0:exp-Negative
+29	,	,	PUNCT	_	_	32	punct	_	_	_
+30	lo	él	PRON	_	_	32	det	_	_	31:targ
+31	cual	cual	PRON	_	_	32	nsubj	_	_	35:targ
+32	suele	soler	VERB	_	_	26	advcl	_	_	35:exp-Negative
+33	ser	ser	AUX	_	_	34	cop	_	_	35:exp-Negative
+34	algo	algo	PRON	_	_	32	xcomp	_	_	35:exp-Negative
+35	molesto	molesto	ADJ	_	_	34	amod	_	_	0:exp-Negative
+36	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00112_a1a0a5a9162ea6806e7b2aa61845b53b-4
+# text = Es apto para bebes , ya que cuenta con un cuarto con todos los servicios que se pueden necesitar .
+1	Es	ser	AUX	_	_	2	cop	_	_	4:exp-Positive
+2	apto	apto	ADJ	_	_	0	root	_	_	4:exp-Positive
+3	para	para	ADP	_	_	4	case	_	_	4:exp-Positive
+4	bebes	bebe	NOUN	_	_	2	nmod	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	8	punct	_	_	_
+6	ya	ya	ADV	_	_	8	mark	_	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_	_
+8	cuenta	contar	VERB	_	_	2	advcl	_	_	9:exp-Positive
+9	con	con	ADP	_	_	11	case	_	_	0:exp-Positive
+10	un	uno	DET	_	_	11	det	_	_	19:targ
+11	cuarto	cuarto	NOUN	_	_	8	obj	_	_	19:targ
+12	con	con	ADP	_	_	15	case	_	_	19:targ
+13	todos	todo	DET	_	_	14	det	_	_	19:targ
+14	los	el	DET	_	_	15	det	_	_	19:targ
+15	servicios	servicio	NOUN	_	_	11	nmod	_	_	19:targ
+16	que	que	PRON	_	_	19	nsubj	_	_	19:targ
+17	se	él	PRON	_	_	19	obj	_	_	19:targ
+18	pueden	poder	AUX	_	_	19	aux	_	_	19:targ
+19	necesitar	necesitar	VERB	_	_	15	acl	_	_	9:targ
+20	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00112_a1a0a5a9162ea6806e7b2aa61845b53b-5
+# text = Te brindan toallas en ambos sectores , pileta y playa .
+1	Te	tú	PRON	_	_	2	obj	_	_	2:exp-Positive
+2	brindan	brindar	VERB	_	_	0	root	_	_	0:exp-Positive
+3	toallas	toalla	NOUN	_	_	2	nsubj	_	_	2:targ
+4	en	en	ADP	_	_	6	case	_	_	_
+5	ambos	ambos	NUM	_	_	6	nummod	_	_	_
+6	sectores	sector	NOUN	_	_	2	obl	_	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_	_
+8	pileta	pileta	NOUN	_	_	6	conj	_	_	_
+9	y	y	CCONJ	_	_	10	cc	_	_	_
+10	playa	playa	NOUN	_	_	6	conj	_	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00112_a1a0a5a9162ea6806e7b2aa61845b53b-6
+# text = Es un buen hotel para ir en familia con actividades permanentes y un buen sector para niños , con kínder y juegos muy entretenidos .
+1	Es	ser	AUX	_	_	4	cop	_	_	3:exp-Positive
+2	un	uno	DET	_	_	4	det	_	_	3:exp-Positive
+3	buen	buen	ADJ	_	_	4	amod	_	_	0:exp-Positive
+4	hotel	hotel	NOUN	_	_	0	root	_	_	8:targ|8:targ
+5	para	para	ADP	_	_	6	mark	_	_	8:targ|8:targ
+6	ir	ir	VERB	_	_	4	acl	_	_	8:targ|8:targ
+7	en	en	ADP	_	_	8	case	_	_	8:targ|8:targ
+8	familia	familia	NOUN	_	_	6	obl	_	_	11:targ|3:targ
+9	con	con	ADP	_	_	10	case	_	_	11:exp-Positive
+10	actividades	actividad	NOUN	_	_	6	obl	_	_	11:exp-Positive
+11	permanentes	permanente	ADJ	_	_	10	amod	_	_	0:exp-Positive
+12	y	y	CCONJ	_	_	15	cc	_	_	_
+13	un	uno	DET	_	_	15	det	_	_	14:exp-Positive
+14	buen	buen	ADJ	_	_	15	amod	_	_	0:exp-Positive
+15	sector	sector	NOUN	_	_	10	conj	_	_	17:targ|17:targ
+16	para	para	ADP	_	_	17	case	_	_	17:targ|17:targ
+17	niños	niño	NOUN	_	_	15	nmod	_	_	14:targ|20:targ
+18	,	,	PUNCT	_	_	20	punct	_	_	_
+19	con	con	ADP	_	_	20	case	_	_	20:exp-Positive
+20	kínder	kínder	NOUN	_	_	15	nmod	_	_	0:exp-Positive
+21	y	y	CCONJ	_	_	22	cc	_	_	_
+22	juegos	juego	NOUN	_	_	20	conj	_	_	24:targ
+23	muy	mucho	ADV	_	_	24	advmod	_	_	24:exp-Positive
+24	entretenidos	entretenido	ADJ	_	_	20	amod	_	_	0:exp-Positive
+25	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_4c149aaa9611a25a5c7e36552a70ec41-1
+# text = Muy buena calidad / precio
+1	Muy	mucho	ADV	_	_	3	advmod	_	_	2:exp-Positive
+2	buena	buen	ADJ	_	_	3	amod	_	_	0:exp-Positive
+3	calidad	calidad	NOUN	_	_	0	root	_	_	5:targ
+4	/	/	PUNCT	_	_	5	punct	_	_	5:targ
+5	precio	precio	NOUN	_	_	3	conj	_	_	2:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_4c149aaa9611a25a5c7e36552a70ec41-2
+# text = El hotel se encuentra en pleno centro de florencia y cerca de la estacion central de florencia , por lo que la situacion es ideal , esta a 30 segundos andando del duomo .
+1	El	el	DET	_	_	2	det	_	_	_
+2	hotel	hotel	NOUN	_	_	4	nsubj	_	_	_
+3	se	él	PRON	_	_	4	obj	_	_	_
+4	encuentra	encontrar	VERB	_	_	0	root	_	_	_
+5	en	en	ADP	_	_	7	case	_	_	6:exp-Positive
+6	pleno	pleno	ADJ	_	_	7	amod	_	_	0:exp-Positive
+7	centro	centro	NOUN	_	_	4	obl	_	_	9:targ
+8	de	de	ADP	_	_	9	case	_	_	9:targ
+9	florencia	florencia	NOUN	_	_	7	nmod	_	_	6:targ
+10	y	y	CCONJ	_	_	11	cc	_	_	_
+11	cerca	cerca	ADV	_	_	4	conj	_	_	0:exp-Positive
+12	de	de	ADP	_	_	14	case	_	_	_
+13	la	el	DET	_	_	14	det	_	_	17:targ
+14	estacion	estacion	NOUN	_	_	11	obl	_	_	17:targ
+15	central	central	ADJ	_	_	14	amod	_	_	17:targ
+16	de	de	ADP	_	_	17	case	_	_	17:targ
+17	florencia	florencia	NOUN	_	_	14	nmod	_	_	11:targ
+18	,	,	PUNCT	_	_	25	punct	_	_	_
+19	por	por	ADP	_	_	25	case	_	_	_
+20	lo	él	PRON	_	_	25	det	_	_	_
+21	que	que	PRON	_	_	25	obl	_	_	_
+22	la	el	DET	_	_	23	det	_	_	23:targ
+23	situacion	situacion	NOUN	_	_	25	nsubj	_	_	25:targ
+24	es	ser	AUX	_	_	25	cop	_	_	_
+25	ideal	ideal	ADJ	_	_	4	advcl	_	_	0:exp-Positive
+26	,	,	PUNCT	_	_	27	punct	_	_	_
+27	esta	este	PRON	_	_	25	obj	_	_	_
+28	a	a	ADP	_	_	30	case	_	_	31:exp-Positive
+29	30	30	NUM	_	_	30	nummod	_	_	31:exp-Positive
+30	segundos	segundo	NOUN	_	_	27	nmod	_	_	31:exp-Positive
+31	andando	andar	VERB	_	_	27	acl	_	_	0:exp-Positive
+32	del	del	ADP	_	_	33	case	_	_	_
+33	duomo	duomo	NOUN	_	_	31	obl	_	_	31:targ
+34	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_4c149aaa9611a25a5c7e36552a70ec41-3
+# text = Las habitaciones estan muy bien .
+1	Las	el	DET	_	_	2	det	_	_	2:targ
+2	habitaciones	habitación	NOUN	_	_	5	nsubj	_	_	5:targ
+3	estan	estar	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	bien	bien	ADV	_	_	0	root	_	_	0:exp-Positive
+6	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00069_4c149aaa9611a25a5c7e36552a70ec41-4
+# text = El desayuno es algo simple , pero por el precio que tiene esta bastante bien .
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	desayuno	desayuno	NOUN	_	_	4	nsubj	_	_	12:targ|5:targ
+3	es	ser	AUX	_	_	4	cop	_	_	_
+4	algo	algo	PRON	_	_	0	root	_	_	5:exp-Negative
+5	simple	simple	ADJ	_	_	4	amod	_	_	0:exp-Negative
+6	,	,	PUNCT	_	_	10	punct	_	_	_
+7	pero	pero	CCONJ	_	_	10	cc	_	_	_
+8	por	por	ADP	_	_	10	case	_	_	12:exp-Positive
+9	el	el	DET	_	_	10	det	_	_	12:exp-Positive
+10	precio	precio	NOUN	_	_	4	conj	_	_	12:exp-Positive
+11	que	que	PRON	_	_	12	obj	_	_	12:exp-Positive
+12	tiene	tener	VERB	_	_	10	acl	_	_	0:exp-Positive
+13	esta	este	DET	_	_	15	det	_	_	_
+14	bastante	bastante	ADV	_	_	15	advmod	_	_	_
+15	bien	bien	ADV	_	_	12	advmod	_	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-1
+# text = Buen trato , buena situación del hotel .
+1	Buen	buen	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	trato	trato	NOUN	_	_	0	root	_	_	1:targ
+3	,	,	PUNCT	_	_	5	punct	_	_	_
+4	buena	buen	ADJ	_	_	5	amod	_	_	0:exp-Positive
+5	situación	situación	NOUN	_	_	2	appos	_	_	7:targ
+6	del	del	ADP	_	_	7	case	_	_	7:targ
+7	hotel	hotel	NOUN	_	_	5	nmod	_	_	4:targ
+8	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-2
+# text = En el centro de Madrid , la habitación fue espaciosa y limpia , hotel moderno y buen trato. me alojé en unu viaje de negocios y todo fue muy bien. llegué muy temprano ( a las 10 a.m. ) y ya tenían preparada una espaciosa habitación .
+1	En	en	ADP	_	_	3	case	_	_	5:exp-Positive
+2	el	el	DET	_	_	3	det	_	_	5:exp-Positive
+3	centro	centro	NOUN	_	_	10	obl	_	_	5:exp-Positive
+4	de	de	ADP	_	_	5	case	_	_	5:exp-Positive
+5	Madrid	Madrid	PROPN	_	_	3	nmod	_	_	0:exp-Positive
+6	,	,	PUNCT	_	_	3	punct	_	_	_
+7	la	el	DET	_	_	8	det	_	_	8:targ|8:targ
+8	habitación	habitación	NOUN	_	_	10	nsubj	_	_	10:targ|12:targ
+9	fue	ser	AUX	_	_	10	cop	_	_	_
+10	espaciosa	espacioso	ADJ	_	_	0	root	_	_	0:exp-Positive
+11	y	y	CCONJ	_	_	12	cc	_	_	_
+12	limpia	limpio	ADJ	_	_	10	conj	_	_	0:exp-Positive
+13	,	,	PUNCT	_	_	14	punct	_	_	_
+14	hotel	hotel	NOUN	_	_	10	conj	_	_	15:targ
+15	moderno	moderno	ADJ	_	_	14	amod	_	_	0:exp-Positive
+16	y	y	CCONJ	_	_	18	cc	_	_	_
+17	buen	buen	ADJ	_	_	18	amod	_	_	0:exp-Positive
+18	trato.	trato.	NOUN	_	_	14	conj	_	_	17:targ
+19	me	yo	PRON	_	_	20	obj	_	_	_
+20	alojé	alojar	VERB	_	_	10	conj	_	_	_
+21	en	en	ADP	_	_	23	case	_	_	_
+22	unu	unu	DET	_	_	23	det	_	_	_
+23	viaje	viaje	NOUN	_	_	20	obl	_	_	_
+24	de	de	ADP	_	_	25	case	_	_	_
+25	negocios	negocio	NOUN	_	_	23	nmod	_	_	_
+26	y	y	CCONJ	_	_	31	cc	_	_	_
+27	todo	todo	PRON	_	_	30	nsubj	_	_	30:targ
+28	fue	ser	AUX	_	_	30	cop	_	_	_
+29	muy	mucho	ADV	_	_	30	advmod	_	_	30:exp-Positive
+30	bien.	bien.	ADJ	_	_	31	conj	_	_	0:exp-Positive
+31	llegué	llegar	VERB	_	_	20	conj	_	_	_
+32	muy	mucho	ADV	_	_	33	advmod	_	_	_
+33	temprano	temprano	ADJ	_	_	31	obj	_	_	_
+34	(	(	PUNCT	_	_	37	punct	_	_	_
+35	a	a	ADP	_	_	37	case	_	_	_
+36	las	el	DET	_	_	37	det	_	_	_
+37	10	10	NUM	_	_	31	obl	_	_	_
+38	a.m.	a.m.	NOUN	_	_	37	compound	_	_	_
+39	)	)	PUNCT	_	_	37	punct	_	_	_
+40	y	y	CCONJ	_	_	42	cc	_	_	_
+41	ya	ya	ADV	_	_	42	advmod	_	_	_
+42	tenían	tener	VERB	_	_	31	conj	_	_	_
+43	preparada	preparado	ADJ	_	_	42	obj	_	_	_
+44	una	uno	DET	_	_	46	det	_	_	_
+45	espaciosa	espacioso	ADJ	_	_	46	amod	_	_	0:exp-Positive
+46	habitación	habitación	NOUN	_	_	42	obj	_	_	45:targ
+47	.	.	PUNCT	_	_	10	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-3
+# text = Muy limpio y con cama cómodas .
+1	Muy	mucho	ADV	_	_	2	advmod	_	_	2:exp-Positive
+2	limpio	limpio	ADJ	_	_	0	root	_	_	0:exp-Positive
+3	y	y	CCONJ	_	_	5	cc	_	_	_
+4	con	con	ADP	_	_	5	case	_	_	_
+5	cama	cama	NOUN	_	_	2	conj	_	_	2:targ|6:targ
+6	cómodas	cómodo	ADJ	_	_	5	amod	_	_	0:exp-Positive
+7	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-4
+# text = El personal de recepción muy atento , me reomendó varias entradas a espectáculos , nos dio indicaciones y consejos , todo muy bien ) .
+1	El	el	DET	_	_	2	det	_	_	4:targ
+2	personal	personal	NOUN	_	_	16	nsubj	_	_	4:targ
+3	de	de	ADP	_	_	4	case	_	_	4:targ
+4	recepción	recepción	NOUN	_	_	2	nmod	_	_	6:targ
+5	muy	mucho	ADV	_	_	6	advmod	_	_	6:exp-Positive
+6	atento	atento	ADJ	_	_	2	amod	_	_	0:exp-Positive
+7	,	,	PUNCT	_	_	9	punct	_	_	_
+8	me	yo	PRON	_	_	9	obj	_	_	9:holder
+9	reomendó	reomendar	VERB	_	_	2	acl	_	_	0:exp-Positive
+10	varias	varios	DET	_	_	11	det	_	_	13:targ
+11	entradas	entrada	NOUN	_	_	9	obj	_	_	13:targ
+12	a	a	ADP	_	_	13	case	_	_	13:targ
+13	espectáculos	espectáculo	NOUN	_	_	11	nmod	_	_	9:targ
+14	,	,	PUNCT	_	_	9	punct	_	_	_
+15	nos	yo	PRON	_	_	16	obj	_	_	16:holder
+16	dio	dar	VERB	_	_	0	root	_	_	0:exp-Positive
+17	indicaciones	indicación	NOUN	_	_	16	obj	_	_	19:targ
+18	y	y	CCONJ	_	_	19	cc	_	_	19:targ
+19	consejos	consejo	NOUN	_	_	17	conj	_	_	16:targ
+20	,	,	PUNCT	_	_	21	punct	_	_	_
+21	todo	todo	PRON	_	_	17	appos	_	_	23:targ
+22	muy	mucho	ADV	_	_	23	advmod	_	_	23:exp-Positive
+23	bien	bien	ADV	_	_	21	advmod	_	_	0:exp-Positive
+24	)	)	PUNCT	_	_	21	punct	_	_	_
+25	.	.	PUNCT	_	_	16	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-5
+# text = El metro esta cerca , pero si vas a pie , se te puede hacer un poco largo llegar a Gran Via .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	metro	metro	NOUN	_	_	0	root	_	_	4:targ
+3	esta	este	DET	_	_	4	advmod	_	_	_
+4	cerca	cerca	ADV	_	_	2	advmod	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	15	punct	_	_	_
+6	pero	pero	CCONJ	_	_	15	cc	_	_	_
+7	si	si	SCONJ	_	_	8	mark	_	_	_
+8	vas	ir	VERB	_	_	15	advcl	_	_	_
+9	a	a	ADP	_	_	8	advmod	_	_	15:exp-Negative
+10	pie	pie	NOUN	_	_	9	fixed	_	_	15:exp-Negative
+11	,	,	PUNCT	_	_	8	punct	_	_	15:exp-Negative
+12	se	él	PRON	_	_	15	obj	_	_	15:exp-Negative
+13	te	tú	PRON	_	_	15	obj	_	_	15:exp-Negative
+14	puede	poder	AUX	_	_	15	aux	_	_	15:exp-Negative
+15	hacer	hacer	VERB	_	_	4	conj	_	_	0:exp-Negative
+16	un	uno	DET	_	_	18	advmod	_	_	_
+17	poco	poco	ADV	_	_	16	fixed	_	_	_
+18	largo	largo	ADJ	_	_	15	obj	_	_	_
+19	llegar	llegar	VERB	_	_	15	csubj	_	_	_
+20	a	a	ADP	_	_	21	case	_	_	_
+21	Gran	Gran	ADJ	_	_	19	obl	_	_	22:targ
+22	Via	Via	PROPN	_	_	21	flat	_	_	15:targ
+23	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-6
+# text = ( Plaza de España esta a unos 5 · 7 minutos ) y puerta del Sol a unos 15 a pie .
+1	(	(	PUNCT	_	_	2	punct	_	_	_
+2	Plaza	Plaza	PROPN	_	_	0	root	_	_	4:targ
+3	de	de	ADP	_	_	4	case	_	_	4:targ
+4	España	España	PROPN	_	_	2	flat	_	_	11:targ
+5	esta	este	DET	_	_	2	det	_	_	_
+6	a	a	ADP	_	_	8	case	_	_	11:exp-Positive
+7	unos	uno	PRON	_	_	8	nmod	_	_	11:exp-Positive
+8	5	5	NUM	_	_	2	nummod	_	_	11:exp-Positive
+9	·	·	PUNCT	_	_	11	punct	_	_	11:exp-Positive
+10	7	7	NUM	_	_	11	nummod	_	_	11:exp-Positive
+11	minutos	minuto	NOUN	_	_	8	appos	_	_	0:exp-Positive
+12	)	)	PUNCT	_	_	11	punct	_	_	_
+13	y	y	CCONJ	_	_	14	cc	_	_	_
+14	puerta	puerta	NOUN	_	_	2	conj	_	_	16:targ
+15	del	del	ADP	_	_	16	case	_	_	16:targ
+16	Sol	Sol	PROPN	_	_	14	nmod	_	_	21:targ
+17	a	a	ADP	_	_	19	case	_	_	21:exp-Positive
+18	unos	uno	PRON	_	_	19	nmod	_	_	21:exp-Positive
+19	15	15	NUM	_	_	14	nummod	_	_	21:exp-Positive
+20	a	a	ADP	_	_	19	advmod	_	_	21:exp-Positive
+21	pie	pie	NOUN	_	_	20	fixed	_	_	0:exp-Positive
+22	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-7
+# text = El hotel es muy recomendable .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	recomendable	recomendable	ADJ	_	_	0	root	_	_	0:exp-Positive
+6	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-8
+# text = Nada caro para el lugar donde esta y las comodidades que ofrece .
+1	Nada	nada	PRON	_	_	0	root	_	_	2:exp-Positive
+2	caro	caro	ADJ	_	_	1	amod	_	_	0:exp-Positive
+3	para	para	ADP	_	_	5	case	_	_	_
+4	el	el	DET	_	_	5	det	_	_	_
+5	lugar	lugar	NOUN	_	_	2	nmod	_	_	_
+6	donde	donde	PRON	_	_	12	obl	_	_	_
+7	esta	este	PRON	_	_	5	nmod	_	_	_
+8	y	y	CCONJ	_	_	10	cc	_	_	_
+9	las	el	DET	_	_	10	det	_	_	_
+10	comodidades	comodidad	NOUN	_	_	7	conj	_	_	_
+11	que	que	PRON	_	_	12	obj	_	_	_
+12	ofrece	ofrecer	VERB	_	_	10	acl	_	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00163_ba231ec60843f04782f00ec9502688f4-9
+# text = Volvería !
+1	Volvería	volver	VERB	_	_	0	root	_	_	2:exp-Positive
+2	!	!	PUNCT	_	_	1	punct	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00197_dcb2b89f42334c619566d39d132c60e8-1
+# text = Hotel céntrico y con buenos servicios
+1	Hotel	Hotel	NOUN	_	_	0	root	_	_	2:targ
+2	céntrico	céntrico	ADJ	_	_	1	amod	_	_	0:exp-Positive
+3	y	y	CCONJ	_	_	6	cc	_	_	_
+4	con	con	ADP	_	_	6	case	_	_	_
+5	buenos	buen	ADJ	_	_	6	amod	_	_	0:exp-Positive
+6	servicios	servicio	NOUN	_	_	2	conj	_	_	5:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00197_dcb2b89f42334c619566d39d132c60e8-2
+# text = Durante el mes de abril realizamos un viaje de fin de semana a Milán .
+1	Durante	durante	ADP	_	_	3	case	_	_	_
+2	el	el	DET	_	_	3	det	_	_	_
+3	mes	mes	NOUN	_	_	6	obl	_	_	_
+4	de	de	ADP	_	_	5	case	_	_	_
+5	abril	abril	NOUN	_	_	3	compound	_	_	_
+6	realizamos	realizar	VERB	_	_	0	root	_	_	_
+7	un	uno	DET	_	_	8	det	_	_	_
+8	viaje	viaje	NOUN	_	_	6	obj	_	_	_
+9	de	de	ADP	_	_	10	case	_	_	_
+10	fin	fin	NOUN	_	_	8	nmod	_	_	_
+11	de	de	ADP	_	_	12	case	_	_	_
+12	semana	semana	NOUN	_	_	10	nmod	_	_	_
+13	a	a	ADP	_	_	14	case	_	_	_
+14	Milán	Milán	PROPN	_	_	6	obl	_	_	_
+15	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00197_dcb2b89f42334c619566d39d132c60e8-3
+# text = Nos alojamos en este hotel por estar cerca del centro y porque habíamos probado ya anteriormente la estancia en otros hoteles de la misma cadena .
+1	Nos	yo	PRON	_	_	2	obj	_	_	_
+2	alojamos	alojar	VERB	_	_	0	root	_	_	_
+3	en	en	ADP	_	_	5	case	_	_	_
+4	este	este	DET	_	_	5	det	_	_	_
+5	hotel	hotel	NOUN	_	_	2	obl	_	_	_
+6	por	por	ADP	_	_	7	mark	_	_	_
+7	estar	estar	VERB	_	_	2	advcl	_	_	_
+8	cerca	cerca	ADV	_	_	7	advmod	_	_	0:exp-Positive
+9	del	del	ADP	_	_	10	case	_	_	_
+10	centro	centro	NOUN	_	_	8	obl	_	_	8:targ
+11	y	y	CCONJ	_	_	14	cc	_	_	_
+12	porque	porque	SCONJ	_	_	14	mark	_	_	_
+13	habíamos	haber	AUX	_	_	14	aux	_	_	_
+14	probado	probar	VERB	_	_	2	conj	_	_	_
+15	ya	ya	ADV	_	_	14	advmod	_	_	_
+16	anteriormente	anteriormente	ADV	_	_	14	advmod	_	_	_
+17	la	el	DET	_	_	18	det	_	_	_
+18	estancia	estancia	NOUN	_	_	14	obj	_	_	_
+19	en	en	ADP	_	_	21	case	_	_	_
+20	otros	otro	DET	_	_	21	det	_	_	_
+21	hoteles	hotel	NOUN	_	_	18	nmod	_	_	_
+22	de	de	ADP	_	_	25	case	_	_	_
+23	la	el	DET	_	_	25	det	_	_	_
+24	misma	mismo	DET	_	_	23	det	_	_	_
+25	cadena	cadena	NOUN	_	_	21	nmod	_	_	_
+26	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00197_dcb2b89f42334c619566d39d132c60e8-4
+# text = Como siempre , el trato fue espléndido , las habitaciones renovadas y muy limpias , y el desayuno era espectacular .
+1	Como	como	SCONJ	_	_	2	mark	_	_	_
+2	siempre	siempre	ADV	_	_	7	advmod	_	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_	_
+4	el	el	DET	_	_	5	det	_	_	5:targ
+5	trato	trato	NOUN	_	_	7	nsubj	_	_	7:targ
+6	fue	ser	AUX	_	_	7	cop	_	_	_
+7	espléndido	espléndido	ADJ	_	_	0	root	_	_	0:exp-Positive
+8	,	,	PUNCT	_	_	10	punct	_	_	_
+9	las	el	DET	_	_	10	det	_	_	10:targ|10:targ
+10	habitaciones	habitación	NOUN	_	_	7	obj	_	_	11:targ|14:targ
+11	renovadas	renovado	ADJ	_	_	10	amod	_	_	0:exp-Positive
+12	y	y	CCONJ	_	_	14	cc	_	_	_
+13	muy	mucho	ADV	_	_	14	advmod	_	_	14:exp-Positive
+14	limpias	limpio	ADJ	_	_	11	conj	_	_	0:exp-Positive
+15	,	,	PUNCT	_	_	20	punct	_	_	_
+16	y	y	CCONJ	_	_	20	cc	_	_	_
+17	el	el	DET	_	_	18	det	_	_	18:targ
+18	desayuno	desayuno	NOUN	_	_	20	nsubj	_	_	20:targ
+19	era	ser	AUX	_	_	20	cop	_	_	_
+20	espectacular	espectacular	ADJ	_	_	7	conj	_	_	0:exp-Positive
+21	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00197_dcb2b89f42334c619566d39d132c60e8-5
+# text = Lo recomendaría sin duda para un viaje en las mismas condiciones , es decir , para un fin de semana .
+1	Lo	él	PRON	_	_	2	obj	_	_	2:targ
+2	recomendaría	recomendar	VERB	_	_	0	root	_	_	0:exp-Positive
+3	sin	sin	ADP	_	_	4	case	_	_	_
+4	duda	duda	NOUN	_	_	2	obl	_	_	_
+5	para	para	ADP	_	_	7	case	_	_	_
+6	un	uno	DET	_	_	7	det	_	_	_
+7	viaje	viaje	NOUN	_	_	2	obl	_	_	_
+8	en	en	ADP	_	_	11	case	_	_	_
+9	las	el	DET	_	_	11	det	_	_	_
+10	mismas	mismo	DET	_	_	9	det	_	_	_
+11	condiciones	condición	NOUN	_	_	7	nmod	_	_	_
+12	,	,	PUNCT	_	_	18	punct	_	_	_
+13	es	es	NOUN	_	_	18	cc	_	_	_
+14	decir	decir	NOUN	_	_	13	fixed	_	_	_
+15	,	,	PUNCT	_	_	13	punct	_	_	_
+16	para	para	ADP	_	_	18	case	_	_	_
+17	un	uno	DET	_	_	18	det	_	_	_
+18	fin	fin	NOUN	_	_	7	conj	_	_	_
+19	de	de	ADP	_	_	20	case	_	_	_
+20	semana	semana	NOUN	_	_	18	nmod	_	_	_
+21	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00109_854fe9452860249e9aa95da863afda36-1
+# text = Excesivamente caro , demasiado .
+1	Excesivamente	excesivamente	ADV	_	_	2	advmod	_	_	2:exp-Negative
+2	caro	caro	ADJ	_	_	0	root	_	_	0:exp-Negative
+3	,	,	PUNCT	_	_	2	punct	_	_	_
+4	demasiado	demasiado	ADV	_	_	2	advmod	_	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00109_854fe9452860249e9aa95da863afda36-2
+# text = Un hotel de esta característica que te demuestra que para tener lo que esperas tienes que pagar aún más del doble de lo que ya has pagado .
+1	Un	uno	DET	_	_	2	det	_	_	_
+2	hotel	hotel	NOUN	_	_	0	root	_	_	_
+3	de	de	ADP	_	_	5	case	_	_	_
+4	esta	este	DET	_	_	5	det	_	_	_
+5	característica	característica	NOUN	_	_	2	nmod	_	_	_
+6	que	que	PRON	_	_	8	nsubj	_	_	_
+7	te	tú	PRON	_	_	8	iobj	_	_	_
+8	demuestra	demostrar	VERB	_	_	5	acl	_	_	_
+9	que	que	SCONJ	_	_	17	mark	_	_	_
+10	para	para	ADP	_	_	11	mark	_	_	_
+11	tener	tener	VERB	_	_	17	advcl	_	_	_
+12	lo	él	PRON	_	_	14	det	_	_	_
+13	que	que	PRON	_	_	14	obj	_	_	_
+14	esperas	espera	VERB	_	_	11	ccomp	_	_	_
+15	tienes	tener	VERB	_	_	8	ccomp	_	_	_
+16	que	que	SCONJ	_	_	17	cc	_	_	_
+17	pagar	pagar	VERB	_	_	15	conj	_	_	_
+18	aún	aún	ADV	_	_	19	advmod	_	_	_
+19	más	más	ADV	_	_	17	advmod	_	_	_
+20	del	del	ADP	_	_	21	case	_	_	_
+21	doble	doble	NOUN	_	_	17	obl	_	_	_
+22	de	de	ADP	_	_	27	mark	_	_	_
+23	lo	él	PRON	_	_	27	det	_	_	_
+24	que	que	PRON	_	_	27	obj	_	_	_
+25	ya	ya	ADV	_	_	27	advmod	_	_	_
+26	has	haber	AUX	_	_	27	aux	_	_	_
+27	pagado	pagar	VERB	_	_	21	acl	_	_	_
+28	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00109_854fe9452860249e9aa95da863afda36-3
+# text = No se puede optar a ser tan elitista ofreciendo en las habitaciones para ellos estándard un tamaño pequeño en el que gracias a la modernidad cabe un baño casi integrado en la habitación del cual dejamos fuera el lavamanos .
+1	No	no	ADV	_	_	4	advmod	_	_	_
+2	se	él	PRON	_	_	4	obj	_	_	_
+3	puede	poder	AUX	_	_	4	aux	_	_	_
+4	optar	optar	VERB	_	_	0	root	_	_	_
+5	a	a	ADP	_	_	8	case	_	_	_
+6	ser	ser	AUX	_	_	8	cop	_	_	_
+7	tan	tanto	ADV	_	_	4	advmod	_	_	_
+8	elitista	elitista	ADJ	_	_	4	xcomp	_	_	_
+9	ofreciendo	ofrecer	VERB	_	_	4	xcomp	_	_	_
+10	en	en	ADP	_	_	12	case	_	_	_
+11	las	el	DET	_	_	12	det	_	_	_
+12	habitaciones	habitación	NOUN	_	_	9	obl	_	_	_
+13	para	para	ADP	_	_	14	case	_	_	_
+14	ellos	él	PRON	_	_	9	obl	_	_	_
+15	estándard	estándard	ADJ	_	_	14	amod	_	_	_
+16	un	uno	DET	_	_	17	det	_	_	_
+17	tamaño	tamaño	NOUN	_	_	9	obj	_	_	_
+18	pequeño	pequeño	ADJ	_	_	17	amod	_	_	_
+19	en	en	ADP	_	_	21	case	_	_	_
+20	el	el	DET	_	_	21	det	_	_	_
+21	que	que	PRON	_	_	26	obl	_	_	_
+22	gracias	gracias	NOUN	_	_	25	case	_	_	_
+23	a	a	ADP	_	_	22	fixed	_	_	_
+24	la	el	DET	_	_	25	det	_	_	_
+25	modernidad	modernidad	NOUN	_	_	26	obl	_	_	_
+26	cabe	caber	VERB	_	_	17	acl	_	_	_
+27	un	uno	DET	_	_	28	det	_	_	_
+28	baño	baño	NOUN	_	_	26	nsubj	_	_	_
+29	casi	casi	ADV	_	_	30	advmod	_	_	_
+30	integrado	integrado	ADJ	_	_	28	amod	_	_	_
+31	en	en	ADP	_	_	33	case	_	_	_
+32	la	el	DET	_	_	33	det	_	_	_
+33	habitación	habitación	NOUN	_	_	30	obl	_	_	_
+34	del	del	ADP	_	_	35	case	_	_	_
+35	cual	cual	PRON	_	_	33	nmod	_	_	_
+36	dejamos	dejar	VERB	_	_	28	acl	_	_	_
+37	fuera	fuera	ADV	_	_	36	advmod	_	_	_
+38	el	el	DET	_	_	39	det	_	_	_
+39	lavamanos	lavamano	NOUN	_	_	36	obj	_	_	_
+40	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00109_854fe9452860249e9aa95da863afda36-4
+# text = Y finalmente tienes que soportar que los no huespedes usen los mismos ascensores para subir a una terraza lounge no privada en la azotea , con el consiguiente atasco en ascensor , los ruidos por los pasillos , señores , o ponen un acceso independiente a este otro negocio , o que sea privado solo para el hotel ( que para algo lo pagamos )
+1	Y	y	CCONJ	_	_	5	advmod	_	_	_
+2	finalmente	finalmente	ADV	_	_	5	advmod	_	_	_
+3	tienes	tener	VERB	_	_	0	root	_	_	_
+4	que	que	SCONJ	_	_	5	cc	_	_	_
+5	soportar	soportar	VERB	_	_	3	conj	_	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_	_
+7	los	el	DET	_	_	9	det	_	_	_
+8	no	no	ADV	_	_	9	advmod	_	_	_
+9	huespedes	huesped	NOUN	_	_	10	nsubj	_	_	_
+10	usen	usar	VERB	_	_	5	ccomp	_	_	_
+11	los	el	DET	_	_	13	det	_	_	_
+12	mismos	mismo	DET	_	_	11	det	_	_	_
+13	ascensores	ascensor	NOUN	_	_	10	obj	_	_	_
+14	para	para	ADP	_	_	15	mark	_	_	_
+15	subir	subir	VERB	_	_	10	advcl	_	_	_
+16	a	a	ADP	_	_	18	case	_	_	_
+17	una	uno	DET	_	_	18	det	_	_	_
+18	terraza	terraza	NOUN	_	_	15	obl	_	_	_
+19	lounge	lounge	ADJ	_	_	18	amod	_	_	_
+20	no	no	ADV	_	_	21	advmod	_	_	_
+21	privada	privado	ADJ	_	_	18	amod	_	_	_
+22	en	en	ADP	_	_	24	case	_	_	_
+23	la	el	DET	_	_	24	det	_	_	_
+24	azotea	azotea	NOUN	_	_	21	obl	_	_	_
+25	,	,	PUNCT	_	_	29	punct	_	_	_
+26	con	con	ADP	_	_	29	case	_	_	_
+27	el	el	DET	_	_	29	det	_	_	_
+28	consiguiente	consiguiente	ADJ	_	_	29	amod	_	_	_
+29	atasco	atasco	NOUN	_	_	15	obl	_	_	_
+30	en	en	ADP	_	_	31	case	_	_	_
+31	ascensor	ascensor	NOUN	_	_	29	nmod	_	_	_
+32	,	,	PUNCT	_	_	34	punct	_	_	_
+33	los	el	DET	_	_	34	det	_	_	_
+34	ruidos	ruido	NOUN	_	_	29	appos	_	_	_
+35	por	por	ADP	_	_	37	case	_	_	_
+36	los	el	DET	_	_	37	det	_	_	_
+37	pasillos	pasillo	NOUN	_	_	34	nmod	_	_	_
+38	,	,	PUNCT	_	_	39	punct	_	_	_
+39	señores	señor	NOUN	_	_	29	appos	_	_	_
+40	,	,	PUNCT	_	_	42	punct	_	_	_
+41	o	o	CCONJ	_	_	42	cc	_	_	_
+42	ponen	poner	VERB	_	_	10	conj	_	_	_
+43	un	uno	DET	_	_	44	det	_	_	_
+44	acceso	acceso	NOUN	_	_	42	obj	_	_	_
+45	independiente	independiente	ADJ	_	_	44	amod	_	_	_
+46	a	a	ADP	_	_	49	case	_	_	_
+47	este	este	DET	_	_	49	det	_	_	_
+48	otro	otro	DET	_	_	47	det	_	_	_
+49	negocio	negocio	NOUN	_	_	42	obj	_	_	_
+50	,	,	PUNCT	_	_	54	punct	_	_	_
+51	o	o	CCONJ	_	_	54	cc	_	_	_
+52	que	que	SCONJ	_	_	54	mark	_	_	_
+53	sea	ser	AUX	_	_	54	aux	_	_	_
+54	privado	privar	VERB	_	_	42	conj	_	_	_
+55	solo	solo	ADJ	_	_	54	obj	_	_	_
+56	para	para	ADP	_	_	58	case	_	_	_
+57	el	el	DET	_	_	58	det	_	_	_
+58	hotel	hotel	NOUN	_	_	55	nmod	_	_	_
+59	(	(	PUNCT	_	_	64	punct	_	_	_
+60	que	que	PRON	_	_	64	nsubj	_	_	_
+61	para	para	ADP	_	_	62	case	_	_	_
+62	algo	algo	PRON	_	_	64	obl	_	_	_
+63	lo	él	PRON	_	_	64	obj	_	_	_
+64	pagamos	pagar	VERB	_	_	58	acl	_	_	_
+65	)	)	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00010_09bc8df9f09056de5554df501b0036d1-1
+# text = Nuestro hotel en Madrid
+1	Nuestro	nuestro	DET	_	_	2	det	_	_	_
+2	hotel	hotel	NOUN	_	_	0	root	_	_	_
+3	en	en	ADP	_	_	4	case	_	_	_
+4	Madrid	Madrid	PROPN	_	_	2	nmod	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00010_09bc8df9f09056de5554df501b0036d1-2
+# text = Nos encanta este hotel , su ubicación , sus habitaciones , su personal ( siempre tan amable y servicial ) .
+1	Nos	yo	PRON	_	_	2	obj	_	_	2:holder|2:holder|2:holder
+2	encanta	encantar	VERB	_	_	0	root	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+3	este	este	DET	_	_	4	det	_	_	4:targ
+4	hotel	hotel	NOUN	_	_	2	nsubj	_	_	2:targ
+5	,	,	PUNCT	_	_	7	punct	_	_	_
+6	su	su	DET	_	_	7	det	_	_	7:targ
+7	ubicación	ubicación	NOUN	_	_	4	appos	_	_	2:targ
+8	,	,	PUNCT	_	_	10	punct	_	_	_
+9	sus	su	DET	_	_	10	det	_	_	10:targ
+10	habitaciones	habitación	NOUN	_	_	4	appos	_	_	2:targ
+11	,	,	PUNCT	_	_	4	punct	_	_	_
+12	su	su	DET	_	_	13	det	_	_	13:targ|13:targ
+13	personal	personal	NOUN	_	_	4	appos	_	_	17:targ|19:targ
+14	(	(	PUNCT	_	_	17	punct	_	_	_
+15	siempre	siempre	ADV	_	_	17	advmod	_	_	17:exp-Positive
+16	tan	tanto	ADV	_	_	17	advmod	_	_	17:exp-Positive
+17	amable	amable	ADJ	_	_	13	amod	_	_	0:exp-Positive
+18	y	y	CCONJ	_	_	19	cc	_	_	_
+19	servicial	servicial	ADJ	_	_	17	conj	_	_	0:exp-Positive
+20	)	)	PUNCT	_	_	17	punct	_	_	_
+21	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00010_09bc8df9f09056de5554df501b0036d1-3
+# text = A mi familia y a mí nos encanta la ciudad de Madrid , el poder salir de compras , de tapas , a ver un espectáculo , y la situación de este hotel es ideal para poder moverte por el centro de Madrid sin tener que coger el coche pues todo te pilla a mano , con lo que siempre que podemos planear una escapada familiar de fin de semana no dudamos , nuestra elección es clara : ¡ ¡ Nos vamos al Senator Gran Via 21 ¡ ¡ .
+1	A	a	ADP	_	_	3	case	_	_	_
+2	mi	mi	DET	_	_	3	det	_	_	_
+3	familia	familia	NOUN	_	_	8	obj	_	_	_
+4	y	y	CCONJ	_	_	6	cc	_	_	_
+5	a	a	ADP	_	_	6	case	_	_	_
+6	mí	yo	PRON	_	_	3	conj	_	_	_
+7	nos	yo	PRON	_	_	8	obj	_	_	_
+8	encanta	encantar	VERB	_	_	0	root	_	_	_
+9	la	el	DET	_	_	10	det	_	_	_
+10	ciudad	ciudad	NOUN	_	_	8	nsubj	_	_	_
+11	de	de	ADP	_	_	12	case	_	_	_
+12	Madrid	Madrid	PROPN	_	_	10	nmod	_	_	_
+13	,	,	PUNCT	_	_	16	punct	_	_	_
+14	el	el	DET	_	_	16	det	_	_	_
+15	poder	poder	AUX	_	_	16	aux	_	_	_
+16	salir	salir	VERB	_	_	8	advcl	_	_	_
+17	de	de	ADP	_	_	18	case	_	_	_
+18	compras	compra	NOUN	_	_	16	obl	_	_	_
+19	,	,	PUNCT	_	_	21	punct	_	_	_
+20	de	de	ADP	_	_	21	case	_	_	_
+21	tapas	tapa	NOUN	_	_	18	conj	_	_	_
+22	,	,	PUNCT	_	_	24	punct	_	_	_
+23	a	a	ADP	_	_	24	mark	_	_	_
+24	ver	ver	VERB	_	_	16	advcl	_	_	_
+25	un	uno	DET	_	_	26	det	_	_	_
+26	espectáculo	espectáculo	NOUN	_	_	24	obj	_	_	_
+27	,	,	PUNCT	_	_	35	punct	_	_	_
+28	y	y	CCONJ	_	_	35	cc	_	_	_
+29	la	el	DET	_	_	30	det	_	_	33:targ
+30	situación	situación	NOUN	_	_	35	nsubj	_	_	33:targ
+31	de	de	ADP	_	_	33	case	_	_	33:targ
+32	este	este	DET	_	_	33	det	_	_	33:targ
+33	hotel	hotel	NOUN	_	_	30	nmod	_	_	49:targ
+34	es	ser	AUX	_	_	35	cop	_	_	_
+35	ideal	ideal	ADJ	_	_	8	conj	_	_	49:exp-Positive
+36	para	para	ADP	_	_	38	mark	_	_	49:exp-Positive
+37	poder	poder	AUX	_	_	38	aux	_	_	49:exp-Positive
+38	moverte	mover	VERB	_	_	35	acl	_	_	49:exp-Positive
+39	por	por	ADP	_	_	41	case	_	_	49:exp-Positive
+40	el	el	DET	_	_	41	det	_	_	49:exp-Positive
+41	centro	centro	NOUN	_	_	38	obl	_	_	49:exp-Positive
+42	de	de	ADP	_	_	43	case	_	_	49:exp-Positive
+43	Madrid	Madrid	PROPN	_	_	41	nmod	_	_	49:exp-Positive
+44	sin	sin	ADP	_	_	45	mark	_	_	49:exp-Positive
+45	tener	tener	VERB	_	_	38	advcl	_	_	49:exp-Positive
+46	que	que	SCONJ	_	_	47	cc	_	_	49:exp-Positive
+47	coger	coger	VERB	_	_	45	conj	_	_	49:exp-Positive
+48	el	el	DET	_	_	49	det	_	_	49:exp-Positive
+49	coche	coche	NOUN	_	_	47	obj	_	_	0:exp-Positive
+50	pues	pues	SCONJ	_	_	53	mark	_	_	_
+51	todo	todo	PRON	_	_	53	nsubj	_	_	_
+52	te	tú	PRON	_	_	53	obj	_	_	_
+53	pilla	pillar	VERB	_	_	47	advcl	_	_	_
+54	a	a	ADP	_	_	55	case	_	_	_
+55	mano	mano	NOUN	_	_	53	obl	_	_	_
+56	,	,	PUNCT	_	_	77	punct	_	_	_
+57	con	con	ADP	_	_	63	mark	_	_	_
+58	lo	él	PRON	_	_	63	det	_	_	_
+59	que	que	PRON	_	_	72	obl	_	_	_
+60	siempre	siempre	ADV	_	_	63	mark	_	_	_
+61	que	que	SCONJ	_	_	60	fixed	_	_	_
+62	podemos	poder	AUX	_	_	63	aux	_	_	_
+63	planear	planear	VERB	_	_	72	advcl	_	_	_
+64	una	uno	DET	_	_	65	det	_	_	_
+65	escapada	escapada	NOUN	_	_	63	obj	_	_	_
+66	familiar	familiar	ADJ	_	_	65	amod	_	_	_
+67	de	de	ADP	_	_	68	case	_	_	_
+68	fin	fin	NOUN	_	_	65	nmod	_	_	_
+69	de	de	ADP	_	_	70	case	_	_	_
+70	semana	semana	NOUN	_	_	68	nmod	_	_	_
+71	no	no	ADV	_	_	72	advmod	_	_	_
+72	dudamos	dudar	VERB	_	_	77	advcl	_	_	_
+73	,	,	PUNCT	_	_	8	punct	_	_	_
+74	nuestra	nuestro	DET	_	_	75	det	_	_	_
+75	elección	elección	NOUN	_	_	77	nsubj	_	_	_
+76	es	ser	AUX	_	_	77	cop	_	_	_
+77	clara	claro	ADJ	_	_	8	advcl	_	_	_
+78	:	:	PUNCT	_	_	82	punct	_	_	_
+79	¡	¡	PUNCT	_	_	82	punct	_	_	_
+80	¡	¡	PUNCT	_	_	82	punct	_	_	_
+81	Nos	yo	PRON	_	_	82	obj	_	_	82:holder
+82	vamos	ir	VERB	_	_	77	advcl	_	_	0:exp-Positive
+83	al	al	ADP	_	_	84	case	_	_	87:targ
+84	Senator	Senator	PROPN	_	_	82	obl	_	_	87:targ
+85	Gran	Gran	ADJ	_	_	84	flat	_	_	87:targ
+86	Via	Via	PROPN	_	_	84	flat	_	_	87:targ
+87	21	21	NUM	_	_	84	nummod	_	_	82:targ
+88	¡	¡	PUNCT	_	_	82	punct	_	_	_
+89	¡	¡	PUNCT	_	_	82	punct	_	_	_
+90	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00007_07bd22d54d3c8c11e1672e1b373f1e25-1
+# text = Fantástico hotel en el centro de Madrid
+1	Fantástico	fantástico	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	hotel	hotel	NOUN	_	_	0	root	_	_	1:targ|7:targ
+3	en	en	ADP	_	_	5	case	_	_	_
+4	el	el	DET	_	_	5	det	_	_	_
+5	centro	centro	NOUN	_	_	2	nmod	_	_	7:exp-Positive
+6	de	de	ADP	_	_	7	case	_	_	7:exp-Positive
+7	Madrid	Madrid	PROPN	_	_	5	nmod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00007_07bd22d54d3c8c11e1672e1b373f1e25-2
+# text = Si quieres viajar a Madrid elige este hotel .
+1	Si	si	SCONJ	_	_	3	mark	_	_	_
+2	quieres	querer	AUX	_	_	3	aux	_	_	_
+3	viajar	viajar	VERB	_	_	6	advcl	_	_	_
+4	a	a	ADP	_	_	5	case	_	_	_
+5	Madrid	Madrid	PROPN	_	_	3	obl	_	_	_
+6	elige	elegir	VERB	_	_	0	root	_	_	_
+7	este	este	DET	_	_	8	det	_	_	_
+8	hotel	hotel	NOUN	_	_	6	obj	_	_	_
+9	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00007_07bd22d54d3c8c11e1672e1b373f1e25-3
+# text = En pleno centro de la ciudad con unas instalaciones inmejorables .
+1	En	en	ADP	_	_	3	case	_	_	2:exp-Positive
+2	pleno	pleno	ADJ	_	_	3	amod	_	_	0:exp-Positive
+3	centro	centro	NOUN	_	_	0	root	_	_	6:targ
+4	de	de	ADP	_	_	6	case	_	_	6:targ
+5	la	el	DET	_	_	6	det	_	_	6:targ
+6	ciudad	ciudad	NOUN	_	_	3	nmod	_	_	2:targ
+7	con	con	ADP	_	_	9	case	_	_	_
+8	unas	uno	DET	_	_	9	det	_	_	9:targ
+9	instalaciones	instalación	NOUN	_	_	3	nmod	_	_	10:targ
+10	inmejorables	inmejorable	ADJ	_	_	9	amod	_	_	0:exp-Positive
+11	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00007_07bd22d54d3c8c11e1672e1b373f1e25-4
+# text = Las habitaciones , el spa ... Todo muy limpio y el trato del personal de recepcion un 10 .
+1	Las	el	DET	_	_	2	det	_	_	2:targ
+2	habitaciones	habitación	NOUN	_	_	0	root	_	_	9:targ
+3	,	,	PUNCT	_	_	5	punct	_	_	_
+4	el	el	DET	_	_	5	det	_	_	5:targ
+5	spa	spa	NOUN	_	_	2	appos	_	_	9:targ
+6	...	...	PUNCT	_	_	9	punct	_	_	_
+7	Todo	todo	DET	_	_	9	det	_	_	9:targ
+8	muy	mucho	ADV	_	_	9	advmod	_	_	9:exp-Positive|9:exp-Positive|9:exp-Positive
+9	limpio	limpio	ADJ	_	_	2	appos	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+10	y	y	CCONJ	_	_	12	cc	_	_	_
+11	el	el	DET	_	_	12	det	_	_	_
+12	trato	trato	NOUN	_	_	2	conj	_	_	16:targ
+13	del	del	ADP	_	_	14	case	_	_	16:targ
+14	personal	personal	NOUN	_	_	12	nmod	_	_	16:targ
+15	de	de	ADP	_	_	16	case	_	_	16:targ
+16	recepcion	recepcion	NOUN	_	_	14	nmod	_	_	18:targ
+17	un	uno	DET	_	_	18	det	_	_	18:exp-Positive
+18	10	10	NUM	_	_	12	nummod	_	_	0:exp-Positive
+19	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00007_07bd22d54d3c8c11e1672e1b373f1e25-5
+# text = Genial .
+1	Genial	genial	ADJ	_	_	0	root	_	_	0:exp-Positive
+2	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-1
+# text = Un hotel de ciudad acogedor y muy bien situado
+1	Un	uno	DET	_	_	2	det	_	_	4:targ|4:targ
+2	hotel	hotel	NOUN	_	_	0	root	_	_	4:targ|4:targ
+3	de	de	ADP	_	_	4	case	_	_	4:targ|4:targ
+4	ciudad	ciudad	NOUN	_	_	2	nmod	_	_	9:targ|5:targ
+5	acogedor	acogedor	ADJ	_	_	4	amod	_	_	0:exp-Positive
+6	y	y	CCONJ	_	_	8	cc	_	_	_
+7	muy	mucho	ADV	_	_	8	advmod	_	_	9:exp-Positive
+8	bien	bien	ADV	_	_	9	advmod	_	_	9:exp-Positive
+9	situado	situado	ADJ	_	_	2	amod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-2
+# text = El hotel muy céntrico , en plena Gran Vía madrileña , con acceso a pie a los rincones más pintorescos de Madrid .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	0	root	_	_	4:targ
+3	muy	mucho	ADV	_	_	4	advmod	_	_	4:exp-Positive
+4	céntrico	céntrico	ADJ	_	_	2	amod	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	8	punct	_	_	_
+6	en	en	ADP	_	_	8	case	_	_	7:exp-Positive
+7	plena	pleno	ADJ	_	_	8	amod	_	_	0:exp-Positive
+8	Gran	Gran	ADJ	_	_	2	nmod	_	_	10:targ
+9	Vía	Vía	PROPN	_	_	8	flat	_	_	10:targ
+10	madrileña	madrileño	ADJ	_	_	8	amod	_	_	7:targ
+11	,	,	PUNCT	_	_	8	punct	_	_	_
+12	con	con	ADP	_	_	13	case	_	_	_
+13	acceso	acceso	NOUN	_	_	2	nmod	_	_	15:exp-Positive
+14	a	a	ADP	_	_	13	advmod	_	_	15:exp-Positive
+15	pie	pie	NOUN	_	_	14	fixed	_	_	0:exp-Positive
+16	a	a	ADP	_	_	18	case	_	_	_
+17	los	el	DET	_	_	18	det	_	_	22:targ
+18	rincones	rincón	NOUN	_	_	13	nmod	_	_	22:targ
+19	más	más	ADV	_	_	20	advmod	_	_	22:targ
+20	pintorescos	pintoresco	ADJ	_	_	18	amod	_	_	22:targ
+21	de	de	ADP	_	_	22	case	_	_	22:targ
+22	Madrid	Madrid	PROPN	_	_	18	nmod	_	_	15:targ
+23	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-3
+# text = La habitación perfectamente insonorizada , con minibar gratuito ( 4 botellas de agua y 2 de Pepsi ) , televisión plana , minicadena , plancha y tabla de panchar , sobres de café y té con cápsulas de leche , etc ... El SPA recién acondicionado , muy completo y además , por ser cliente repetitivo , nos regalaron 2 entradas .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	habitación	habitación	NOUN	_	_	0	root	_	_	4:targ
+3	perfectamente	perfectamente	ADV	_	_	4	advmod	_	_	4:exp-Positive
+4	insonorizada	insonorizado	ADJ	_	_	2	amod	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	7	punct	_	_	_
+6	con	con	ADP	_	_	7	mark	_	_	_
+7	minibar	minibar	VERB	_	_	2	acl	_	_	8:targ
+8	gratuito	gratuito	ADJ	_	_	7	obj	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive|0:exp-Positive|0:exp-Positive|0:exp-Positive|0:exp-Positive
+9	(	(	PUNCT	_	_	11	punct	_	_	_
+10	4	4	NUM	_	_	11	nummod	_	_	_
+11	botellas	botella	NOUN	_	_	7	obj	_	_	_
+12	de	de	ADP	_	_	13	case	_	_	_
+13	agua	agua	NOUN	_	_	11	nmod	_	_	_
+14	y	y	CCONJ	_	_	15	cc	_	_	_
+15	2	2	NUM	_	_	11	conj	_	_	_
+16	de	de	ADP	_	_	17	case	_	_	_
+17	Pepsi	Pepsi	PROPN	_	_	15	nmod	_	_	_
+18	)	)	PUNCT	_	_	11	punct	_	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_	_
+20	televisión	televisión	NOUN	_	_	11	conj	_	_	21:targ
+21	plana	plano	ADJ	_	_	20	amod	_	_	8:targ
+22	,	,	PUNCT	_	_	23	punct	_	_	_
+23	minicadena	minicadena	NOUN	_	_	20	conj	_	_	8:targ
+24	,	,	PUNCT	_	_	25	punct	_	_	_
+25	plancha	plancha	NOUN	_	_	20	conj	_	_	8:targ
+26	y	y	CCONJ	_	_	27	cc	_	_	_
+27	tabla	tabla	NOUN	_	_	20	conj	_	_	29:targ
+28	de	de	ADP	_	_	29	mark	_	_	29:targ
+29	panchar	panchar	VERB	_	_	27	acl	_	_	8:targ
+30	,	,	PUNCT	_	_	31	punct	_	_	_
+31	sobres	sobre	NOUN	_	_	2	appos	_	_	35:targ
+32	de	de	ADP	_	_	33	case	_	_	35:targ
+33	café	café	NOUN	_	_	31	nmod	_	_	35:targ
+34	y	y	CCONJ	_	_	35	cc	_	_	35:targ
+35	té	té	NOUN	_	_	31	conj	_	_	8:targ
+36	con	con	ADP	_	_	37	case	_	_	_
+37	cápsulas	cápsula	NOUN	_	_	35	nmod	_	_	39:targ
+38	de	de	ADP	_	_	39	case	_	_	39:targ
+39	leche	leche	NOUN	_	_	37	nmod	_	_	8:targ
+40	,	,	PUNCT	_	_	44	punct	_	_	_
+41	etc	etcétera	PUNCT	_	_	7	punct	_	_	_
+42	...	...	PUNCT	_	_	44	punct	_	_	_
+43	El	el	DET	_	_	44	det	_	_	44:targ|44:targ
+44	SPA	SPA	PROPN	_	_	2	appos	_	_	49:targ|46:targ
+45	recién	recién	ADV	_	_	46	advmod	_	_	46:exp-Positive
+46	acondicionado	acondicionado	ADJ	_	_	44	amod	_	_	0:exp-Positive
+47	,	,	PUNCT	_	_	49	punct	_	_	_
+48	muy	mucho	ADV	_	_	49	advmod	_	_	49:exp-Positive
+49	completo	completo	ADJ	_	_	44	amod	_	_	0:exp-Positive
+50	y	y	CCONJ	_	_	59	cc	_	_	_
+51	además	además	ADV	_	_	59	advmod	_	_	_
+52	,	,	PUNCT	_	_	55	punct	_	_	_
+53	por	por	ADP	_	_	55	mark	_	_	_
+54	ser	ser	AUX	_	_	55	cop	_	_	_
+55	cliente	cliente	NOUN	_	_	59	advcl	_	_	_
+56	repetitivo	repetitivo	ADJ	_	_	55	amod	_	_	_
+57	,	,	PUNCT	_	_	55	punct	_	_	_
+58	nos	yo	PRON	_	_	59	obj	_	_	59:holder
+59	regalaron	regalar	VERB	_	_	44	acl	_	_	0:exp-Positive
+60	2	2	NUM	_	_	61	nummod	_	_	61:targ
+61	entradas	entrada	NOUN	_	_	59	obj	_	_	59:targ
+62	.	.	PUNCT	_	_	59	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-4
+# text = En recepción un detalle muy de agradecer son las dos jarras con zumos fresquitos .
+1	En	en	ADP	_	_	2	case	_	_	_
+2	recepción	recepción	NOUN	_	_	11	obl	_	_	_
+3	un	uno	DET	_	_	4	det	_	_	7:exp-Positive
+4	detalle	detalle	NOUN	_	_	11	nsubj	_	_	7:exp-Positive
+5	muy	mucho	ADV	_	_	4	advmod	_	_	7:exp-Positive
+6	de	de	ADP	_	_	7	mark	_	_	7:exp-Positive
+7	agradecer	agradecer	VERB	_	_	5	acl	_	_	0:exp-Positive
+8	son	ser	AUX	_	_	11	cop	_	_	_
+9	las	el	DET	_	_	11	det	_	_	_
+10	dos	dos	NUM	_	_	9	nummod	_	_	14:targ
+11	jarras	jarra	NOUN	_	_	0	root	_	_	14:targ
+12	con	con	ADP	_	_	13	case	_	_	14:targ
+13	zumos	zumo	NOUN	_	_	11	nmod	_	_	14:targ
+14	fresquitos	fresquito	ADJ	_	_	13	amod	_	_	7:targ
+15	.	.	PUNCT	_	_	11	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-5
+# text = Las vistas desde la azotea impresionantes , con dos jacuzzis .
+1	Las	el	DET	_	_	2	det	_	_	5:targ|5:targ
+2	vistas	vistas	NOUN	_	_	0	root	_	_	5:targ|5:targ
+3	desde	desde	ADP	_	_	5	case	_	_	5:targ|5:targ
+4	la	el	DET	_	_	5	det	_	_	5:targ|5:targ
+5	azotea	azotea	NOUN	_	_	2	nmod	_	_	10:targ|6:targ
+6	impresionantes	impresionante	ADJ	_	_	5	amod	_	_	0:exp-Positive
+7	,	,	PUNCT	_	_	10	punct	_	_	_
+8	con	con	ADP	_	_	10	case	_	_	10:exp-Positive
+9	dos	dos	NUM	_	_	10	nummod	_	_	10:exp-Positive
+10	jacuzzis	jacuzzis	NOUN	_	_	2	nmod	_	_	0:exp-Positive
+11	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-6
+# text = Se ve casi todo Madrid .
+1	Se	él	PRON	_	_	2	obj	_	_	_
+2	ve	ver	VERB	_	_	0	root	_	_	_
+3	casi	casi	ADV	_	_	5	advmod	_	_	_
+4	todo	todo	DET	_	_	5	det	_	_	_
+5	Madrid	Madrid	PROPN	_	_	2	nsubj	_	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00056_405a8a786911644d9280930d8d2e0423-7
+# text = Un hotel de ciudad acogedor y muy bien situado .
+1	Un	uno	DET	_	_	2	det	_	_	4:targ|4:targ
+2	hotel	hotel	NOUN	_	_	0	root	_	_	4:targ|4:targ
+3	de	de	ADP	_	_	4	case	_	_	4:targ|4:targ
+4	ciudad	ciudad	NOUN	_	_	2	nmod	_	_	5:targ|9:targ
+5	acogedor	acogedor	ADJ	_	_	4	amod	_	_	0:exp-Positive
+6	y	y	CCONJ	_	_	9	cc	_	_	_
+7	muy	mucho	ADV	_	_	8	advmod	_	_	9:exp-Positive
+8	bien	bien	ADV	_	_	9	advmod	_	_	9:exp-Positive
+9	situado	situado	ADJ	_	_	5	conj	_	_	0:exp-Positive
+10	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00048_37bc75d396644985603e9f23a32c34ac-1
+# text = Buen hotel
+1	Buen	buen	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	hotel	hotel	NOUN	_	_	0	root	_	_	1:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00048_37bc75d396644985603e9f23a32c34ac-2
+# text = El hotel esta alejado del centro pero al final es irrelevante porque afuera del mismo pasa la linea 22 que te lleva directo al centro .
+1	El	el	DET	_	_	2	det	_	_	_
+2	hotel	hotel	NOUN	_	_	4	nsubj	_	_	_
+3	esta	este	DET	_	_	4	det	_	_	_
+4	alejado	alejado	ADJ	_	_	0	root	_	_	0:exp-Negative
+5	del	del	ADP	_	_	6	case	_	_	_
+6	centro	centro	NOUN	_	_	4	obl	_	_	4:targ
+7	pero	pero	CCONJ	_	_	11	cc	_	_	_
+8	al	al	ADP	_	_	9	case	_	_	_
+9	final	final	NOUN	_	_	11	obl	_	_	_
+10	es	ser	AUX	_	_	11	cop	_	_	_
+11	irrelevante	irrelevante	ADJ	_	_	4	conj	_	_	_
+12	porque	porque	SCONJ	_	_	16	mark	_	_	_
+13	afuera	afuera	ADV	_	_	16	advmod	_	_	15:exp-Positive
+14	del	del	ADP	_	_	15	case	_	_	15:exp-Positive
+15	mismo	mismo	PRON	_	_	13	obl	_	_	0:exp-Positive
+16	pasa	pasar	VERB	_	_	11	advcl	_	_	_
+17	la	el	DET	_	_	18	det	_	_	19:targ|19:targ
+18	linea	linea	NOUN	_	_	16	nsubj	_	_	19:targ|19:targ
+19	22	22	NUM	_	_	18	appos	_	_	25:targ|15:targ
+20	que	que	PRON	_	_	22	nsubj	_	_	_
+21	te	tú	PRON	_	_	22	obj	_	_	_
+22	lleva	llevar	VERB	_	_	18	acl	_	_	_
+23	directo	directo	ADJ	_	_	22	obj	_	_	25:exp-Positive
+24	al	al	ADP	_	_	25	case	_	_	25:exp-Positive
+25	centro	centro	NOUN	_	_	22	obl	_	_	0:exp-Positive
+26	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00048_37bc75d396644985603e9f23a32c34ac-3
+# text = El desayuno es muy rico y variado , las instalaciones son amplias
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	desayuno	desayuno	NOUN	_	_	5	nsubj	_	_	7:targ|5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	rico	rico	ADJ	_	_	0	root	_	_	0:exp-Positive
+6	y	y	CCONJ	_	_	7	cc	_	_	_
+7	variado	variado	ADJ	_	_	5	conj	_	_	0:exp-Positive
+8	,	,	PUNCT	_	_	5	punct	_	_	_
+9	las	el	DET	_	_	10	det	_	_	10:targ
+10	instalaciones	instalación	NOUN	_	_	12	nsubj	_	_	12:targ
+11	son	ser	AUX	_	_	12	cop	_	_	_
+12	amplias	amplio	ADJ	_	_	5	advcl	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00055_3f62c258744d02d106b24c310d555907-1
+# text = Hotel normalito
+1	Hotel	Hotel	NOUN	_	_	0	root	_	_	2:targ
+2	normalito	normalito	ADJ	_	_	1	amod	_	_	0:exp-Negative
+
+# sent_id = ../opener/es/kaf/hotel/spanish00055_3f62c258744d02d106b24c310d555907-2
+# text = Es un edificio antiguo y necesita una renovación , las habitaciones bastante antiguas aunque limpias .
+1	Es	ser	AUX	_	_	3	cop	_	_	_
+2	un	uno	DET	_	_	3	det	_	_	_
+3	edificio	edificio	NOUN	_	_	0	root	_	_	4:targ
+4	antiguo	antiguo	ADJ	_	_	3	amod	_	_	0:exp-Negative
+5	y	y	CCONJ	_	_	6	cc	_	_	_
+6	necesita	necesitar	VERB	_	_	3	conj	_	_	0:exp-Negative
+7	una	uno	DET	_	_	8	det	_	_	8:targ
+8	renovación	renovación	NOUN	_	_	6	obj	_	_	6:targ
+9	,	,	PUNCT	_	_	11	punct	_	_	_
+10	las	el	DET	_	_	11	det	_	_	11:targ|11:targ
+11	habitaciones	habitación	NOUN	_	_	8	appos	_	_	13:targ|15:targ
+12	bastante	bastante	ADV	_	_	13	advmod	_	_	13:exp-Negative
+13	antiguas	antiguo	ADJ	_	_	11	amod	_	_	0:exp-Negative
+14	aunque	aunque	SCONJ	_	_	15	mark	_	_	_
+15	limpias	limpio	ADJ	_	_	13	amod	_	_	0:exp-Positive
+16	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00055_3f62c258744d02d106b24c310d555907-3
+# text = Ofrece desayuno tipo buffet .
+1	Ofrece	ofrecer	VERB	_	_	0	root	_	_	0:exp-Positive
+2	desayuno	desayuno	NOUN	_	_	1	obj	_	_	4:targ
+3	tipo	tipo	NOUN	_	_	1	obj	_	_	4:targ
+4	buffet	buffet	NOUN	_	_	3	nmod	_	_	1:targ
+5	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00055_3f62c258744d02d106b24c310d555907-4
+# text = Está situado a 15 minutos andando de la Piazza dei Miracoli .
+1	Está	estar	AUX	_	_	2	cop	_	_	_
+2	situado	situado	ADJ	_	_	0	root	_	_	6:exp-Positive
+3	a	a	ADP	_	_	5	case	_	_	6:exp-Positive
+4	15	15	NUM	_	_	5	nummod	_	_	6:exp-Positive
+5	minutos	minuto	NOUN	_	_	2	obl	_	_	6:exp-Positive
+6	andando	andar	VERB	_	_	2	advcl	_	_	0:exp-Positive
+7	de	de	ADP	_	_	9	case	_	_	_
+8	la	el	DET	_	_	9	det	_	_	11:targ
+9	Piazza	Piazza	PROPN	_	_	6	obl	_	_	11:targ
+10	dei	dei	PROPN	_	_	9	flat	_	_	11:targ
+11	Miracoli	Miracoli	PROPN	_	_	9	flat	_	_	6:targ
+12	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00055_3f62c258744d02d106b24c310d555907-5
+# text = Check · in 24h .
+1	Check	check	NOUN	_	_	0	root	_	_	3:targ
+2	·	·	PUNCT	_	_	4	punct	_	_	3:targ
+3	in	in	ADP	_	_	4	case	_	_	4:targ
+4	24h	24h	NOUN	_	_	1	nmod	_	_	0:exp-Positive
+5	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00080_77db05e28da746d0b5d9bfc948970967-1
+# text = La atención fue correcta y la habitación acojedora
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	atención	atención	NOUN	_	_	4	nsubj	_	_	4:targ
+3	fue	ser	AUX	_	_	4	cop	_	_	_
+4	correcta	correcto	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	y	y	CCONJ	_	_	7	cc	_	_	_
+6	la	el	DET	_	_	7	det	_	_	7:targ
+7	habitación	habitación	NOUN	_	_	4	conj	_	_	8:targ
+8	acojedora	acojedor	ADJ	_	_	7	amod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00080_77db05e28da746d0b5d9bfc948970967-2
+# text = Me ha gustado mucho este hotel por que esta muy bien situado cerca de muchas zonas de ocio y centros comerciales .
+1	Me	yo	PRON	_	_	3	obj	_	_	4:holder
+2	ha	haber	AUX	_	_	3	aux	_	_	_
+3	gustado	gustar	VERB	_	_	0	root	_	_	4:exp-Positive
+4	mucho	mucho	ADV	_	_	3	advmod	_	_	0:exp-Positive
+5	este	este	DET	_	_	6	det	_	_	6:targ
+6	hotel	hotel	NOUN	_	_	3	nsubj	_	_	4:targ
+7	por	por	ADP	_	_	12	mark	_	_	_
+8	que	que	SCONJ	_	_	12	mark	_	_	_
+9	esta	este	DET	_	_	12	det	_	_	_
+10	muy	mucho	ADV	_	_	11	advmod	_	_	13:exp-Positive|13:exp-Positive
+11	bien	bien	ADV	_	_	12	advmod	_	_	13:exp-Positive|13:exp-Positive
+12	situado	situado	ADJ	_	_	3	advcl	_	_	13:exp-Positive|13:exp-Positive
+13	cerca	cerca	ADV	_	_	12	advmod	_	_	0:exp-Positive|0:exp-Positive
+14	de	de	ADP	_	_	16	case	_	_	_
+15	muchas	mucho	DET	_	_	16	det	_	_	18:targ
+16	zonas	zona	NOUN	_	_	13	obl	_	_	18:targ
+17	de	de	ADP	_	_	18	case	_	_	18:targ
+18	ocio	ocio	NOUN	_	_	16	nmod	_	_	13:targ
+19	y	y	CCONJ	_	_	20	cc	_	_	_
+20	centros	centro	NOUN	_	_	18	conj	_	_	21:targ
+21	comerciales	comercial	ADJ	_	_	20	amod	_	_	13:targ
+22	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00080_77db05e28da746d0b5d9bfc948970967-3
+# text = La atencion ha sido de calidad y el restaurante del hotel sirven una comida muy rica .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	atencion	atencion	NOUN	_	_	6	nsubj	_	_	6:targ
+3	ha	haber	AUX	_	_	6	aux	_	_	_
+4	sido	ser	AUX	_	_	6	cop	_	_	_
+5	de	de	ADP	_	_	6	case	_	_	6:exp-Positive
+6	calidad	calidad	NOUN	_	_	0	root	_	_	0:exp-Positive
+7	y	y	CCONJ	_	_	12	cc	_	_	_
+8	el	el	DET	_	_	9	det	_	_	11:targ
+9	restaurante	restaurante	NOUN	_	_	12	nsubj	_	_	11:targ
+10	del	del	ADP	_	_	11	case	_	_	11:targ
+11	hotel	hotel	NOUN	_	_	9	nmod	_	_	16:targ
+12	sirven	servir	VERB	_	_	6	conj	_	_	16:exp-Positive
+13	una	uno	DET	_	_	14	det	_	_	16:exp-Positive
+14	comida	comida	NOUN	_	_	12	obj	_	_	16:exp-Positive
+15	muy	mucho	ADV	_	_	16	advmod	_	_	16:exp-Positive
+16	rica	rico	ADJ	_	_	14	amod	_	_	0:exp-Positive
+17	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-1
+# text = Ya tenemos hotel en Madrid
+1	Ya	ya	ADV	_	_	2	advmod	_	_	_
+2	tenemos	tener	VERB	_	_	0	root	_	_	_
+3	hotel	hotel	NOUN	_	_	2	obj	_	_	_
+4	en	en	ADP	_	_	5	case	_	_	_
+5	Madrid	Madrid	PROPN	_	_	2	obl	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-2
+# text = Un hotel con una situación privilegiada en pleno corazón de Madrid .
+1	Un	uno	DET	_	_	2	det	_	_	_
+2	hotel	hotel	NOUN	_	_	0	root	_	_	_
+3	con	con	ADP	_	_	5	case	_	_	_
+4	una	uno	DET	_	_	5	det	_	_	_
+5	situación	situación	NOUN	_	_	2	nmod	_	_	11:targ|6:targ
+6	privilegiada	privilegiado	ADJ	_	_	5	amod	_	_	0:exp-Positive
+7	en	en	ADP	_	_	9	case	_	_	11:exp-Positive
+8	pleno	pleno	ADJ	_	_	9	amod	_	_	11:exp-Positive
+9	corazón	corazón	NOUN	_	_	6	obl	_	_	11:exp-Positive
+10	de	de	ADP	_	_	11	case	_	_	11:exp-Positive
+11	Madrid	Madrid	PROPN	_	_	9	nmod	_	_	0:exp-Positive
+12	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-3
+# text = La habitación familiar es más que suficiente para dos adultos y dos niños ya que dispones de dos camas de 1'35 al igual que los hoteles de Playa que hemos visitado .
+1	La	el	DET	_	_	2	det	_	_	3:targ
+2	habitación	habitación	NOUN	_	_	7	nsubj	_	_	3:targ
+3	familiar	familiar	ADJ	_	_	2	amod	_	_	7:targ
+4	es	ser	AUX	_	_	7	cop	_	_	_
+5	más	más	ADV	_	_	7	advmod	_	_	7:exp-Positive
+6	que	que	SCONJ	_	_	5	fixed	_	_	7:exp-Positive
+7	suficiente	suficiente	ADJ	_	_	0	root	_	_	0:exp-Positive
+8	para	para	ADP	_	_	10	case	_	_	_
+9	dos	dos	NUM	_	_	10	nummod	_	_	_
+10	adultos	adulto	NOUN	_	_	7	nmod	_	_	_
+11	y	y	CCONJ	_	_	13	cc	_	_	_
+12	dos	dos	NUM	_	_	13	nummod	_	_	_
+13	niños	niño	NOUN	_	_	10	conj	_	_	_
+14	ya	ya	ADV	_	_	16	mark	_	_	_
+15	que	que	SCONJ	_	_	14	fixed	_	_	_
+16	dispones	disponer	VERB	_	_	7	advcl	_	_	0:exp-Positive
+17	de	de	ADP	_	_	19	case	_	_	_
+18	dos	dos	NUM	_	_	19	nummod	_	_	21:targ
+19	camas	cama	NOUN	_	_	16	obj	_	_	21:targ
+20	de	de	ADP	_	_	21	case	_	_	21:targ
+21	1'35	1.35	NUM	_	_	19	nummod	_	_	16:targ
+22	al	al	ADP	_	_	26	mark	_	_	_
+23	igual	igual	ADJ	_	_	22	fixed	_	_	_
+24	que	que	SCONJ	_	_	22	fixed	_	_	_
+25	los	el	DET	_	_	26	det	_	_	_
+26	hoteles	hotel	NOUN	_	_	16	obl	_	_	_
+27	de	de	ADP	_	_	28	case	_	_	_
+28	Playa	Playa	PROPN	_	_	26	nmod	_	_	_
+29	que	que	PRON	_	_	31	obj	_	_	_
+30	hemos	haber	AUX	_	_	31	aux	_	_	_
+31	visitado	visitar	VERB	_	_	26	acl	_	_	_
+32	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-4
+# text = El armario es grande y dispone de caja fuerte gratuita y plancha .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	armario	armario	NOUN	_	_	4	nsubj	_	_	4:targ
+3	es	ser	AUX	_	_	4	cop	_	_	_
+4	grande	grande	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	y	y	CCONJ	_	_	6	cc	_	_	_
+6	dispone	disponer	VERB	_	_	4	conj	_	_	0:exp-Positive|0:exp-Positive
+7	de	de	ADP	_	_	8	case	_	_	_
+8	caja	caja	NOUN	_	_	6	obj	_	_	10:targ
+9	fuerte	fuerte	ADJ	_	_	8	amod	_	_	10:targ
+10	gratuita	gratuito	ADJ	_	_	8	amod	_	_	6:targ
+11	y	y	CCONJ	_	_	12	cc	_	_	_
+12	plancha	plancho	ADJ	_	_	10	conj	_	_	6:targ
+13	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-5
+# text = La TV es grande y dispone de muchos canales .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	TV	TV	PROPN	_	_	4	nsubj	_	_	4:targ
+3	es	ser	AUX	_	_	4	cop	_	_	_
+4	grande	grande	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	y	y	CCONJ	_	_	6	cc	_	_	_
+6	dispone	disponer	VERB	_	_	4	conj	_	_	0:exp-Positive
+7	de	de	ADP	_	_	9	case	_	_	_
+8	muchos	mucho	DET	_	_	9	det	_	_	9:targ
+9	canales	canal	NOUN	_	_	6	obj	_	_	6:targ
+10	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-6
+# text = El baño es correcto .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	baño	baño	NOUN	_	_	4	nsubj	_	_	4:targ
+3	es	ser	AUX	_	_	4	cop	_	_	_
+4	correcto	correcto	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-7
+# text = Comentar que también hay un pequeño equipo de música y un sillón del tipo relax .
+1	Comentar	comentar	VERB	_	_	0	root	_	_	_
+2	que	que	SCONJ	_	_	4	mark	_	_	_
+3	también	también	ADV	_	_	4	advmod	_	_	_
+4	hay	haber	AUX	_	_	1	ccomp	_	_	0:exp-Positive|0:exp-Positive
+5	un	uno	DET	_	_	7	det	_	_	_
+6	pequeño	pequeño	ADJ	_	_	7	amod	_	_	0:exp-Negative|0:exp-Negative
+7	equipo	equipo	NOUN	_	_	4	obj	_	_	9:targ|9:targ
+8	de	de	ADP	_	_	9	case	_	_	9:targ|9:targ
+9	música	música	NOUN	_	_	7	nmod	_	_	4:targ|6:targ
+10	y	y	CCONJ	_	_	12	cc	_	_	_
+11	un	uno	DET	_	_	12	det	_	_	15:targ|15:targ
+12	sillón	sillón	NOUN	_	_	7	conj	_	_	15:targ|15:targ
+13	del	del	ADP	_	_	14	case	_	_	15:targ|15:targ
+14	tipo	tipo	NOUN	_	_	12	nmod	_	_	15:targ|15:targ
+15	relax	relax	ADJ	_	_	14	amod	_	_	4:targ|6:targ
+16	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-8
+# text = Lo que hay en el milibar es sin cargo y dispones de un hervidor de agua con diferentes cafés e infusiones .
+1	Lo	él	PRON	_	_	3	det	_	_	6:targ
+2	que	que	PRON	_	_	3	obj	_	_	6:targ
+3	hay	haber	AUX	_	_	7	csubj	_	_	6:targ
+4	en	en	ADP	_	_	6	case	_	_	6:targ
+5	el	el	DET	_	_	6	det	_	_	6:targ
+6	milibar	milibar	NOUN	_	_	3	obl	_	_	9:targ
+7	es	ser	AUX	_	_	9	cop	_	_	_
+8	sin	sin	ADP	_	_	9	case	_	_	9:exp-Positive
+9	cargo	cargo	NOUN	_	_	0	root	_	_	0:exp-Positive
+10	y	y	CCONJ	_	_	11	cc	_	_	_
+11	dispones	disponer	VERB	_	_	9	conj	_	_	12:exp-Positive
+12	de	de	ADP	_	_	14	case	_	_	0:exp-Positive
+13	un	uno	DET	_	_	14	det	_	_	16:targ
+14	hervidor	hervidor	NOUN	_	_	11	obj	_	_	16:targ
+15	de	de	ADP	_	_	16	case	_	_	16:targ
+16	agua	agua	NOUN	_	_	14	nmod	_	_	12:targ
+17	con	con	ADP	_	_	19	case	_	_	_
+18	diferentes	diferente	DET	_	_	19	det	_	_	_
+19	cafés	café	NOUN	_	_	14	nmod	_	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_	_
+21	infusiones	infusión	NOUN	_	_	19	conj	_	_	_
+22	.	.	PUNCT	_	_	9	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-9
+# text = El lugar del desayuno es pequeño pero no hubo ningún problema .
+1	El	el	DET	_	_	2	det	_	_	4:targ
+2	lugar	lugar	NOUN	_	_	6	nsubj	_	_	4:targ
+3	del	del	ADP	_	_	4	case	_	_	4:targ
+4	desayuno	desayuno	NOUN	_	_	2	nmod	_	_	6:targ
+5	es	ser	AUX	_	_	6	cop	_	_	_
+6	pequeño	pequeño	ADJ	_	_	0	root	_	_	0:exp-Negative
+7	pero	pero	CCONJ	_	_	9	cc	_	_	_
+8	no	no	ADV	_	_	9	advmod	_	_	9:exp-Positive
+9	hubo	haber	AUX	_	_	6	conj	_	_	0:exp-Positive
+10	ningún	ninguno	DET	_	_	11	det	_	_	11:targ
+11	problema	problema	NOUN	_	_	9	obj	_	_	9:targ
+12	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-10
+# text = La calidad del desayuno es muy buena .
+1	La	el	DET	_	_	2	det	_	_	4:targ
+2	calidad	calidad	NOUN	_	_	7	nsubj	_	_	4:targ
+3	del	del	ADP	_	_	4	case	_	_	4:targ
+4	desayuno	desayuno	NOUN	_	_	2	nmod	_	_	7:targ
+5	es	ser	AUX	_	_	7	cop	_	_	_
+6	muy	mucho	ADV	_	_	7	advmod	_	_	7:exp-Positive
+7	buena	buen	ADJ	_	_	0	root	_	_	0:exp-Positive
+8	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-11
+# text = El personal ha sido en todo momento muy amable .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	personal	personal	NOUN	_	_	9	nsubj	_	_	9:targ
+3	ha	haber	AUX	_	_	9	aux	_	_	_
+4	sido	ser	AUX	_	_	9	cop	_	_	_
+5	en	en	ADP	_	_	7	case	_	_	_
+6	todo	todo	DET	_	_	7	det	_	_	_
+7	momento	momento	NOUN	_	_	9	obl	_	_	_
+8	muy	mucho	ADV	_	_	9	advmod	_	_	9:exp-Positive
+9	amable	amable	ADJ	_	_	0	root	_	_	0:exp-Positive
+10	.	.	PUNCT	_	_	9	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-12
+# text = Lástima de no haber podido disfrutar del SPA por problemas de agenda .
+1	Lástima	lástima	NOUN	_	_	0	root	_	_	_
+2	de	de	ADP	_	_	6	mark	_	_	_
+3	no	no	ADV	_	_	6	advmod	_	_	_
+4	haber	haber	AUX	_	_	6	aux	_	_	_
+5	podido	poder	AUX	_	_	6	aux	_	_	_
+6	disfrutar	disfrutar	VERB	_	_	1	acl	_	_	_
+7	del	del	ADP	_	_	8	case	_	_	_
+8	SPA	SPA	PROPN	_	_	6	obj	_	_	_
+9	por	por	ADP	_	_	10	case	_	_	_
+10	problemas	problema	NOUN	_	_	6	obl	_	_	_
+11	de	de	ADP	_	_	12	case	_	_	_
+12	agenda	agenda	NOUN	_	_	10	nmod	_	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00165_baf1093cd67270088189d9cca4231690-13
+# text = La próxima vez quizás .
+1	La	el	DET	_	_	3	det	_	_	_
+2	próxima	próximo	ADJ	_	_	3	amod	_	_	_
+3	vez	vez	NOUN	_	_	0	root	_	_	_
+4	quizás	quizás	ADV	_	_	3	advmod	_	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-1
+# text = Perfecto Campamento base para visitar La Toscana
+1	Perfecto	perfecto	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	Campamento	Campamento	PROPN	_	_	0	root	_	_	3:targ
+3	base	base	NOUN	_	_	2	appos	_	_	1:targ
+4	para	para	ADP	_	_	5	mark	_	_	_
+5	visitar	visitar	VERB	_	_	2	acl	_	_	_
+6	La	el	DET	_	_	7	det	_	_	_
+7	Toscana	Toscana	PROPN	_	_	5	obj	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-2
+# text = Estuvimos 4 días por la Toscana y Borgo Grondaie , mi mujer y yo y salimos encantados de la estancia .
+1	Estuvimos	estar	VERB	_	_	0	root	_	_	_
+2	4	4	NUM	_	_	3	nummod	_	_	_
+3	días	día	NOUN	_	_	1	obl	_	_	_
+4	por	por	ADP	_	_	6	case	_	_	_
+5	la	el	DET	_	_	6	det	_	_	_
+6	Toscana	Toscana	PROPN	_	_	1	obl	_	_	_
+7	y	y	CCONJ	_	_	8	cc	_	_	_
+8	Borgo	Borgo	PROPN	_	_	6	conj	_	_	_
+9	Grondaie	Grondaie	PROPN	_	_	8	flat	_	_	_
+10	,	,	PUNCT	_	_	12	punct	_	_	_
+11	mi	mi	DET	_	_	12	det	_	_	_
+12	mujer	mujer	NOUN	_	_	8	appos	_	_	_
+13	y	y	CCONJ	_	_	14	cc	_	_	_
+14	yo	yo	PRON	_	_	12	conj	_	_	_
+15	y	y	CCONJ	_	_	16	cc	_	_	_
+16	salimos	salir	VERB	_	_	1	conj	_	_	_
+17	encantados	encantado	ADJ	_	_	16	obj	_	_	0:exp-Positive
+18	de	de	ADP	_	_	20	case	_	_	_
+19	la	el	DET	_	_	20	det	_	_	20:targ
+20	estancia	estancia	NOUN	_	_	17	obj	_	_	17:targ
+21	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-3
+# text = Tenía la ubicación perfecta .
+1	Tenía	tener	VERB	_	_	0	root	_	_	_
+2	la	el	DET	_	_	3	det	_	_	_
+3	ubicación	ubicación	NOUN	_	_	1	obj	_	_	4:targ
+4	perfecta	perfecto	ADJ	_	_	3	amod	_	_	0:exp-Positive
+5	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-4
+# text = Esta en las afueras de Siena pero sin estar lejos .
+1	Esta	este	PRON	_	_	0	root	_	_	_
+2	en	en	ADP	_	_	4	case	_	_	10:exp-Positive
+3	las	el	DET	_	_	4	det	_	_	10:exp-Positive
+4	afueras	afueras	NOUN	_	_	1	nmod	_	_	10:exp-Positive
+5	de	de	ADP	_	_	6	case	_	_	10:exp-Positive
+6	Siena	Siena	PROPN	_	_	4	nmod	_	_	10:exp-Positive
+7	pero	pero	CCONJ	_	_	10	cc	_	_	10:exp-Positive
+8	sin	sin	ADP	_	_	10	case	_	_	10:exp-Positive
+9	estar	estar	AUX	_	_	10	cop	_	_	10:exp-Positive
+10	lejos	lejos	ADV	_	_	4	conj	_	_	0:exp-Positive
+11	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-5
+# text = Las habitaciones eran perfectas , están repartidas en diferentes casas .
+1	Las	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	habitaciones	habitación	NOUN	_	_	4	nsubj	_	_	10:targ|4:targ
+3	eran	ser	AUX	_	_	4	cop	_	_	_
+4	perfectas	perfecto	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	7	punct	_	_	_
+6	están	estar	AUX	_	_	7	cop	_	_	_
+7	repartidas	repartido	ADJ	_	_	4	advcl	_	_	10:exp-Positive
+8	en	en	ADP	_	_	10	case	_	_	10:exp-Positive
+9	diferentes	diferente	DET	_	_	10	det	_	_	10:exp-Positive
+10	casas	casa	NOUN	_	_	7	obl	_	_	0:exp-Positive
+11	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-6
+# text = El desayuno estupendo , así coges fuerzas para los viajes .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	desayuno	desayuno	NOUN	_	_	6	nsubj	_	_	3:targ
+3	estupendo	estupendo	ADJ	_	_	2	amod	_	_	0:exp-Positive
+4	,	,	PUNCT	_	_	2	punct	_	_	_
+5	así	así	ADV	_	_	6	advmod	_	_	_
+6	coges	coger	VERB	_	_	0	root	_	_	_
+7	fuerzas	fuerza	NOUN	_	_	6	obj	_	_	_
+8	para	para	ADP	_	_	10	case	_	_	_
+9	los	el	DET	_	_	10	det	_	_	_
+10	viajes	viaje	NOUN	_	_	6	obl	_	_	_
+11	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-7
+# text = El trato ameno y cordial .
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	trato	trato	NOUN	_	_	0	root	_	_	5:targ|3:targ
+3	ameno	ameno	ADJ	_	_	2	amod	_	_	0:exp-Positive
+4	y	y	CCONJ	_	_	5	cc	_	_	_
+5	cordial	cordial	ADJ	_	_	3	conj	_	_	0:exp-Positive
+6	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-8
+# text = Tuvimos alguna necesidad de pillar entradas por internet y supermajos .
+1	Tuvimos	tener	VERB	_	_	0	root	_	_	_
+2	alguna	alguno	DET	_	_	3	det	_	_	_
+3	necesidad	necesidad	NOUN	_	_	1	obj	_	_	_
+4	de	de	ADP	_	_	5	mark	_	_	_
+5	pillar	pillar	VERB	_	_	3	acl	_	_	_
+6	entradas	entrada	NOUN	_	_	5	obj	_	_	_
+7	por	por	ADP	_	_	8	case	_	_	_
+8	internet	internet	NOUN	_	_	6	nmod	_	_	_
+9	y	y	CCONJ	_	_	10	cc	_	_	_
+10	supermajos	supermajo	NOUN	_	_	8	conj	_	_	_
+11	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-9
+# text = También nos recomendaron una pizzeria cercana tipica italiana que mamma mia que bueno estaba todo ...
+1	También	también	ADV	_	_	3	advmod	_	_	_
+2	nos	yo	PRON	_	_	3	obj	_	_	_
+3	recomendaron	recomendar	VERB	_	_	0	root	_	_	_
+4	una	uno	DET	_	_	5	det	_	_	_
+5	pizzeria	pizzeria	NOUN	_	_	3	obj	_	_	_
+6	cercana	cercano	ADJ	_	_	5	amod	_	_	_
+7	tipica	tipico	ADJ	_	_	5	amod	_	_	_
+8	italiana	italiano	ADJ	_	_	5	amod	_	_	_
+9	que	que	PRON	_	_	14	nsubj	_	_	_
+10	mamma	mamma	NOUN	_	_	14	nsubj	_	_	_
+11	mia	mia	NOUN	_	_	10	nmod	_	_	_
+12	que	que	PRON	_	_	14	nsubj	_	_	_
+13	bueno	buen	ADJ	_	_	11	amod	_	_	_
+14	estaba	estar	VERB	_	_	5	acl	_	_	_
+15	todo	todo	PRON	_	_	14	obj	_	_	_
+16	...	...	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-10
+# text = Y de Toscana ... mejor que lo veais ... y además delo bonito que es Florencia y Siena ... perderos por sus pueblos ..
+1	Y	y	CCONJ	_	_	8	advmod	_	_	_
+2	de	de	ADP	_	_	3	case	_	_	_
+3	Toscana	Toscana	PROPN	_	_	8	obl	_	_	7:targ
+4	...	...	PUNCT	_	_	5	punct	_	_	_
+5	mejor	mejor	ADJ	_	_	3	amod	_	_	7:exp-Positive|7:exp-Positive
+6	que	que	SCONJ	_	_	8	mark	_	_	7:exp-Positive|7:exp-Positive
+7	lo	él	PRON	_	_	8	obj	_	_	0:exp-Positive|0:exp-Positive
+8	veais	ver	VERB	_	_	0	root	_	_	_
+9	...	...	PUNCT	_	_	12	punct	_	_	_
+10	y	y	CCONJ	_	_	12	cc	_	_	_
+11	además	además	ADV	_	_	12	advmod	_	_	_
+12	delo	delar	VERB	_	_	8	conj	_	_	_
+13	bonito	bonito	ADJ	_	_	12	obj	_	_	0:exp-Positive|0:exp-Positive
+14	que	que	SCONJ	_	_	16	mark	_	_	_
+15	es	ser	AUX	_	_	16	cop	_	_	_
+16	Florencia	Florencia	PROPN	_	_	20	nsubj	_	_	13:targ
+17	y	y	CCONJ	_	_	18	cc	_	_	_
+18	Siena	Siena	PROPN	_	_	16	conj	_	_	13:targ
+19	...	...	PUNCT	_	_	20	punct	_	_	_
+20	perderos	perder	VERB	_	_	12	ccomp	_	_	_
+21	por	por	ADP	_	_	23	case	_	_	_
+22	sus	su	DET	_	_	23	det	_	_	_
+23	pueblos	pueblo	NOUN	_	_	20	obl	_	_	_
+24	..	..	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_35e460d9f4b2ac93b09d5d8437a0b143-11
+# text = También cerca hay algún supermercado y las salidas al valle del Chianti estan al lado del hotel .
+1	También	también	ADV	_	_	3	advmod	_	_	_
+2	cerca	cerca	ADV	_	_	3	advmod	_	_	_
+3	hay	haber	AUX	_	_	0	root	_	_	_
+4	algún	alguno	DET	_	_	5	det	_	_	_
+5	supermercado	supermercado	NOUN	_	_	3	obj	_	_	_
+6	y	y	CCONJ	_	_	8	cc	_	_	_
+7	las	el	DET	_	_	8	det	_	_	12:targ
+8	salidas	salida	NOUN	_	_	5	conj	_	_	12:targ
+9	al	al	ADP	_	_	10	case	_	_	12:targ
+10	valle	valle	NOUN	_	_	8	nmod	_	_	12:targ
+11	del	del	ADP	_	_	12	case	_	_	12:targ
+12	Chianti	Chianti	PROPN	_	_	10	nmod	_	_	17:targ
+13	estan	estar	VERB	_	_	3	conj	_	_	_
+14	al	al	ADP	_	_	17	case	_	_	17:exp-Positive
+15	lado	lado	NOUN	_	_	14	fixed	_	_	17:exp-Positive
+16	del	del	ADP	_	_	14	fixed	_	_	17:exp-Positive
+17	hotel	hotel	NOUN	_	_	13	obl	_	_	0:exp-Positive
+18	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_42345a0fc13354569f92c1f144a575df-1
+# text = Detalles que hacen que vuelvas
+1	Detalles	detalle	NOUN	_	_	0	root	_	_	5:targ
+2	que	que	PRON	_	_	3	nsubj	_	_	5:exp-Positive
+3	hacen	hacer	VERB	_	_	1	acl	_	_	5:exp-Positive
+4	que	que	SCONJ	_	_	5	mark	_	_	5:exp-Positive
+5	vuelvas	volver	VERB	_	_	3	ccomp	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_42345a0fc13354569f92c1f144a575df-2
+# text = VEl hotel tiene 168 habitaciones y 11 plantas , nosotros nos alojamos en esta última y con vistas a la Gran Vía , además las habitaciones están insonorizadas y no se escucha nada del exterior .
+1	VEl	VEl	PROPN	_	_	3	nsubj	_	_	_
+2	hotel	hotel	NOUN	_	_	1	appos	_	_	_
+3	tiene	tener	VERB	_	_	0	root	_	_	0:exp-Positive|0:exp-Positive
+4	168	168	NUM	_	_	5	nummod	_	_	5:targ
+5	habitaciones	habitación	NOUN	_	_	3	obj	_	_	3:targ
+6	y	y	CCONJ	_	_	8	cc	_	_	_
+7	11	11	NUM	_	_	8	nummod	_	_	8:targ
+8	plantas	planta	NOUN	_	_	5	conj	_	_	3:targ
+9	,	,	PUNCT	_	_	12	punct	_	_	_
+10	nosotros	yo	PRON	_	_	12	nsubj	_	_	11:holder
+11	nos	yo	PRON	_	_	12	obj	_	_	13:holder
+12	alojamos	alojar	VERB	_	_	3	advcl	_	_	13:exp-Positive
+13	en	en	ADP	_	_	15	case	_	_	0:exp-Positive
+14	esta	este	DET	_	_	15	det	_	_	15:targ
+15	última	último	ADJ	_	_	12	obl	_	_	13:targ
+16	y	y	CCONJ	_	_	21	cc	_	_	_
+17	con	con	ADP	_	_	21	case	_	_	0:exp-Positive
+18	vistas	vistas	NOUN	_	_	17	fixed	_	_	22:targ
+19	a	a	ADP	_	_	17	fixed	_	_	22:targ
+20	la	el	DET	_	_	21	det	_	_	22:targ
+21	Gran	Gran	ADJ	_	_	15	conj	_	_	22:targ
+22	Vía	Vía	PROPN	_	_	21	flat	_	_	17:targ
+23	,	,	PUNCT	_	_	28	punct	_	_	_
+24	además	además	ADV	_	_	28	advmod	_	_	_
+25	las	el	DET	_	_	26	det	_	_	26:targ
+26	habitaciones	habitación	NOUN	_	_	28	nsubj	_	_	28:targ
+27	están	estar	AUX	_	_	28	cop	_	_	28:exp-Positive
+28	insonorizadas	insonorizado	ADJ	_	_	3	advcl	_	_	0:exp-Positive
+29	y	y	CCONJ	_	_	32	cc	_	_	_
+30	no	no	ADV	_	_	32	advmod	_	_	32:exp-Positive
+31	se	él	PRON	_	_	32	obj	_	_	32:exp-Positive
+32	escucha	escuchar	VERB	_	_	28	conj	_	_	0:exp-Positive
+33	nada	nada	PRON	_	_	32	nsubj	_	_	35:targ
+34	del	del	ADP	_	_	35	case	_	_	35:targ
+35	exterior	exterior	NOUN	_	_	33	nmod	_	_	32:targ
+36	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_42345a0fc13354569f92c1f144a575df-3
+# text = La limpieza es excelente .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	limpieza	limpieza	NOUN	_	_	4	nsubj	_	_	4:targ
+3	es	ser	AUX	_	_	4	cop	_	_	_
+4	excelente	excelente	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00046_42345a0fc13354569f92c1f144a575df-4
+# text = El último día tuvimos incluido el desayuno y la verdad es que hay mucha variedad , etaba todo muy bueno y es tipo buffet .
+1	El	el	DET	_	_	3	det	_	_	_
+2	último	último	ADJ	_	_	3	amod	_	_	_
+3	día	día	NOUN	_	_	4	obl	_	_	_
+4	tuvimos	tener	VERB	_	_	0	root	_	_	_
+5	incluido	incluido	ADJ	_	_	4	obj	_	_	0:exp-Positive
+6	el	el	DET	_	_	7	det	_	_	7:targ|7:targ|7:targ|7:targ
+7	desayuno	desayuno	NOUN	_	_	4	obj	_	_	15:targ|24:targ|5:targ|20:targ
+8	y	y	CCONJ	_	_	11	cc	_	_	_
+9	la	el	DET	_	_	10	det	_	_	_
+10	verdad	verdad	NOUN	_	_	11	nsubj	_	_	_
+11	es	ser	AUX	_	_	4	conj	_	_	_
+12	que	que	SCONJ	_	_	13	mark	_	_	_
+13	hay	haber	AUX	_	_	11	ccomp	_	_	15:exp-Positive
+14	mucha	mucho	DET	_	_	15	det	_	_	15:exp-Positive
+15	variedad	variedad	NOUN	_	_	13	obj	_	_	0:exp-Positive
+16	,	,	PUNCT	_	_	17	punct	_	_	_
+17	etaba	etar	VERB	_	_	13	advcl	_	_	20:exp-Positive
+18	todo	todo	PRON	_	_	17	obj	_	_	20:exp-Positive
+19	muy	mucho	ADV	_	_	20	advmod	_	_	20:exp-Positive
+20	bueno	buen	ADJ	_	_	18	amod	_	_	0:exp-Positive
+21	y	y	CCONJ	_	_	23	cc	_	_	_
+22	es	ser	AUX	_	_	23	cop	_	_	_
+23	tipo	tipo	NOUN	_	_	13	conj	_	_	24:exp-Positive
+24	buffet	buffet	NOUN	_	_	23	nmod	_	_	0:exp-Positive
+25	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-1
+# text = Este hotel era la gran desilusión de nuestro viaje
+1	Este	este	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	6	nsubj	_	_	9:targ
+3	era	ser	AUX	_	_	6	cop	_	_	_
+4	la	el	DET	_	_	6	det	_	_	9:exp-Negative
+5	gran	gran	ADJ	_	_	6	amod	_	_	9:exp-Negative
+6	desilusión	desilusión	NOUN	_	_	0	root	_	_	9:exp-Negative
+7	de	de	ADP	_	_	9	case	_	_	9:exp-Negative
+8	nuestro	nuestro	DET	_	_	9	det	_	_	9:exp-Negative
+9	viaje	viaje	NOUN	_	_	6	nmod	_	_	0:exp-Negative
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-2
+# text = Viajamos en el mes de mayo con una temperatura nocturna entre 2 y 7 grados y aun siendo por dos días los unicos clientes del hotel se nos negó poner la calefacción .
+1	Viajamos	viajar	VERB	_	_	0	root	_	_	_
+2	en	en	ADP	_	_	4	case	_	_	_
+3	el	el	DET	_	_	4	det	_	_	_
+4	mes	mes	NOUN	_	_	1	obl	_	_	_
+5	de	de	ADP	_	_	6	case	_	_	_
+6	mayo	mayo	NOUN	_	_	4	compound	_	_	_
+7	con	con	ADP	_	_	9	case	_	_	_
+8	una	uno	DET	_	_	9	det	_	_	_
+9	temperatura	temperatura	NOUN	_	_	1	obl	_	_	_
+10	nocturna	nocturno	ADJ	_	_	9	amod	_	_	_
+11	entre	entre	ADP	_	_	15	case	_	_	_
+12	2	2	NUM	_	_	15	nummod	_	_	_
+13	y	y	CCONJ	_	_	14	cc	_	_	_
+14	7	7	NUM	_	_	12	conj	_	_	_
+15	grados	grado	NOUN	_	_	9	nmod	_	_	_
+16	y	y	CCONJ	_	_	29	cc	_	_	_
+17	aun	aun	ADV	_	_	29	advmod	_	_	_
+18	siendo	ser	AUX	_	_	24	cop	_	_	_
+19	por	por	ADP	_	_	21	case	_	_	_
+20	dos	dos	NUM	_	_	21	nummod	_	_	_
+21	días	día	NOUN	_	_	29	obl	_	_	_
+22	los	el	DET	_	_	24	det	_	_	_
+23	unicos	unico	ADJ	_	_	24	amod	_	_	_
+24	clientes	cliente	NOUN	_	_	29	nsubj	_	_	_
+25	del	del	ADP	_	_	26	case	_	_	_
+26	hotel	hotel	NOUN	_	_	24	nmod	_	_	_
+27	se	él	PRON	_	_	29	obj	_	_	_
+28	nos	yo	PRON	_	_	29	obj	_	_	29:holder
+29	negó	negar	VERB	_	_	1	conj	_	_	0:exp-Negative
+30	poner	poner	VERB	_	_	29	xcomp	_	_	_
+31	la	el	DET	_	_	32	det	_	_	32:targ
+32	calefacción	calefacción	NOUN	_	_	30	obj	_	_	29:targ
+33	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-3
+# text = Pasamos un frío enorme .
+1	Pasamos	pasar	VERB	_	_	0	root	_	_	_
+2	un	uno	DET	_	_	3	det	_	_	4:exp-Negative
+3	frío	frío	NOUN	_	_	1	obj	_	_	4:exp-Negative
+4	enorme	enorme	ADJ	_	_	3	amod	_	_	0:exp-Negative
+5	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-4
+# text = ; (
+1	;	;	PUNCT	_	_	0	root	_	_	_
+2	(	(	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-5
+# text = Habíamos alquilado una suite pensando pasarlo bién por la noche en el saloncito por lo menos , porque el hotel era más una pension que un hotel .
+1	Habíamos	haber	AUX	_	_	2	aux	_	_	_
+2	alquilado	alquilar	VERB	_	_	0	root	_	_	_
+3	una	uno	DET	_	_	4	det	_	_	_
+4	suite	suite	NOUN	_	_	2	obj	_	_	_
+5	pensando	pensar	VERB	_	_	2	advcl	_	_	_
+6	pasarlo	pasarlo	NOUN	_	_	5	obj	_	_	_
+7	bién	bién	ADV	_	_	5	advmod	_	_	_
+8	por	por	ADP	_	_	10	case	_	_	_
+9	la	el	DET	_	_	10	det	_	_	_
+10	noche	noche	NOUN	_	_	5	obl	_	_	_
+11	en	en	ADP	_	_	13	case	_	_	_
+12	el	el	DET	_	_	13	det	_	_	_
+13	saloncito	saloncito	NOUN	_	_	5	obl	_	_	_
+14	por	por	ADP	_	_	5	advmod	_	_	_
+15	lo	él	PRON	_	_	14	fixed	_	_	_
+16	menos	menos	ADV	_	_	14	fixed	_	_	_
+17	,	,	PUNCT	_	_	24	punct	_	_	_
+18	porque	porque	SCONJ	_	_	24	mark	_	_	_
+19	el	el	DET	_	_	20	det	_	_	20:targ
+20	hotel	hotel	NOUN	_	_	24	nsubj	_	_	27:targ
+21	era	ser	AUX	_	_	24	cop	_	_	_
+22	más	más	ADV	_	_	24	advmod	_	_	27:exp-Negative
+23	una	uno	DET	_	_	24	det	_	_	27:exp-Negative
+24	pension	pension	NOUN	_	_	2	advcl	_	_	27:exp-Negative
+25	que	que	SCONJ	_	_	27	mark	_	_	27:exp-Negative
+26	un	uno	DET	_	_	27	det	_	_	27:exp-Negative
+27	hotel	hotel	NOUN	_	_	24	nmod	_	_	0:exp-Negative
+28	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-6
+# text = No había ni un salon estar para los clientes , ni tampoco restaurantes o bares en los alrededores .
+1	No	no	ADV	_	_	2	advmod	_	_	2:exp-Negative
+2	había	haber	AUX	_	_	0	root	_	_	0:exp-Negative
+3	ni	ni	ADV	_	_	5	advmod	_	_	_
+4	un	uno	DET	_	_	5	det	_	_	_
+5	salon	salon	NOUN	_	_	2	obj	_	_	6:targ
+6	estar	estar	VERB	_	_	2	csubj	_	_	2:targ
+7	para	para	ADP	_	_	9	case	_	_	_
+8	los	el	DET	_	_	9	det	_	_	_
+9	clientes	cliente	NOUN	_	_	6	obl	_	_	_
+10	,	,	PUNCT	_	_	13	punct	_	_	_
+11	ni	ni	CCONJ	_	_	13	cc	_	_	0:exp-Negative|0:exp-Negative
+12	tampoco	tampoco	ADV	_	_	13	advmod	_	_	_
+13	restaurantes	restaurante	NOUN	_	_	6	conj	_	_	11:targ
+14	o	o	CCONJ	_	_	15	cc	_	_	_
+15	bares	bar	NOUN	_	_	13	conj	_	_	11:targ
+16	en	en	ADP	_	_	18	case	_	_	_
+17	los	el	DET	_	_	18	det	_	_	_
+18	alrededores	alrededor	NOUN	_	_	13	nmod	_	_	_
+19	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-7
+# text = Queríamos ver la final de " Let ' s dance " en la tele , pero esta parecía tener más años que el hotel y era diminuta y se veía fatal .
+1	Queríamos	querer	VERB	_	_	0	root	_	_	_
+2	ver	ver	VERB	_	_	1	xcomp	_	_	_
+3	la	el	DET	_	_	4	det	_	_	_
+4	final	final	NOUN	_	_	2	obj	_	_	_
+5	de	de	ADP	_	_	7	case	_	_	_
+6	"	"	PUNCT	_	_	7	punct	_	_	_
+7	Let	Let	PROPN	_	_	4	nmod	_	_	_
+8	'	'	SYM	_	_	7	nmod	_	_	_
+9	s	s	PROPN	_	_	7	flat	_	_	_
+10	dance	dance	NOUN	_	_	7	nmod	_	_	_
+11	"	"	PUNCT	_	_	7	punct	_	_	_
+12	en	en	ADP	_	_	14	case	_	_	_
+13	la	el	DET	_	_	14	det	_	_	14:targ|14:targ|14:targ
+14	tele	tele	NOUN	_	_	2	obl	_	_	31:targ|27:targ|24:targ
+15	,	,	PUNCT	_	_	18	punct	_	_	_
+16	pero	pero	CCONJ	_	_	18	cc	_	_	_
+17	esta	este	PRON	_	_	18	nsubj	_	_	_
+18	parecía	parecer	VERB	_	_	1	conj	_	_	24:exp-Negative
+19	tener	tener	VERB	_	_	18	xcomp	_	_	24:exp-Negative
+20	más	más	ADV	_	_	21	advmod	_	_	24:exp-Negative
+21	años	año	NOUN	_	_	19	obj	_	_	24:exp-Negative
+22	que	que	SCONJ	_	_	24	mark	_	_	24:exp-Negative
+23	el	el	DET	_	_	24	det	_	_	24:exp-Negative
+24	hotel	hotel	NOUN	_	_	21	nmod	_	_	0:exp-Negative
+25	y	y	CCONJ	_	_	27	cc	_	_	_
+26	era	ser	AUX	_	_	27	cop	_	_	_
+27	diminuta	diminuto	ADJ	_	_	19	conj	_	_	0:exp-Negative
+28	y	y	CCONJ	_	_	30	cc	_	_	_
+29	se	él	PRON	_	_	30	obj	_	_	31:exp-Negative
+30	veía	ver	VERB	_	_	27	conj	_	_	31:exp-Negative
+31	fatal	fatal	ADJ	_	_	30	obj	_	_	0:exp-Negative
+32	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00029_208cba694eee5067b767c89d6f40c08b-8
+# text = Menos mal que teníamos libros para leer .
+1	Menos	menos	ADV	_	_	4	advmod	_	_	_
+2	mal	mal	ADV	_	_	1	fixed	_	_	_
+3	que	que	SCONJ	_	_	4	mark	_	_	_
+4	teníamos	tener	VERB	_	_	0	root	_	_	_
+5	libros	libro	NOUN	_	_	4	obj	_	_	_
+6	para	para	ADP	_	_	7	mark	_	_	_
+7	leer	leer	VERB	_	_	5	acl	_	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00051_3b526f976f400b41f5e5f3bca40de53d-1
+# text = No estoy conforme completamente .
+1	No	no	ADV	_	_	3	advmod	_	_	3:exp-Negative
+2	estoy	estar	AUX	_	_	3	cop	_	_	3:exp-Negative
+3	conforme	conforme	ADJ	_	_	0	root	_	_	0:exp-Negative
+4	completamente	completamente	ADV	_	_	3	advmod	_	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00051_3b526f976f400b41f5e5f3bca40de53d-2
+# text = He pasado un fin de semana con mi familia en este hotel , y en general la opinión es buena , pero creo que hay algunos aspectos a mejorar .
+1	He	haber	AUX	_	_	2	aux	_	_	_
+2	pasado	pasar	VERB	_	_	0	root	_	_	_
+3	un	uno	DET	_	_	4	det	_	_	_
+4	fin	fin	NOUN	_	_	2	obl	_	_	_
+5	de	de	ADP	_	_	6	case	_	_	_
+6	semana	semana	NOUN	_	_	4	nmod	_	_	_
+7	con	con	ADP	_	_	9	case	_	_	_
+8	mi	mi	DET	_	_	9	det	_	_	_
+9	familia	familia	NOUN	_	_	2	obl	_	_	_
+10	en	en	ADP	_	_	12	case	_	_	_
+11	este	este	DET	_	_	12	det	_	_	_
+12	hotel	hotel	NOUN	_	_	2	obl	_	_	_
+13	,	,	PUNCT	_	_	20	punct	_	_	_
+14	y	y	CCONJ	_	_	20	cc	_	_	_
+15	en	en	ADP	_	_	20	advmod	_	_	_
+16	general	general	NOUN	_	_	15	fixed	_	_	_
+17	la	el	DET	_	_	18	det	_	_	18:targ
+18	opinión	opinión	NOUN	_	_	20	nsubj	_	_	20:targ
+19	es	ser	AUX	_	_	20	cop	_	_	_
+20	buena	buen	ADJ	_	_	2	conj	_	_	0:exp-Positive
+21	,	,	PUNCT	_	_	23	punct	_	_	_
+22	pero	pero	CCONJ	_	_	23	cc	_	_	_
+23	creo	creer	VERB	_	_	2	conj	_	_	_
+24	que	que	SCONJ	_	_	25	mark	_	_	_
+25	hay	haber	AUX	_	_	23	ccomp	_	_	_
+26	algunos	alguno	DET	_	_	27	det	_	_	27:targ
+27	aspectos	aspecto	NOUN	_	_	25	obj	_	_	29:targ
+28	a	a	ADP	_	_	29	mark	_	_	29:exp-Negative
+29	mejorar	mejorar	VERB	_	_	27	acl	_	_	0:exp-Negative
+30	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00051_3b526f976f400b41f5e5f3bca40de53d-3
+# text = El desayuno buffet es un poco escaso , pero no de cantidad sino de variedad , le faltan muchas cosas que creo que un hotel de esta categoría debería tener.Las habitaciones a niveles generales están bien exceptuando que son un poco pequeñas , aunque eso era algo que ya sabía , pero la colocación de la televisón respecto a la cama no es la más correcta , vi 3 habitaciones y en todas están colocadas respecto al pequeño sofa , creo que un sistema para poder moverla y que desde la cama se viera correctamente sería muy util .
+1	El	el	DET	_	_	2	det	_	_	3:targ
+2	desayuno	desayuno	NOUN	_	_	7	nsubj	_	_	3:targ
+3	buffet	buffet	NOUN	_	_	2	nmod	_	_	7:targ
+4	es	ser	AUX	_	_	7	cop	_	_	_
+5	un	uno	DET	_	_	7	advmod	_	_	7:exp-Negative
+6	poco	poco	ADV	_	_	5	fixed	_	_	7:exp-Negative
+7	escaso	escaso	ADJ	_	_	0	root	_	_	0:exp-Negative
+8	,	,	PUNCT	_	_	10	punct	_	_	_
+9	pero	pero	CCONJ	_	_	10	cc	_	_	_
+10	no	no	ADV	_	_	7	conj	_	_	_
+11	de	de	ADP	_	_	10	case	_	_	_
+12	cantidad	cantidad	NOUN	_	_	10	nmod	_	_	_
+13	sino	sino	CCONJ	_	_	15	cc	_	_	_
+14	de	de	ADP	_	_	15	case	_	_	_
+15	variedad	variedad	NOUN	_	_	12	conj	_	_	_
+16	,	,	PUNCT	_	_	10	punct	_	_	_
+17	le	él	PRON	_	_	18	obj	_	_	18:exp-Negative
+18	faltan	faltar	VERB	_	_	7	advcl	_	_	0:exp-Negative
+19	muchas	mucho	DET	_	_	20	det	_	_	20:targ
+20	cosas	cosa	NOUN	_	_	18	nsubj	_	_	18:targ
+21	que	que	PRON	_	_	22	nsubj	_	_	_
+22	creo	creer	VERB	_	_	20	acl	_	_	_
+23	que	que	SCONJ	_	_	37	mark	_	_	_
+24	un	uno	DET	_	_	25	det	_	_	_
+25	hotel	hotel	NOUN	_	_	37	nsubj	_	_	_
+26	de	de	ADP	_	_	28	case	_	_	_
+27	esta	este	DET	_	_	28	det	_	_	_
+28	categoría	categoría	NOUN	_	_	25	nmod	_	_	_
+29	debería	deber	AUX	_	_	30	aux	_	_	_
+30	tener.Las	tener.Las	PROPN	_	_	25	nmod	_	_	_
+31	habitaciones	habitación	NOUN	_	_	30	nsubj	_	_	36:targ|42:targ
+32	a	a	ADP	_	_	33	case	_	_	_
+33	niveles	nivel	NOUN	_	_	31	nmod	_	_	_
+34	generales	general	ADJ	_	_	33	amod	_	_	_
+35	están	estar	AUX	_	_	37	aux	_	_	_
+36	bien	bien	ADV	_	_	37	advmod	_	_	0:exp-Positive
+37	exceptuando	exceptuar	VERB	_	_	22	ccomp	_	_	_
+38	que	que	SCONJ	_	_	42	mark	_	_	_
+39	son	ser	AUX	_	_	42	cop	_	_	_
+40	un	uno	DET	_	_	42	advmod	_	_	42:exp-Negative
+41	poco	poco	ADV	_	_	40	fixed	_	_	42:exp-Negative
+42	pequeñas	pequeño	ADJ	_	_	37	ccomp	_	_	0:exp-Negative
+43	,	,	PUNCT	_	_	47	punct	_	_	_
+44	aunque	aunque	SCONJ	_	_	47	mark	_	_	_
+45	eso	ese	PRON	_	_	47	nsubj	_	_	_
+46	era	ser	AUX	_	_	47	cop	_	_	_
+47	algo	algo	PRON	_	_	37	advcl	_	_	_
+48	que	que	PRON	_	_	50	nsubj	_	_	_
+49	ya	ya	ADV	_	_	50	advmod	_	_	_
+50	sabía	saber	VERB	_	_	47	acl	_	_	_
+51	,	,	PUNCT	_	_	66	punct	_	_	_
+52	pero	pero	CCONJ	_	_	66	cc	_	_	_
+53	la	el	DET	_	_	54	det	_	_	57:targ
+54	colocación	colocación	NOUN	_	_	66	nsubj	_	_	57:targ
+55	de	de	ADP	_	_	57	case	_	_	57:targ
+56	la	el	DET	_	_	57	det	_	_	57:targ
+57	televisón	televisón	NOUN	_	_	54	nmod	_	_	66:targ
+58	respecto	respecto	NOUN	_	_	61	case	_	_	_
+59	a	a	ADP	_	_	58	fixed	_	_	_
+60	la	el	DET	_	_	61	det	_	_	_
+61	cama	cama	NOUN	_	_	54	nmod	_	_	_
+62	no	no	ADV	_	_	66	advmod	_	_	66:exp-Negative
+63	es	ser	AUX	_	_	66	cop	_	_	66:exp-Negative
+64	la	el	DET	_	_	66	det	_	_	66:exp-Negative
+65	más	más	ADV	_	_	66	advmod	_	_	66:exp-Negative
+66	correcta	correcto	ADJ	_	_	47	conj	_	_	0:exp-Negative
+67	,	,	PUNCT	_	_	68	punct	_	_	_
+68	vi	ver	VERB	_	_	66	advcl	_	_	_
+69	3	3	NUM	_	_	70	nummod	_	_	_
+70	habitaciones	habitación	NOUN	_	_	68	obj	_	_	_
+71	y	y	CCONJ	_	_	75	cc	_	_	_
+72	en	en	ADP	_	_	73	case	_	_	_
+73	todas	todo	PRON	_	_	75	obl	_	_	_
+74	están	estar	AUX	_	_	75	cop	_	_	_
+75	colocadas	colocado	ADJ	_	_	66	conj	_	_	_
+76	respecto	respecto	NOUN	_	_	79	case	_	_	_
+77	al	al	ADP	_	_	76	fixed	_	_	_
+78	pequeño	pequeño	ADJ	_	_	79	amod	_	_	_
+79	sofa	sofa	NOUN	_	_	75	obl	_	_	_
+80	,	,	PUNCT	_	_	81	punct	_	_	_
+81	creo	creer	VERB	_	_	66	advcl	_	_	_
+82	que	que	SCONJ	_	_	98	mark	_	_	_
+83	un	uno	DET	_	_	84	det	_	_	_
+84	sistema	sistema	NOUN	_	_	98	nsubj	_	_	_
+85	para	para	ADP	_	_	87	mark	_	_	_
+86	poder	poder	AUX	_	_	87	aux	_	_	_
+87	moverla	mover	VERB	_	_	84	acl	_	_	_
+88	y	y	CCONJ	_	_	94	cc	_	_	_
+89	que	que	SCONJ	_	_	94	mark	_	_	_
+90	desde	desde	ADP	_	_	92	case	_	_	_
+91	la	el	DET	_	_	92	det	_	_	_
+92	cama	cama	NOUN	_	_	94	obl	_	_	_
+93	se	él	PRON	_	_	94	obj	_	_	_
+94	viera	ver	VERB	_	_	98	advcl	_	_	_
+95	correctamente	correctamente	ADV	_	_	94	advmod	_	_	_
+96	sería	ser	AUX	_	_	98	cop	_	_	_
+97	muy	mucho	ADV	_	_	98	advmod	_	_	_
+98	util	util	ADJ	_	_	81	ccomp	_	_	_
+99	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00051_3b526f976f400b41f5e5f3bca40de53d-4
+# text = Lo mejor de este hotel es la ubicación .
+1	Lo	él	PRON	_	_	2	det	_	_	2:exp-Positive
+2	mejor	mejor	ADJ	_	_	8	nsubj	_	_	0:exp-Positive
+3	de	de	ADP	_	_	5	case	_	_	_
+4	este	este	DET	_	_	5	det	_	_	_
+5	hotel	hotel	NOUN	_	_	2	nmod	_	_	_
+6	es	ser	AUX	_	_	8	cop	_	_	_
+7	la	el	DET	_	_	8	det	_	_	8:targ
+8	ubicación	ubicación	NOUN	_	_	0	root	_	_	2:targ
+9	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00025_1a1d747fd8cc967b6f835e9f9b5e7b37-1
+# text = Elegancia .
+1	Elegancia	elegancia	NOUN	_	_	0	root	_	_	0:exp-Positive
+2	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00025_1a1d747fd8cc967b6f835e9f9b5e7b37-2
+# text = En el hotel , los trabajadores estan muy pendientes de ti e incluso son amables y simpaticos cuando hablas con ellos .
+1	En	en	ADP	_	_	3	case	_	_	_
+2	el	el	DET	_	_	3	det	_	_	_
+3	hotel	hotel	NOUN	_	_	9	obl	_	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_	_
+5	los	el	DET	_	_	6	det	_	_	6:targ|6:targ|6:targ
+6	trabajadores	trabajador	NOUN	_	_	9	nsubj	_	_	17:targ|9:targ|15:targ
+7	estan	estar	AUX	_	_	9	cop	_	_	_
+8	muy	mucho	ADV	_	_	9	advmod	_	_	9:exp-Positive
+9	pendientes	pendiente	ADJ	_	_	0	root	_	_	0:exp-Positive
+10	de	de	ADP	_	_	11	case	_	_	_
+11	ti	tú	PRON	_	_	9	nmod	_	_	_
+12	e	e	CCONJ	_	_	15	cc	_	_	_
+13	incluso	incluso	ADV	_	_	15	advmod	_	_	_
+14	son	ser	AUX	_	_	15	cop	_	_	_
+15	amables	amable	ADJ	_	_	9	conj	_	_	0:exp-Positive
+16	y	y	CCONJ	_	_	17	cc	_	_	_
+17	simpaticos	simpatico	ADJ	_	_	15	conj	_	_	0:exp-Positive
+18	cuando	cuando	SCONJ	_	_	19	mark	_	_	_
+19	hablas	hablar	VERB	_	_	15	advcl	_	_	_
+20	con	con	ADP	_	_	21	case	_	_	_
+21	ellos	él	PRON	_	_	19	obl	_	_	_
+22	.	.	PUNCT	_	_	9	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00025_1a1d747fd8cc967b6f835e9f9b5e7b37-3
+# text = Una de las cosas mas importantes de este hotel es su espectacular diseño , atractivo y encanto que tiene .
+1	Una	uno	PRON	_	_	13	nsubj	_	_	_
+2	de	de	ADP	_	_	4	case	_	_	_
+3	las	el	DET	_	_	4	det	_	_	_
+4	cosas	cosa	NOUN	_	_	1	nmod	_	_	_
+5	mas	mas	ADV	_	_	6	advmod	_	_	_
+6	importantes	importante	ADJ	_	_	4	amod	_	_	_
+7	de	de	ADP	_	_	9	case	_	_	_
+8	este	este	DET	_	_	9	det	_	_	_
+9	hotel	hotel	NOUN	_	_	4	nmod	_	_	_
+10	es	ser	AUX	_	_	13	cop	_	_	_
+11	su	su	DET	_	_	13	det	_	_	_
+12	espectacular	espectacular	ADJ	_	_	13	amod	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+13	diseño	diseño	NOUN	_	_	0	root	_	_	12:targ
+14	,	,	PUNCT	_	_	15	punct	_	_	_
+15	atractivo	atractivo	ADJ	_	_	13	amod	_	_	12:targ
+16	y	y	CCONJ	_	_	17	cc	_	_	_
+17	encanto	encanto	NOUN	_	_	15	conj	_	_	12:targ
+18	que	que	PRON	_	_	19	obj	_	_	_
+19	tiene	tener	VERB	_	_	13	acl	_	_	_
+20	.	.	PUNCT	_	_	13	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00025_1a1d747fd8cc967b6f835e9f9b5e7b37-4
+# text = En el interior se puede ver cada planta del hotel diseñada por un diseñador famoso , como son Zaha Hadid , Javier Mariscal , Victorio y Lucchino ... incluso los restaurantes o pubs son agradables .
+1	En	en	ADP	_	_	3	case	_	_	_
+2	el	el	DET	_	_	3	det	_	_	_
+3	interior	interior	NOUN	_	_	6	obl	_	_	_
+4	se	él	PRON	_	_	6	obj	_	_	_
+5	puede	poder	AUX	_	_	6	aux	_	_	_
+6	ver	ver	VERB	_	_	0	root	_	_	_
+7	cada	cada	DET	_	_	8	det	_	_	8:targ
+8	planta	planta	NOUN	_	_	6	nsubj	_	_	15:targ
+9	del	del	ADP	_	_	10	case	_	_	_
+10	hotel	hotel	NOUN	_	_	8	nmod	_	_	_
+11	diseñada	diseñado	ADJ	_	_	10	amod	_	_	15:exp-Positive
+12	por	por	ADP	_	_	14	case	_	_	15:exp-Positive
+13	un	uno	DET	_	_	14	det	_	_	15:exp-Positive
+14	diseñador	diseñador	NOUN	_	_	11	obj	_	_	15:exp-Positive
+15	famoso	famoso	ADJ	_	_	14	amod	_	_	0:exp-Positive
+16	,	,	PUNCT	_	_	19	punct	_	_	_
+17	como	como	SCONJ	_	_	19	mark	_	_	_
+18	son	ser	AUX	_	_	19	cop	_	_	_
+19	Zaha	Zaha	PROPN	_	_	35	nsubj	_	_	_
+20	Hadid	Hadid	PROPN	_	_	19	flat	_	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_	_
+22	Javier	Javier	PROPN	_	_	19	conj	_	_	_
+23	Mariscal	Mariscal	PROPN	_	_	22	flat	_	_	_
+24	,	,	PUNCT	_	_	25	punct	_	_	_
+25	Victorio	Victorio	PROPN	_	_	19	conj	_	_	_
+26	y	y	CCONJ	_	_	27	cc	_	_	_
+27	Lucchino	Lucchino	PROPN	_	_	19	conj	_	_	_
+28	...	...	PUNCT	_	_	19	punct	_	_	_
+29	incluso	incluso	ADV	_	_	31	advmod	_	_	_
+30	los	el	DET	_	_	31	det	_	_	31:targ
+31	restaurantes	restaurante	NOUN	_	_	35	nsubj	_	_	35:targ
+32	o	o	CCONJ	_	_	33	cc	_	_	_
+33	pubs	pubs	NOUN	_	_	31	conj	_	_	35:targ
+34	son	ser	AUX	_	_	35	cop	_	_	_
+35	agradables	agradable	ADJ	_	_	6	advcl	_	_	0:exp-Positive|0:exp-Positive
+36	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00025_1a1d747fd8cc967b6f835e9f9b5e7b37-5
+# text = Pero en su exterior tampoco podemos dejar de sorprendernos por su diseño , caracterizado por la terraza , la fachada del hotel , las espectaculares vistas que ofrece tanto desde habitaciones como desde los ascensores de cristal .
+1	Pero	pero	CCONJ	_	_	7	advmod	_	_	_
+2	en	en	ADP	_	_	4	case	_	_	_
+3	su	su	DET	_	_	4	det	_	_	_
+4	exterior	exterior	NOUN	_	_	7	obl	_	_	_
+5	tampoco	tampoco	ADV	_	_	7	advmod	_	_	_
+6	podemos	poder	AUX	_	_	7	aux	_	_	_
+7	dejar	dejar	VERB	_	_	0	root	_	_	_
+8	de	de	ADP	_	_	9	case	_	_	_
+9	sorprendernos	sorprenderno	NOUN	_	_	7	obj	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+10	por	por	ADP	_	_	12	case	_	_	_
+11	su	su	DET	_	_	12	det	_	_	12:targ
+12	diseño	diseño	NOUN	_	_	7	obl	_	_	9:targ
+13	,	,	PUNCT	_	_	14	punct	_	_	_
+14	caracterizado	caracterizar	ADJ	_	_	12	amod	_	_	_
+15	por	por	ADP	_	_	17	case	_	_	_
+16	la	el	DET	_	_	17	det	_	_	17:targ
+17	terraza	terraza	NOUN	_	_	14	obj	_	_	9:targ
+18	,	,	PUNCT	_	_	20	punct	_	_	_
+19	la	el	DET	_	_	20	det	_	_	20:targ
+20	fachada	fachada	NOUN	_	_	17	appos	_	_	9:targ
+21	del	del	ADP	_	_	22	case	_	_	_
+22	hotel	hotel	NOUN	_	_	20	nmod	_	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_	_
+24	las	el	DET	_	_	26	det	_	_	_
+25	espectaculares	espectacular	ADJ	_	_	26	amod	_	_	0:exp-Positive
+26	vistas	vistas	NOUN	_	_	17	appos	_	_	25:targ
+27	que	que	PRON	_	_	28	obj	_	_	_
+28	ofrece	ofrecer	VERB	_	_	26	acl	_	_	_
+29	tanto	tanto	ADV	_	_	31	cc	_	_	_
+30	desde	desde	ADP	_	_	31	case	_	_	_
+31	habitaciones	habitación	NOUN	_	_	28	obl	_	_	_
+32	como	como	SCONJ	_	_	35	cc	_	_	_
+33	desde	desde	ADP	_	_	35	case	_	_	_
+34	los	el	DET	_	_	35	det	_	_	_
+35	ascensores	ascensor	NOUN	_	_	31	conj	_	_	_
+36	de	de	ADP	_	_	37	case	_	_	_
+37	cristal	cristal	NOUN	_	_	35	nmod	_	_	_
+38	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00025_1a1d747fd8cc967b6f835e9f9b5e7b37-6
+# text = Y entre las vistas hay que destacar la pasarela de cristal que tiene en su ultima planta , desde la que puedes pasar y ver a unos metros de altura el suelo , y el paisaje .
+1	Y	y	CCONJ	_	_	7	advmod	_	_	_
+2	entre	entre	ADP	_	_	4	case	_	_	_
+3	las	el	DET	_	_	4	det	_	_	_
+4	vistas	vistas	NOUN	_	_	7	obl	_	_	_
+5	hay	haber	AUX	_	_	0	root	_	_	_
+6	que	que	SCONJ	_	_	7	cc	_	_	_
+7	destacar	destacar	VERB	_	_	5	conj	_	_	0:exp-Positive
+8	la	el	DET	_	_	9	det	_	_	17:targ
+9	pasarela	pasarela	NOUN	_	_	7	obj	_	_	17:targ
+10	de	de	ADP	_	_	11	case	_	_	17:targ
+11	cristal	cristal	NOUN	_	_	9	nmod	_	_	17:targ
+12	que	que	PRON	_	_	13	obj	_	_	17:targ
+13	tiene	tener	VERB	_	_	11	acl	_	_	17:targ
+14	en	en	ADP	_	_	17	case	_	_	17:targ
+15	su	su	DET	_	_	17	det	_	_	17:targ
+16	ultima	ultimo	ADJ	_	_	17	amod	_	_	17:targ
+17	planta	planta	NOUN	_	_	13	obl	_	_	7:targ
+18	,	,	PUNCT	_	_	23	punct	_	_	_
+19	desde	desde	ADP	_	_	21	case	_	_	_
+20	la	el	DET	_	_	21	det	_	_	_
+21	que	que	PRON	_	_	23	obl	_	_	_
+22	puedes	poder	AUX	_	_	23	aux	_	_	_
+23	pasar	pasar	VERB	_	_	17	acl	_	_	_
+24	y	y	CCONJ	_	_	25	cc	_	_	_
+25	ver	ver	VERB	_	_	23	conj	_	_	_
+26	a	a	ADP	_	_	28	case	_	_	_
+27	unos	uno	DET	_	_	28	det	_	_	_
+28	metros	metro	NOUN	_	_	25	obl	_	_	_
+29	de	de	ADP	_	_	30	case	_	_	_
+30	altura	altura	NOUN	_	_	28	nmod	_	_	_
+31	el	el	DET	_	_	32	det	_	_	_
+32	suelo	suelo	NOUN	_	_	28	appos	_	_	_
+33	,	,	PUNCT	_	_	36	punct	_	_	_
+34	y	y	CCONJ	_	_	36	cc	_	_	_
+35	el	el	DET	_	_	36	det	_	_	_
+36	paisaje	paisaje	NOUN	_	_	32	conj	_	_	_
+37	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-1
+# text = Un hotel de ensueño
+1	Un	uno	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	0	root	_	_	4:targ
+3	de	de	ADP	_	_	4	case	_	_	4:exp-Positive
+4	ensueño	ensueño	NOUN	_	_	2	nmod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-2
+# text = Situado en primera línea de una paradisiaca playa en la urbanización de Nusa Dua .
+1	Situado	situado	ADJ	_	_	0	root	_	_	8:exp-Positive
+2	en	en	ADP	_	_	4	case	_	_	8:exp-Positive
+3	primera	primero	ADJ	_	_	4	amod	_	_	8:exp-Positive
+4	línea	línea	NOUN	_	_	1	obl	_	_	8:exp-Positive
+5	de	de	ADP	_	_	8	case	_	_	8:exp-Positive
+6	una	uno	DET	_	_	8	det	_	_	8:exp-Positive
+7	paradisiaca	paradisiaco	ADJ	_	_	8	amod	_	_	8:exp-Positive
+8	playa	playa	NOUN	_	_	4	nmod	_	_	0:exp-Positive
+9	en	en	ADP	_	_	11	case	_	_	_
+10	la	el	DET	_	_	11	det	_	_	_
+11	urbanización	urbanización	NOUN	_	_	1	obl	_	_	_
+12	de	de	ADP	_	_	13	case	_	_	_
+13	Nusa	Nusa	PROPN	_	_	11	nmod	_	_	_
+14	Dua	Dua	PROPN	_	_	13	flat	_	_	_
+15	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-3
+# text = Se trata de un hotel de 5 estrellas que cuenta con todo tipo de facilidades para toda la familia .
+1	Se	él	PRON	_	_	2	expl:pass	_	_	_
+2	trata	tratar	VERB	_	_	0	root	_	_	_
+3	de	de	ADP	_	_	5	case	_	_	_
+4	un	uno	DET	_	_	5	det	_	_	5:targ
+5	hotel	hotel	NOUN	_	_	2	obj	_	_	8:targ
+6	de	de	ADP	_	_	8	case	_	_	_
+7	5	5	NUM	_	_	8	nummod	_	_	8:exp-Positive
+8	estrellas	estrella	NOUN	_	_	5	nmod	_	_	0:exp-Positive
+9	que	que	PRON	_	_	10	nsubj	_	_	_
+10	cuenta	contar	VERB	_	_	5	acl	_	_	11:exp-Positive
+11	con	con	ADP	_	_	13	case	_	_	0:exp-Positive
+12	todo	todo	DET	_	_	13	det	_	_	15:targ
+13	tipo	tipo	NOUN	_	_	10	obj	_	_	15:targ
+14	de	de	ADP	_	_	15	case	_	_	15:targ
+15	facilidades	facilidad	NOUN	_	_	13	nmod	_	_	11:targ
+16	para	para	ADP	_	_	19	case	_	_	_
+17	toda	todo	DET	_	_	18	det	_	_	_
+18	la	el	DET	_	_	19	det	_	_	_
+19	familia	familia	NOUN	_	_	15	nmod	_	_	_
+20	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-4
+# text = Me encantaron los restaurantes sobre todo el que se encuentra en primera línea de playa y en donde se puede comer a a base de tapas .
+1	Me	yo	PRON	_	_	2	obj	_	_	2:holder
+2	encantaron	encantar	VERB	_	_	0	root	_	_	0:exp-Positive
+3	los	el	DET	_	_	4	det	_	_	4:targ
+4	restaurantes	restaurante	NOUN	_	_	2	nsubj	_	_	2:targ
+5	sobre	sobre	ADP	_	_	10	mark	_	_	_
+6	todo	todo	DET	_	_	7	det	_	_	_
+7	el	el	DET	_	_	10	det	_	_	_
+8	que	que	PRON	_	_	10	nsubj	_	_	_
+9	se	él	PRON	_	_	10	obj	_	_	_
+10	encuentra	encontrar	VERB	_	_	4	acl	_	_	_
+11	en	en	ADP	_	_	13	case	_	_	_
+12	primera	primero	ADJ	_	_	13	amod	_	_	_
+13	línea	línea	NOUN	_	_	10	obl	_	_	_
+14	de	de	ADP	_	_	15	case	_	_	_
+15	playa	playa	NOUN	_	_	13	nmod	_	_	_
+16	y	y	CCONJ	_	_	21	cc	_	_	_
+17	en	en	ADP	_	_	18	case	_	_	_
+18	donde	donde	PRON	_	_	21	obl	_	_	_
+19	se	él	PRON	_	_	21	obj	_	_	_
+20	puede	poder	AUX	_	_	21	aux	_	_	_
+21	comer	comer	VERB	_	_	10	conj	_	_	_
+22	a	a	ADP	_	_	26	case	_	_	_
+23	a	a	ADP	_	_	22	fixed	_	_	_
+24	base	base	NOUN	_	_	22	fixed	_	_	_
+25	de	de	ADP	_	_	22	fixed	_	_	_
+26	tapas	tapa	NOUN	_	_	21	obl	_	_	_
+27	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-5
+# text = Es un hotel donde abundan mucho las parejas en viaje de novios aunque también suele haber bastantes familias con niños como fue nuestro caso .
+1	Es	ser	AUX	_	_	3	cop	_	_	_
+2	un	uno	DET	_	_	3	det	_	_	_
+3	hotel	hotel	NOUN	_	_	0	root	_	_	_
+4	donde	donde	PRON	_	_	5	obl	_	_	_
+5	abundan	abundar	VERB	_	_	3	acl	_	_	_
+6	mucho	mucho	ADV	_	_	5	advmod	_	_	_
+7	las	el	DET	_	_	8	det	_	_	_
+8	parejas	pareja	NOUN	_	_	5	nsubj	_	_	_
+9	en	en	ADP	_	_	10	case	_	_	_
+10	viaje	viaje	NOUN	_	_	5	obl	_	_	_
+11	de	de	ADP	_	_	12	case	_	_	_
+12	novios	novio	NOUN	_	_	10	nmod	_	_	_
+13	aunque	aunque	SCONJ	_	_	15	mark	_	_	_
+14	también	también	ADV	_	_	15	advmod	_	_	_
+15	suele	soler	VERB	_	_	5	advcl	_	_	_
+16	haber	haber	AUX	_	_	15	xcomp	_	_	_
+17	bastantes	bastante	DET	_	_	18	det	_	_	_
+18	familias	familia	NOUN	_	_	16	obj	_	_	_
+19	con	con	ADP	_	_	20	case	_	_	_
+20	niños	niño	NOUN	_	_	18	nmod	_	_	_
+21	como	como	SCONJ	_	_	24	mark	_	_	_
+22	fue	ser	AUX	_	_	24	cop	_	_	_
+23	nuestro	nuestro	DET	_	_	24	det	_	_	_
+24	caso	caso	NOUN	_	_	16	advcl	_	_	_
+25	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-6
+# text = Si vas en este plan el hotel ofrece diversas actividades de animacion tanto para adultos como para niños .
+1	Si	si	SCONJ	_	_	2	mark	_	_	_
+2	vas	ir	VERB	_	_	8	advcl	_	_	_
+3	en	en	ADP	_	_	5	case	_	_	_
+4	este	este	DET	_	_	5	det	_	_	_
+5	plan	plan	NOUN	_	_	2	obl	_	_	_
+6	el	el	DET	_	_	7	det	_	_	_
+7	hotel	hotel	NOUN	_	_	8	nsubj	_	_	_
+8	ofrece	ofrecer	VERB	_	_	0	root	_	_	0:exp-Positive
+9	diversas	diverso	DET	_	_	10	det	_	_	12:targ
+10	actividades	actividad	NOUN	_	_	8	obj	_	_	12:targ
+11	de	de	ADP	_	_	12	case	_	_	12:targ
+12	animacion	animacion	NOUN	_	_	10	nmod	_	_	8:targ
+13	tanto	tanto	ADV	_	_	15	cc	_	_	_
+14	para	para	ADP	_	_	15	case	_	_	_
+15	adultos	adulto	NOUN	_	_	10	nmod	_	_	_
+16	como	como	SCONJ	_	_	18	cc	_	_	_
+17	para	para	ADP	_	_	18	case	_	_	_
+18	niños	niño	NOUN	_	_	15	conj	_	_	_
+19	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00207_e949d1ad2ee0fa4c55d423cd114a42e3-7
+# text = Las habitaciones son amplias , luminosas y muy muy bien equipadas .
+1	Las	el	DET	_	_	2	det	_	_	2:targ|2:targ|2:targ
+2	habitaciones	habitación	NOUN	_	_	4	nsubj	_	_	4:targ|6:targ|11:targ
+3	son	ser	AUX	_	_	4	cop	_	_	_
+4	amplias	amplio	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	6	punct	_	_	_
+6	luminosas	luminoso	ADJ	_	_	4	amod	_	_	0:exp-Positive
+7	y	y	CCONJ	_	_	11	cc	_	_	_
+8	muy	mucho	ADV	_	_	10	advmod	_	_	11:exp-Positive
+9	muy	mucho	ADV	_	_	10	advmod	_	_	11:exp-Positive
+10	bien	bien	ADV	_	_	11	advmod	_	_	11:exp-Positive
+11	equipadas	equipado	ADJ	_	_	4	conj	_	_	0:exp-Positive
+12	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00178_f27a5b86c91b0c256ba36079d230a29a-1
+# text = Muy buenas vacaciones
+1	Muy	mucho	ADV	_	_	3	advmod	_	_	2:exp-Positive
+2	buenas	buen	ADJ	_	_	3	amod	_	_	0:exp-Positive
+3	vacaciones	vacaciones	NOUN	_	_	0	root	_	_	2:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00178_f27a5b86c91b0c256ba36079d230a29a-2
+# text = Nos sentimos muy bien atendidos , el hotel es cómodo para viajar en familia .
+1	Nos	yo	PRON	_	_	2	obj	_	_	4:holder
+2	sentimos	sentir	VERB	_	_	0	root	_	_	_
+3	muy	mucho	ADV	_	_	5	advmod	_	_	4:exp-Positive
+4	bien	bien	ADV	_	_	5	advmod	_	_	0:exp-Positive
+5	atendidos	atendido	ADJ	_	_	2	obj	_	_	4:targ
+6	,	,	PUNCT	_	_	2	punct	_	_	_
+7	el	el	DET	_	_	8	det	_	_	8:targ
+8	hotel	hotel	NOUN	_	_	10	nsubj	_	_	10:targ
+9	es	ser	AUX	_	_	10	cop	_	_	_
+10	cómodo	cómodo	ADJ	_	_	2	advcl	_	_	0:exp-Positive
+11	para	para	ADP	_	_	12	mark	_	_	_
+12	viajar	viajar	VERB	_	_	10	advcl	_	_	_
+13	en	en	ADP	_	_	14	case	_	_	_
+14	familia	familia	NOUN	_	_	12	obl	_	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00178_f27a5b86c91b0c256ba36079d230a29a-3
+# text = La distancia del hotel a la playa permite que se vaya caminando sino cuentan con opción de carritos para traslados .
+1	La	el	DET	_	_	2	det	_	_	7:targ
+2	distancia	distancia	NOUN	_	_	8	nsubj	_	_	7:targ
+3	del	del	ADP	_	_	4	case	_	_	7:targ
+4	hotel	hotel	NOUN	_	_	2	nmod	_	_	7:targ
+5	a	a	ADP	_	_	7	case	_	_	7:targ
+6	la	el	DET	_	_	7	det	_	_	7:targ
+7	playa	playa	NOUN	_	_	4	nmod	_	_	12:targ
+8	permite	permitir	VERB	_	_	0	root	_	_	12:exp-Positive
+9	que	que	SCONJ	_	_	11	mark	_	_	12:exp-Positive
+10	se	él	PRON	_	_	11	obj	_	_	12:exp-Positive
+11	vaya	ir	VERB	_	_	8	ccomp	_	_	12:exp-Positive
+12	caminando	caminar	VERB	_	_	11	xcomp	_	_	0:exp-Positive
+13	sino	sino	CCONJ	_	_	14	cc	_	_	_
+14	cuentan	contar	VERB	_	_	12	conj	_	_	0:exp-Positive
+15	con	con	ADP	_	_	16	case	_	_	_
+16	opción	opción	NOUN	_	_	14	obj	_	_	_
+17	de	de	ADP	_	_	18	case	_	_	_
+18	carritos	carrito	NOUN	_	_	16	nmod	_	_	20:targ
+19	para	para	ADP	_	_	20	case	_	_	20:targ
+20	traslados	traslado	NOUN	_	_	18	nmod	_	_	14:targ
+21	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00178_f27a5b86c91b0c256ba36079d230a29a-4
+# text = Los shows entretienen a la familia al final del día .
+1	Los	el	DET	_	_	2	det	_	_	2:targ
+2	shows	show	NOUN	_	_	3	nsubj	_	_	3:targ
+3	entretienen	entretener	VERB	_	_	0	root	_	_	0:exp-Positive
+4	a	a	ADP	_	_	6	case	_	_	_
+5	la	el	DET	_	_	6	det	_	_	_
+6	familia	familia	NOUN	_	_	3	obj	_	_	_
+7	al	al	ADP	_	_	8	case	_	_	_
+8	final	final	NOUN	_	_	3	obl	_	_	_
+9	del	del	ADP	_	_	10	case	_	_	_
+10	día	día	NOUN	_	_	8	nmod	_	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00178_f27a5b86c91b0c256ba36079d230a29a-5
+# text = Algo a observar es que el hotel debería contar con personal que organicen el uso de las reposeras sino la gente reserva con sus toallas los lugares y no permiten que alguien las utilicé en los momentos libres .
+1	Algo	algo	PRON	_	_	4	nsubj	_	_	_
+2	a	a	ADP	_	_	3	mark	_	_	_
+3	observar	observar	VERB	_	_	1	acl	_	_	_
+4	es	ser	AUX	_	_	0	root	_	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_	_
+6	el	el	DET	_	_	7	det	_	_	_
+7	hotel	hotel	NOUN	_	_	9	nsubj	_	_	_
+8	debería	deber	AUX	_	_	9	aux	_	_	9:exp-Negative
+9	contar	contar	VERB	_	_	4	ccomp	_	_	0:exp-Negative
+10	con	con	ADP	_	_	11	case	_	_	18:targ
+11	personal	personal	NOUN	_	_	9	obl	_	_	18:targ
+12	que	que	SCONJ	_	_	13	mark	_	_	18:targ
+13	organicen	organizar	VERB	_	_	9	ccomp	_	_	18:targ
+14	el	el	DET	_	_	15	det	_	_	18:targ
+15	uso	uso	NOUN	_	_	13	obj	_	_	18:targ
+16	de	de	ADP	_	_	18	case	_	_	18:targ
+17	las	el	DET	_	_	18	det	_	_	18:targ
+18	reposeras	reposera	NOUN	_	_	15	nmod	_	_	9:targ
+19	sino	sino	CCONJ	_	_	22	cc	_	_	_
+20	la	el	DET	_	_	21	det	_	_	_
+21	gente	gente	NOUN	_	_	22	nsubj	_	_	_
+22	reserva	reservar	VERB	_	_	9	conj	_	_	_
+23	con	con	ADP	_	_	25	case	_	_	_
+24	sus	su	DET	_	_	25	det	_	_	_
+25	toallas	toalla	NOUN	_	_	22	obl	_	_	_
+26	los	el	DET	_	_	27	det	_	_	_
+27	lugares	lugar	NOUN	_	_	22	obj	_	_	_
+28	y	y	CCONJ	_	_	30	cc	_	_	_
+29	no	no	ADV	_	_	30	advmod	_	_	_
+30	permiten	permitir	VERB	_	_	22	conj	_	_	_
+31	que	que	SCONJ	_	_	34	mark	_	_	_
+32	alguien	alguien	PRON	_	_	34	nsubj	_	_	_
+33	las	él	PRON	_	_	34	obj	_	_	_
+34	utilicé	utilizar	VERB	_	_	30	ccomp	_	_	_
+35	en	en	ADP	_	_	37	case	_	_	_
+36	los	el	DET	_	_	37	det	_	_	_
+37	momentos	momento	NOUN	_	_	34	obl	_	_	_
+38	libres	libre	ADJ	_	_	37	amod	_	_	_
+39	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00178_f27a5b86c91b0c256ba36079d230a29a-6
+# text = Lo mismo con las sombrillas en la playa .
+1	Lo	él	PRON	_	_	2	det	_	_	2:exp-Negative
+2	mismo	mismo	ADJ	_	_	0	root	_	_	0:exp-Negative
+3	con	con	ADP	_	_	5	case	_	_	_
+4	las	el	DET	_	_	5	det	_	_	8:targ
+5	sombrillas	sombrilla	NOUN	_	_	2	nmod	_	_	8:targ
+6	en	en	ADP	_	_	8	case	_	_	8:targ
+7	la	el	DET	_	_	8	det	_	_	8:targ
+8	playa	playa	NOUN	_	_	5	nmod	_	_	2:targ
+9	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00135_a1a0a5a9162ea6806e7b2aa61845b53b-1
+# text = Una buena combinación
+1	Una	uno	DET	_	_	3	det	_	_	_
+2	buena	buen	ADJ	_	_	3	amod	_	_	0:exp-Positive
+3	combinación	combinación	NOUN	_	_	0	root	_	_	2:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00135_a1a0a5a9162ea6806e7b2aa61845b53b-2
+# text = La infraestructura es muy buena , cuenta con todas las comodidades para quienes viajan con niños , la pileta es grande y muy limpia , las habitaciones muy completas y cómodas , y la playa nos encantó , si bien el mar es picado , es amplia con mucha arena y el sector sombrillas muy confortable .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	infraestructura	infraestructura	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	buena	buen	ADJ	_	_	0	root	_	_	0:exp-Positive
+6	,	,	PUNCT	_	_	7	punct	_	_	_
+7	cuenta	contar	VERB	_	_	5	advcl	_	_	8:exp-Positive
+8	con	con	ADP	_	_	11	case	_	_	0:exp-Positive
+9	todas	todo	DET	_	_	10	det	_	_	16:targ
+10	las	el	DET	_	_	11	det	_	_	16:targ
+11	comodidades	comodidad	NOUN	_	_	7	obj	_	_	16:targ
+12	para	para	ADP	_	_	14	mark	_	_	16:targ
+13	quienes	quien	PRON	_	_	14	nsubj	_	_	16:targ
+14	viajan	viajar	VERB	_	_	11	acl	_	_	16:targ
+15	con	con	ADP	_	_	16	case	_	_	16:targ
+16	niños	niño	NOUN	_	_	14	obl	_	_	8:targ
+17	,	,	PUNCT	_	_	21	punct	_	_	_
+18	la	el	DET	_	_	19	det	_	_	19:targ|19:targ
+19	pileta	pileta	NOUN	_	_	21	nsubj	_	_	21:targ|24:targ
+20	es	ser	AUX	_	_	21	cop	_	_	_
+21	grande	grande	ADJ	_	_	5	advcl	_	_	0:exp-Positive
+22	y	y	CCONJ	_	_	24	cc	_	_	_
+23	muy	mucho	ADV	_	_	24	advmod	_	_	24:exp-Positive
+24	limpia	limpio	ADJ	_	_	21	conj	_	_	0:exp-Positive
+25	,	,	PUNCT	_	_	27	punct	_	_	_
+26	las	el	DET	_	_	27	det	_	_	27:targ|27:targ
+27	habitaciones	habitación	NOUN	_	_	21	obj	_	_	31:targ|29:targ
+28	muy	mucho	ADV	_	_	29	advmod	_	_	29:exp-Positive
+29	completas	completo	ADJ	_	_	27	amod	_	_	0:exp-Positive
+30	y	y	CCONJ	_	_	31	cc	_	_	_
+31	cómodas	cómodo	ADJ	_	_	29	conj	_	_	0:exp-Positive
+32	,	,	PUNCT	_	_	37	punct	_	_	_
+33	y	y	CCONJ	_	_	37	cc	_	_	_
+34	la	el	DET	_	_	35	det	_	_	35:targ|35:targ|35:targ
+35	playa	playa	NOUN	_	_	37	nsubj	_	_	47:targ|37:targ|50:targ
+36	nos	yo	PRON	_	_	37	obj	_	_	47:holder|37:holder|50:holder
+37	encantó	encantar	VERB	_	_	5	conj	_	_	0:exp-Positive
+38	,	,	PUNCT	_	_	47	punct	_	_	_
+39	si	si	SCONJ	_	_	44	mark	_	_	_
+40	bien	bien	ADV	_	_	39	fixed	_	_	_
+41	el	el	DET	_	_	42	det	_	_	42:targ
+42	mar	mar	NOUN	_	_	44	nsubj	_	_	44:targ
+43	es	ser	AUX	_	_	44	aux	_	_	_
+44	picado	picado	VERB	_	_	47	advcl	_	_	0:exp-Negative
+45	,	,	PUNCT	_	_	44	punct	_	_	_
+46	es	ser	AUX	_	_	47	cop	_	_	_
+47	amplia	amplio	ADJ	_	_	37	advcl	_	_	0:exp-Positive
+48	con	con	ADP	_	_	50	case	_	_	50:exp-Positive
+49	mucha	mucho	DET	_	_	50	det	_	_	50:exp-Positive
+50	arena	arena	NOUN	_	_	47	nmod	_	_	0:exp-Positive
+51	y	y	CCONJ	_	_	53	cc	_	_	_
+52	el	el	DET	_	_	53	det	_	_	54:targ
+53	sector	sector	NOUN	_	_	50	conj	_	_	54:targ
+54	sombrillas	sombrilla	NOUN	_	_	50	appos	_	_	56:targ
+55	muy	mucho	ADV	_	_	56	advmod	_	_	56:exp-Positive
+56	confortable	confortable	ADJ	_	_	54	amod	_	_	0:exp-Positive
+57	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00135_a1a0a5a9162ea6806e7b2aa61845b53b-3
+# text = La comida es bastante básica , los restaurants temáticos no son lo que uno imagina , son muy estructurados respecto a las mesas y no entienden el idioma , lo cual suele ser algo molesto .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	comida	comida	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	bastante	bastante	ADV	_	_	5	advmod	_	_	5:exp-Negative
+5	básica	básico	ADJ	_	_	0	root	_	_	0:exp-Negative
+6	,	,	PUNCT	_	_	11	punct	_	_	_
+7	los	el	DET	_	_	8	det	_	_	9:targ|9:targ
+8	restaurants	restaurant	NOUN	_	_	11	nsubj	_	_	9:targ|9:targ
+9	temáticos	temático	ADJ	_	_	8	amod	_	_	19:targ|15:targ
+10	no	no	ADV	_	_	11	advmod	_	_	15:exp-Negative
+11	son	ser	AUX	_	_	5	advcl	_	_	15:exp-Negative
+12	lo	él	PRON	_	_	15	det	_	_	15:exp-Negative
+13	que	que	PRON	_	_	15	obj	_	_	15:exp-Negative
+14	uno	uno	PRON	_	_	15	nsubj	_	_	15:exp-Negative
+15	imagina	imaginar	VERB	_	_	11	ccomp	_	_	0:exp-Negative
+16	,	,	PUNCT	_	_	19	punct	_	_	_
+17	son	ser	AUX	_	_	19	cop	_	_	_
+18	muy	mucho	ADV	_	_	19	advmod	_	_	19:exp-Negative
+19	estructurados	estructurado	ADJ	_	_	11	advcl	_	_	0:exp-Negative
+20	respecto	respecto	NOUN	_	_	23	case	_	_	_
+21	a	a	ADP	_	_	20	fixed	_	_	_
+22	las	el	DET	_	_	23	det	_	_	_
+23	mesas	mesa	NOUN	_	_	19	obl	_	_	_
+24	y	y	CCONJ	_	_	26	cc	_	_	_
+25	no	no	ADV	_	_	26	advmod	_	_	26:exp-Negative
+26	entienden	entender	VERB	_	_	19	conj	_	_	0:exp-Negative
+27	el	el	DET	_	_	28	det	_	_	28:targ
+28	idioma	idioma	NOUN	_	_	26	obj	_	_	26:targ
+29	,	,	PUNCT	_	_	32	punct	_	_	_
+30	lo	él	PRON	_	_	32	det	_	_	_
+31	cual	cual	PRON	_	_	32	nsubj	_	_	_
+32	suele	soler	VERB	_	_	26	advcl	_	_	_
+33	ser	ser	AUX	_	_	34	cop	_	_	_
+34	algo	algo	PRON	_	_	32	xcomp	_	_	_
+35	molesto	molesto	ADJ	_	_	34	amod	_	_	_
+36	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00135_a1a0a5a9162ea6806e7b2aa61845b53b-4
+# text = Es apto para bebes , ya que cuenta con un cuarto con todos los servicios que se pueden necesitar .
+1	Es	ser	AUX	_	_	2	cop	_	_	_
+2	apto	apto	ADJ	_	_	0	root	_	_	4:exp-Positive
+3	para	para	ADP	_	_	4	case	_	_	4:exp-Positive
+4	bebes	bebe	NOUN	_	_	2	nmod	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	8	punct	_	_	_
+6	ya	ya	ADV	_	_	8	mark	_	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_	_
+8	cuenta	contar	VERB	_	_	2	advcl	_	_	9:exp-Positive
+9	con	con	ADP	_	_	11	case	_	_	0:exp-Positive
+10	un	uno	DET	_	_	11	det	_	_	15:targ|15:targ
+11	cuarto	cuarto	NOUN	_	_	8	obj	_	_	15:targ|15:targ
+12	con	con	ADP	_	_	15	case	_	_	15:targ|15:targ
+13	todos	todo	DET	_	_	14	det	_	_	15:targ|15:targ
+14	los	el	DET	_	_	15	det	_	_	15:targ|15:targ
+15	servicios	servicio	NOUN	_	_	11	nmod	_	_	4:targ|9:targ
+16	que	que	PRON	_	_	19	nsubj	_	_	_
+17	se	él	PRON	_	_	19	obj	_	_	_
+18	pueden	poder	AUX	_	_	19	aux	_	_	_
+19	necesitar	necesitar	VERB	_	_	15	acl	_	_	_
+20	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00135_a1a0a5a9162ea6806e7b2aa61845b53b-5
+# text = Te brindan toallas en ambos sectores , pileta y playa .
+1	Te	tú	PRON	_	_	2	obj	_	_	_
+2	brindan	brindar	VERB	_	_	0	root	_	_	0:exp-Positive
+3	toallas	toalla	NOUN	_	_	2	nsubj	_	_	2:targ
+4	en	en	ADP	_	_	6	case	_	_	_
+5	ambos	ambos	NUM	_	_	6	nummod	_	_	_
+6	sectores	sector	NOUN	_	_	2	obl	_	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_	_
+8	pileta	pileta	NOUN	_	_	6	conj	_	_	_
+9	y	y	CCONJ	_	_	10	cc	_	_	_
+10	playa	playa	NOUN	_	_	6	conj	_	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00135_a1a0a5a9162ea6806e7b2aa61845b53b-6
+# text = Es un buen hotel para ir en familia con actividades permanentes y un buen sector para niños , con kínder y juegos muy entretenidos .
+1	Es	ser	AUX	_	_	4	cop	_	_	_
+2	un	uno	DET	_	_	4	det	_	_	_
+3	buen	buen	ADJ	_	_	4	amod	_	_	0:exp-Positive
+4	hotel	hotel	NOUN	_	_	0	root	_	_	3:targ
+5	para	para	ADP	_	_	6	mark	_	_	_
+6	ir	ir	VERB	_	_	4	acl	_	_	_
+7	en	en	ADP	_	_	8	case	_	_	_
+8	familia	familia	NOUN	_	_	6	obl	_	_	_
+9	con	con	ADP	_	_	10	case	_	_	_
+10	actividades	actividad	NOUN	_	_	6	obl	_	_	11:targ
+11	permanentes	permanente	ADJ	_	_	10	amod	_	_	0:exp-Positive
+12	y	y	CCONJ	_	_	15	cc	_	_	_
+13	un	uno	DET	_	_	15	det	_	_	_
+14	buen	buen	ADJ	_	_	15	amod	_	_	0:exp-Positive
+15	sector	sector	NOUN	_	_	10	conj	_	_	17:targ|17:targ
+16	para	para	ADP	_	_	17	case	_	_	17:targ|17:targ
+17	niños	niño	NOUN	_	_	15	nmod	_	_	14:targ|20:targ
+18	,	,	PUNCT	_	_	20	punct	_	_	_
+19	con	con	ADP	_	_	20	case	_	_	20:exp-Positive
+20	kínder	kínder	NOUN	_	_	15	nmod	_	_	0:exp-Positive
+21	y	y	CCONJ	_	_	22	cc	_	_	_
+22	juegos	juego	NOUN	_	_	20	conj	_	_	24:targ
+23	muy	mucho	ADV	_	_	24	advmod	_	_	24:exp-Positive
+24	entretenidos	entretenido	ADJ	_	_	20	amod	_	_	0:exp-Positive
+25	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-1
+# text = En familia Senator Gran Via
+1	En	en	ADP	_	_	2	case	_	_	_
+2	familia	familia	NOUN	_	_	0	root	_	_	_
+3	Senator	Senator	PROPN	_	_	2	appos	_	_	_
+4	Gran	Gran	ADJ	_	_	3	flat	_	_	_
+5	Via	Via	PROPN	_	_	3	flat	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-2
+# text = Viviendo la navidad en madrid .
+1	Viviendo	vivir	VERB	_	_	0	root	_	_	_
+2	la	el	DET	_	_	3	det	_	_	_
+3	navidad	navidad	NOUN	_	_	1	obj	_	_	_
+4	en	en	ADP	_	_	5	case	_	_	_
+5	madrid	madrid	NOUN	_	_	1	obl	_	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-3
+# text = Hemos estado en diciembre alojados en este hotel con nuestros tres hijos .
+1	Hemos	haber	AUX	_	_	2	aux	_	_	_
+2	estado	estar	VERB	_	_	0	root	_	_	_
+3	en	en	ADP	_	_	4	case	_	_	_
+4	diciembre	diciembre	NOUN	_	_	2	obl	_	_	_
+5	alojados	alojado	ADJ	_	_	2	obj	_	_	_
+6	en	en	ADP	_	_	8	case	_	_	_
+7	este	este	DET	_	_	8	det	_	_	_
+8	hotel	hotel	NOUN	_	_	5	obl	_	_	_
+9	con	con	ADP	_	_	12	case	_	_	_
+10	nuestros	nuestro	DET	_	_	12	det	_	_	_
+11	tres	tres	NUM	_	_	10	nummod	_	_	_
+12	hijos	hijo	NOUN	_	_	5	obl	_	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-4
+# text = Ya conocíamos esta cadena y estamos muy contentos con ella .
+1	Ya	ya	ADV	_	_	2	advmod	_	_	_
+2	conocíamos	conocer	VERB	_	_	0	root	_	_	_
+3	esta	este	DET	_	_	4	det	_	_	_
+4	cadena	cadena	NOUN	_	_	2	obj	_	_	_
+5	y	y	CCONJ	_	_	8	cc	_	_	_
+6	estamos	estar	AUX	_	_	8	cop	_	_	_
+7	muy	mucho	ADV	_	_	8	advmod	_	_	8:exp-Positive
+8	contentos	contento	ADJ	_	_	2	conj	_	_	0:exp-Positive
+9	con	con	ADP	_	_	10	case	_	_	_
+10	ella	él	PRON	_	_	8	nmod	_	_	8:targ
+11	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-5
+# text = La ubicación del hotel es privilegiada y se encuentra entre medias de la plaza de callao y plaza españa .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	ubicación	ubicación	NOUN	_	_	6	nsubj	_	_	6:targ
+3	del	del	ADP	_	_	4	case	_	_	_
+4	hotel	hotel	NOUN	_	_	2	nmod	_	_	_
+5	es	ser	AUX	_	_	6	aux	_	_	_
+6	privilegiada	privilegiado	VERB	_	_	0	root	_	_	0:exp-Positive
+7	y	y	CCONJ	_	_	9	cc	_	_	_
+8	se	él	PRON	_	_	9	obj	_	_	_
+9	encuentra	encontrar	VERB	_	_	6	conj	_	_	_
+10	entre	entre	ADP	_	_	11	case	_	_	12:exp-Positive|12:exp-Positive
+11	medias	medias	NOUN	_	_	9	obl	_	_	12:exp-Positive|12:exp-Positive
+12	de	de	ADP	_	_	14	case	_	_	0:exp-Positive|0:exp-Positive
+13	la	el	DET	_	_	14	det	_	_	16:targ
+14	plaza	plaza	NOUN	_	_	11	nmod	_	_	16:targ
+15	de	de	ADP	_	_	16	case	_	_	16:targ
+16	callao	callao	NOUN	_	_	14	nmod	_	_	12:targ
+17	y	y	CCONJ	_	_	18	cc	_	_	_
+18	plaza	plaza	NOUN	_	_	16	conj	_	_	19:targ
+19	españa	españo	ADJ	_	_	18	amod	_	_	12:targ
+20	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-6
+# text = El trato de los trabajadores del hotel es muy agradable y las habitaciones son bastante espaciosas .
+1	El	el	DET	_	_	2	det	_	_	5:targ
+2	trato	trato	NOUN	_	_	10	nsubj	_	_	5:targ
+3	de	de	ADP	_	_	5	case	_	_	5:targ
+4	los	el	DET	_	_	5	det	_	_	5:targ
+5	trabajadores	trabajador	NOUN	_	_	2	nmod	_	_	10:targ
+6	del	del	ADP	_	_	7	case	_	_	_
+7	hotel	hotel	NOUN	_	_	5	nmod	_	_	_
+8	es	ser	AUX	_	_	10	cop	_	_	_
+9	muy	mucho	ADV	_	_	10	advmod	_	_	10:exp-Positive
+10	agradable	agradable	ADJ	_	_	0	root	_	_	0:exp-Positive
+11	y	y	CCONJ	_	_	16	cc	_	_	_
+12	las	el	DET	_	_	13	det	_	_	13:targ
+13	habitaciones	habitación	NOUN	_	_	16	nsubj	_	_	16:targ
+14	son	ser	AUX	_	_	16	cop	_	_	_
+15	bastante	bastante	ADV	_	_	16	advmod	_	_	16:exp-Positive
+16	espaciosas	espacioso	ADJ	_	_	10	conj	_	_	0:exp-Positive
+17	.	.	PUNCT	_	_	10	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-7
+# text = Además , el minibar , wifi y caja fuerte está incluido en el precio y es algo de agradecer porque no es muy habitual .
+1	Además	además	ADV	_	_	11	advmod	_	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_	_
+3	el	el	DET	_	_	4	det	_	_	5:targ
+4	minibar	minibar	VERB	_	_	11	csubj	_	_	5:targ
+5	,	,	PUNCT	_	_	6	punct	_	_	14:targ
+6	wifi	wifi	NOUN	_	_	4	obj	_	_	14:targ
+7	y	y	CCONJ	_	_	8	cc	_	_	_
+8	caja	caja	NOUN	_	_	6	conj	_	_	9:targ
+9	fuerte	fuerte	ADJ	_	_	8	amod	_	_	14:targ
+10	está	estar	AUX	_	_	11	cop	_	_	_
+11	incluido	incluido	ADJ	_	_	0	root	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+12	en	en	ADP	_	_	14	case	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+13	el	el	DET	_	_	14	det	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+14	precio	precio	NOUN	_	_	11	obl	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+15	y	y	CCONJ	_	_	17	cc	_	_	_
+16	es	ser	AUX	_	_	17	cop	_	_	_
+17	algo	algo	PRON	_	_	11	conj	_	_	19:targ
+18	de	de	ADP	_	_	19	mark	_	_	19:exp-Positive
+19	agradecer	agradecer	VERB	_	_	17	acl	_	_	0:exp-Positive
+20	porque	porque	SCONJ	_	_	24	mark	_	_	_
+21	no	no	ADV	_	_	24	advmod	_	_	_
+22	es	ser	AUX	_	_	24	cop	_	_	_
+23	muy	mucho	ADV	_	_	24	advmod	_	_	_
+24	habitual	habitual	ADJ	_	_	17	advcl	_	_	_
+25	.	.	PUNCT	_	_	11	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-8
+# text = Por poner un " pero " , resaltaría el pequeño caos que se forma en el comedor ya que lo han cambiado de sitio y ahora es muy pequeño .
+1	Por	por	ADP	_	_	2	mark	_	_	_
+2	poner	poner	VERB	_	_	8	advcl	_	_	_
+3	un	uno	DET	_	_	2	obj	_	_	_
+4	"	"	PUNCT	_	_	2	punct	_	_	_
+5	pero	pero	CCONJ	_	_	6	cc	_	_	_
+6	"	"	PUNCT	_	_	2	punct	_	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_	_
+8	resaltaría	resaltar	VERB	_	_	0	root	_	_	_
+9	el	el	DET	_	_	11	det	_	_	_
+10	pequeño	pequeño	ADJ	_	_	11	amod	_	_	_
+11	caos	caos	NOUN	_	_	8	nsubj	_	_	_
+12	que	que	PRON	_	_	14	nsubj	_	_	_
+13	se	él	PRON	_	_	14	obj	_	_	_
+14	forma	formar	VERB	_	_	11	acl	_	_	_
+15	en	en	ADP	_	_	17	case	_	_	_
+16	el	el	DET	_	_	17	det	_	_	17:targ
+17	comedor	comedor	NOUN	_	_	14	obl	_	_	29:targ
+18	ya	ya	ADV	_	_	22	mark	_	_	_
+19	que	que	SCONJ	_	_	18	fixed	_	_	_
+20	lo	él	PRON	_	_	22	obj	_	_	_
+21	han	haber	AUX	_	_	22	aux	_	_	_
+22	cambiado	cambiar	VERB	_	_	8	advcl	_	_	_
+23	de	de	ADP	_	_	24	case	_	_	_
+24	sitio	sitio	NOUN	_	_	22	obl	_	_	_
+25	y	y	CCONJ	_	_	29	cc	_	_	_
+26	ahora	ahora	ADV	_	_	29	advmod	_	_	_
+27	es	ser	AUX	_	_	29	cop	_	_	_
+28	muy	mucho	ADV	_	_	29	advmod	_	_	29:exp-Negative
+29	pequeño	pequeño	ADJ	_	_	22	conj	_	_	0:exp-Negative
+30	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00159_b86a874820c8688f4e9095647e9dda72-9
+# text = En líneas generales , recomendamos este hotel .
+1	En	en	ADP	_	_	2	case	_	_	_
+2	líneas	línea	NOUN	_	_	5	obl	_	_	_
+3	generales	general	ADJ	_	_	2	amod	_	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_	_
+5	recomendamos	recomendar	VERB	_	_	0	root	_	_	0:exp-Positive
+6	este	este	DET	_	_	7	det	_	_	7:targ
+7	hotel	hotel	NOUN	_	_	5	obj	_	_	5:targ
+8	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00078_733e2e796163c4af2f8e54e8d9c1d93a-1
+# text = Buen servicio y buena situación
+1	Buen	buen	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	servicio	servicio	NOUN	_	_	0	root	_	_	1:targ
+3	y	y	CCONJ	_	_	5	cc	_	_	_
+4	buena	buen	ADJ	_	_	5	amod	_	_	0:exp-Positive
+5	situación	situación	NOUN	_	_	2	conj	_	_	4:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00078_733e2e796163c4af2f8e54e8d9c1d93a-2
+# text = Nos gusta mucho este hotel porque está situado en una zona muy centrica , la atención de su personal es muy buena y la comodidad de sus habitaciones .
+1	Nos	yo	PRON	_	_	2	obj	_	_	3:holder
+2	gusta	gustar	VERB	_	_	0	root	_	_	3:exp-Positive
+3	mucho	mucho	ADV	_	_	2	advmod	_	_	0:exp-Positive
+4	este	este	DET	_	_	5	det	_	_	5:targ
+5	hotel	hotel	NOUN	_	_	2	nsubj	_	_	3:targ
+6	porque	porque	SCONJ	_	_	8	mark	_	_	_
+7	está	estar	AUX	_	_	8	cop	_	_	_
+8	situado	situado	ADJ	_	_	2	advcl	_	_	_
+9	en	en	ADP	_	_	11	case	_	_	_
+10	una	uno	DET	_	_	11	det	_	_	11:targ
+11	zona	zona	NOUN	_	_	8	obl	_	_	13:targ
+12	muy	mucho	ADV	_	_	13	advmod	_	_	13:exp-Positive
+13	centrica	centrico	ADJ	_	_	11	amod	_	_	0:exp-Positive
+14	,	,	PUNCT	_	_	2	punct	_	_	_
+15	la	el	DET	_	_	16	det	_	_	19:targ
+16	atención	atención	NOUN	_	_	22	nsubj	_	_	19:targ
+17	de	de	ADP	_	_	19	case	_	_	19:targ
+18	su	su	DET	_	_	19	det	_	_	19:targ
+19	personal	personal	NOUN	_	_	16	nmod	_	_	22:targ
+20	es	ser	AUX	_	_	22	cop	_	_	_
+21	muy	mucho	ADV	_	_	22	advmod	_	_	22:exp-Positive
+22	buena	buen	ADJ	_	_	2	advcl	_	_	0:exp-Positive
+23	y	y	CCONJ	_	_	25	cc	_	_	_
+24	la	el	DET	_	_	25	det	_	_	_
+25	comodidad	comodidad	NOUN	_	_	22	conj	_	_	0:exp-Positive
+26	de	de	ADP	_	_	28	case	_	_	_
+27	sus	su	DET	_	_	28	det	_	_	28:targ
+28	habitaciones	habitación	NOUN	_	_	25	nmod	_	_	25:targ
+29	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00078_733e2e796163c4af2f8e54e8d9c1d93a-3
+# text = Siempre que viajamos a Madrid nos alojamos aquí .
+1	Siempre	siempre	ADV	_	_	3	mark	_	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_	_
+3	viajamos	viajar	VERB	_	_	7	advcl	_	_	_
+4	a	a	ADP	_	_	5	case	_	_	_
+5	Madrid	Madrid	PROPN	_	_	3	obl	_	_	_
+6	nos	yo	PRON	_	_	7	obj	_	_	_
+7	alojamos	alojar	VERB	_	_	0	root	_	_	_
+8	aquí	aquí	ADV	_	_	7	advmod	_	_	_
+9	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00058_57c69b12817b06bd3e15ed62b7832c72-1
+# text = Parada en el centro
+1	Parada	Parada	NOUN	_	_	0	root	_	_	4:targ
+2	en	en	ADP	_	_	4	case	_	_	4:exp-Positive
+3	el	el	DET	_	_	4	det	_	_	4:exp-Positive
+4	centro	centro	NOUN	_	_	1	nmod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00058_57c69b12817b06bd3e15ed62b7832c72-2
+# text = El hotel está genial , sobre todo en la temporada de verano ya que puedes disfrutar de una terraza con jacuzzi en la azotea del hotel y disfrutar de unas impresionantes vistas desde lo alto .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	4	nsubj	_	_	4:targ
+3	está	estar	AUX	_	_	4	cop	_	_	_
+4	genial	genial	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	6	punct	_	_	_
+6	sobre	sobre	ADP	_	_	4	advmod	_	_	_
+7	todo	todo	PRON	_	_	6	fixed	_	_	_
+8	en	en	ADP	_	_	6	case	_	_	_
+9	la	el	DET	_	_	10	det	_	_	_
+10	temporada	temporada	NOUN	_	_	6	nmod	_	_	_
+11	de	de	ADP	_	_	12	case	_	_	_
+12	verano	verano	NOUN	_	_	10	nmod	_	_	_
+13	ya	ya	ADV	_	_	16	mark	_	_	_
+14	que	que	SCONJ	_	_	13	fixed	_	_	_
+15	puedes	poder	AUX	_	_	16	aux	_	_	16:exp-Positive|16:exp-Positive|16:exp-Positive
+16	disfrutar	disfrutar	VERB	_	_	4	advcl	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+17	de	de	ADP	_	_	19	case	_	_	19:targ
+18	una	uno	DET	_	_	19	det	_	_	19:targ
+19	terraza	terraza	NOUN	_	_	16	obj	_	_	16:targ
+20	con	con	ADP	_	_	21	case	_	_	_
+21	jacuzzi	jacuzzi	NOUN	_	_	19	nmod	_	_	16:targ
+22	en	en	ADP	_	_	24	case	_	_	_
+23	la	el	DET	_	_	24	det	_	_	26:targ
+24	azotea	azotea	NOUN	_	_	16	obl	_	_	26:targ
+25	del	del	ADP	_	_	26	case	_	_	26:targ
+26	hotel	hotel	NOUN	_	_	24	nmod	_	_	16:targ
+27	y	y	CCONJ	_	_	28	cc	_	_	_
+28	disfrutar	disfrutar	VERB	_	_	16	conj	_	_	0:exp-Positive
+29	de	de	ADP	_	_	32	case	_	_	_
+30	unas	uno	DET	_	_	32	det	_	_	_
+31	impresionantes	impresionante	ADJ	_	_	32	amod	_	_	0:exp-Positive
+32	vistas	vistas	NOUN	_	_	28	obj	_	_	28:targ|31:targ
+33	desde	desde	ADP	_	_	35	case	_	_	_
+34	lo	él	PRON	_	_	35	det	_	_	_
+35	alto	alto	ADJ	_	_	28	advmod	_	_	_
+36	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00058_57c69b12817b06bd3e15ed62b7832c72-3
+# text = El hotel está super bien situado , en el centro de la ciudad y te da opción a disfrutar del teatro , compras y bares de tapas .
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	hotel	hotel	NOUN	_	_	4	nsubj	_	_	6:targ|10:targ
+3	está	estar	AUX	_	_	4	cop	_	_	_
+4	super	super	ADJ	_	_	0	root	_	_	6:exp-Positive
+5	bien	bien	ADV	_	_	6	advmod	_	_	6:exp-Positive
+6	situado	situado	ADJ	_	_	4	advmod	_	_	0:exp-Positive
+7	,	,	PUNCT	_	_	10	punct	_	_	_
+8	en	en	ADP	_	_	10	case	_	_	10:exp-Positive
+9	el	el	DET	_	_	10	det	_	_	10:exp-Positive
+10	centro	centro	NOUN	_	_	4	obl	_	_	0:exp-Positive
+11	de	de	ADP	_	_	13	case	_	_	_
+12	la	el	DET	_	_	13	det	_	_	_
+13	ciudad	ciudad	NOUN	_	_	10	nmod	_	_	_
+14	y	y	CCONJ	_	_	16	cc	_	_	_
+15	te	tú	PRON	_	_	16	obj	_	_	_
+16	da	dar	VERB	_	_	4	conj	_	_	19:exp-Positive|19:exp-Positive|19:exp-Positive
+17	opción	opción	NOUN	_	_	16	obj	_	_	19:exp-Positive|19:exp-Positive|19:exp-Positive
+18	a	a	ADP	_	_	19	mark	_	_	19:exp-Positive|19:exp-Positive|19:exp-Positive
+19	disfrutar	disfrutar	VERB	_	_	17	acl	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+20	del	del	ADP	_	_	21	case	_	_	21:targ
+21	teatro	teatro	NOUN	_	_	19	obj	_	_	19:targ
+22	,	,	PUNCT	_	_	23	punct	_	_	_
+23	compras	compra	NOUN	_	_	21	conj	_	_	19:targ
+24	y	y	CCONJ	_	_	25	cc	_	_	_
+25	bares	bar	NOUN	_	_	21	conj	_	_	27:targ
+26	de	de	ADP	_	_	27	case	_	_	27:targ
+27	tapas	tapa	NOUN	_	_	25	nmod	_	_	19:targ
+28	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00058_57c69b12817b06bd3e15ed62b7832c72-4
+# text = Las habitaciones son amplias y comfortables pues no se oye ningún ruido de la gran vía .
+1	Las	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	habitaciones	habitación	NOUN	_	_	4	nsubj	_	_	4:targ|6:targ
+3	son	ser	AUX	_	_	4	cop	_	_	_
+4	amplias	amplio	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	y	y	CCONJ	_	_	6	cc	_	_	_
+6	comfortables	comfortable	ADJ	_	_	4	conj	_	_	0:exp-Positive
+7	pues	pues	SCONJ	_	_	10	mark	_	_	_
+8	no	no	ADV	_	_	10	advmod	_	_	10:exp-Positive
+9	se	él	PRON	_	_	10	obj	_	_	10:exp-Positive
+10	oye	oír	VERB	_	_	4	advcl	_	_	0:exp-Positive
+11	ningún	ninguno	DET	_	_	12	det	_	_	16:targ
+12	ruido	ruido	NOUN	_	_	10	nsubj	_	_	16:targ
+13	de	de	ADP	_	_	16	case	_	_	16:targ
+14	la	el	DET	_	_	16	det	_	_	16:targ
+15	gran	gran	ADJ	_	_	16	amod	_	_	16:targ
+16	vía	vía	NOUN	_	_	12	nmod	_	_	10:targ
+17	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00058_57c69b12817b06bd3e15ed62b7832c72-5
+# text = El Spa del hotel es pequeño , pero lo suficiente para relajarte después de un día de compras por la ciudad .
+1	El	el	DET	_	_	2	det	_	_	4:targ|4:targ
+2	Spa	Spa	PROPN	_	_	6	nsubj	_	_	4:targ|4:targ
+3	del	del	ADP	_	_	4	case	_	_	4:targ|4:targ
+4	hotel	hotel	NOUN	_	_	2	nmod	_	_	6:targ|12:targ
+5	es	ser	AUX	_	_	6	cop	_	_	_
+6	pequeño	pequeño	ADJ	_	_	0	root	_	_	0:exp-Negative
+7	,	,	PUNCT	_	_	10	punct	_	_	_
+8	pero	pero	CCONJ	_	_	10	cc	_	_	_
+9	lo	él	PRON	_	_	10	det	_	_	12:exp-Positive
+10	suficiente	suficiente	ADJ	_	_	6	conj	_	_	12:exp-Positive
+11	para	para	ADP	_	_	12	mark	_	_	12:exp-Positive
+12	relajarte	relajar	VERB	_	_	10	acl	_	_	0:exp-Positive
+13	después	después	ADV	_	_	12	advmod	_	_	_
+14	de	de	ADP	_	_	16	case	_	_	_
+15	un	uno	DET	_	_	16	det	_	_	_
+16	día	día	NOUN	_	_	13	obl	_	_	_
+17	de	de	ADP	_	_	18	case	_	_	_
+18	compras	compra	NOUN	_	_	16	nmod	_	_	_
+19	por	por	ADP	_	_	21	case	_	_	_
+20	la	el	DET	_	_	21	det	_	_	_
+21	ciudad	ciudad	NOUN	_	_	16	nmod	_	_	_
+22	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00174_ec8d67dd69316047cbdc1c05f339c9d0-1
+# text = Hotel viejo pero centrico
+1	Hotel	Hotel	NOUN	_	_	0	root	_	_	4:targ|2:targ
+2	viejo	viejo	ADJ	_	_	1	amod	_	_	0:exp-Negative
+3	pero	pero	CCONJ	_	_	4	cc	_	_	_
+4	centrico	centrico	ADJ	_	_	2	conj	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00174_ec8d67dd69316047cbdc1c05f339c9d0-2
+# text = Hotel muy bien ubicado pero que necesita una reforma urgente .
+1	Hotel	Hotel	NOUN	_	_	0	root	_	_	10:targ|4:targ
+2	muy	mucho	ADV	_	_	3	advmod	_	_	4:exp-Positive
+3	bien	bien	ADV	_	_	4	advmod	_	_	4:exp-Positive
+4	ubicado	ubicado	ADJ	_	_	1	amod	_	_	0:exp-Positive
+5	pero	pero	CCONJ	_	_	7	cc	_	_	_
+6	que	que	PRON	_	_	7	nsubj	_	_	_
+7	necesita	necesitar	VERB	_	_	4	conj	_	_	10:exp-Negative
+8	una	uno	DET	_	_	9	det	_	_	10:exp-Negative
+9	reforma	reforma	NOUN	_	_	7	obj	_	_	10:exp-Negative
+10	urgente	urgente	ADJ	_	_	9	amod	_	_	0:exp-Negative
+11	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00174_ec8d67dd69316047cbdc1c05f339c9d0-3
+# text = Además el entorno no es el mas adecuado para salir de noche .
+1	Además	además	ADV	_	_	8	advmod	_	_	_
+2	el	el	DET	_	_	3	det	_	_	3:targ
+3	entorno	entorno	NOUN	_	_	8	nsubj	_	_	8:targ
+4	no	no	ADV	_	_	8	advmod	_	_	8:exp-Negative
+5	es	ser	AUX	_	_	8	cop	_	_	8:exp-Negative
+6	el	el	DET	_	_	8	det	_	_	8:exp-Negative
+7	mas	mas	ADV	_	_	8	advmod	_	_	8:exp-Negative
+8	adecuado	adecuado	ADJ	_	_	0	root	_	_	0:exp-Negative
+9	para	para	ADP	_	_	10	mark	_	_	_
+10	salir	salir	VERB	_	_	8	advcl	_	_	_
+11	de	de	ADP	_	_	12	case	_	_	_
+12	noche	noche	NOUN	_	_	10	obl	_	_	_
+13	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00174_ec8d67dd69316047cbdc1c05f339c9d0-4
+# text = No obstante , el hotel está bien en general .
+1	No	no	PART	_	_	7	advmod	_	_	_
+2	obstante	obstante	NOUN	_	_	1	fixed	_	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_	_
+4	el	el	DET	_	_	5	det	_	_	5:targ
+5	hotel	hotel	NOUN	_	_	7	nsubj	_	_	9:targ
+6	está	estar	AUX	_	_	7	cop	_	_	_
+7	bien	bien	ADV	_	_	0	root	_	_	9:exp-Positive
+8	en	en	ADP	_	_	7	advmod	_	_	9:exp-Positive
+9	general	general	NOUN	_	_	8	fixed	_	_	0:exp-Positive
+10	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00174_ec8d67dd69316047cbdc1c05f339c9d0-5
+# text = El desayuno es bastante pobre .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	desayuno	desayuno	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	bastante	bastante	ADV	_	_	5	advmod	_	_	5:exp-Negative
+5	pobre	pobre	ADJ	_	_	0	root	_	_	0:exp-Negative
+6	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-1
+# text = El rey Leon
+1	El	el	DET	_	_	2	det	_	_	_
+2	rey	rey	NOUN	_	_	0	root	_	_	_
+3	Leon	Leon	PROPN	_	_	2	appos	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-2
+# text = Estuvimos en el hotel Senator , 21 de Madrid , los días 23,24 y 25 de noviembre de 2012 .
+1	Estuvimos	estar	VERB	_	_	0	root	_	_	_
+2	en	en	ADP	_	_	4	case	_	_	_
+3	el	el	DET	_	_	4	det	_	_	_
+4	hotel	hotel	NOUN	_	_	1	obl	_	_	_
+5	Senator	Senator	PROPN	_	_	4	appos	_	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_	_
+7	21	21	NUM	_	_	4	appos	_	_	_
+8	de	de	ADP	_	_	9	case	_	_	_
+9	Madrid	Madrid	PROPN	_	_	7	nmod	_	_	_
+10	,	,	PUNCT	_	_	7	punct	_	_	_
+11	los	el	DET	_	_	12	det	_	_	_
+12	días	día	NOUN	_	_	1	obl	_	_	_
+13	23,24	23.24	NUM	_	_	12	appos	_	_	_
+14	y	y	CCONJ	_	_	15	cc	_	_	_
+15	25	25	NUM	_	_	13	conj	_	_	_
+16	de	de	ADP	_	_	17	case	_	_	_
+17	noviembre	noviembre	NOUN	_	_	15	compound	_	_	_
+18	de	de	ADP	_	_	19	case	_	_	_
+19	2012	2012	NUM	_	_	15	compound	_	_	_
+20	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-3
+# text = Un fin de semana dedicado a ver el espectáculo del rey león y a descubir la ciudad .
+1	Un	uno	DET	_	_	2	det	_	_	_
+2	fin	fin	NOUN	_	_	0	root	_	_	_
+3	de	de	ADP	_	_	4	case	_	_	_
+4	semana	semana	NOUN	_	_	2	nmod	_	_	_
+5	dedicado	dedicado	ADJ	_	_	2	amod	_	_	_
+6	a	a	ADP	_	_	7	mark	_	_	_
+7	ver	ver	VERB	_	_	5	xcomp	_	_	_
+8	el	el	DET	_	_	9	det	_	_	_
+9	espectáculo	espectáculo	NOUN	_	_	7	obj	_	_	_
+10	del	del	ADP	_	_	11	case	_	_	_
+11	rey	rey	NOUN	_	_	9	nmod	_	_	_
+12	león	león	ADJ	_	_	11	amod	_	_	_
+13	y	y	CCONJ	_	_	15	cc	_	_	_
+14	a	a	ADP	_	_	15	mark	_	_	_
+15	descubir	descubir	VERB	_	_	7	conj	_	_	_
+16	la	el	DET	_	_	17	det	_	_	_
+17	ciudad	ciudad	NOUN	_	_	15	obj	_	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-4
+# text = El hotel encantador , en el centor de la Gran Vía Madrileña , todo un lujo .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	16	nsubj	_	_	3:targ
+3	encantador	encantador	ADJ	_	_	2	amod	_	_	0:exp-Positive
+4	,	,	PUNCT	_	_	7	punct	_	_	_
+5	en	en	ADP	_	_	7	case	_	_	12:targ
+6	el	el	DET	_	_	7	det	_	_	12:targ
+7	centor	centor	NOUN	_	_	2	nmod	_	_	12:targ
+8	de	de	ADP	_	_	10	case	_	_	12:targ
+9	la	el	DET	_	_	10	det	_	_	12:targ
+10	Gran	Gran	ADJ	_	_	7	nmod	_	_	12:targ
+11	Vía	Vía	PROPN	_	_	10	flat	_	_	12:targ
+12	Madrileña	Madrileña	PROPN	_	_	10	flat	_	_	16:targ
+13	,	,	PUNCT	_	_	7	punct	_	_	_
+14	todo	todo	DET	_	_	16	det	_	_	16:exp-Positive
+15	un	uno	DET	_	_	14	det	_	_	16:exp-Positive
+16	lujo	lujo	NOUN	_	_	0	root	_	_	0:exp-Positive
+17	.	.	PUNCT	_	_	16	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-5
+# text = Las habitaciones perfectas , muy calentitas y con todas las comodidades , con cafetera , equipo de música , almohadas a elegir .
+1	Las	el	DET	_	_	2	det	_	_	2:targ|2:targ|2:targ
+2	habitaciones	habitación	NOUN	_	_	0	root	_	_	6:targ|11:targ|3:targ
+3	perfectas	perfecto	ADJ	_	_	2	amod	_	_	0:exp-Positive
+4	,	,	PUNCT	_	_	6	punct	_	_	_
+5	muy	mucho	ADV	_	_	6	advmod	_	_	6:exp-Positive
+6	calentitas	calentito	ADJ	_	_	3	amod	_	_	0:exp-Positive
+7	y	y	CCONJ	_	_	11	cc	_	_	_
+8	con	con	ADP	_	_	11	case	_	_	11:exp-Positive
+9	todas	todo	DET	_	_	10	det	_	_	11:exp-Positive
+10	las	el	DET	_	_	11	det	_	_	11:exp-Positive
+11	comodidades	comodidad	NOUN	_	_	6	conj	_	_	0:exp-Positive
+12	,	,	PUNCT	_	_	14	punct	_	_	_
+13	con	con	ADP	_	_	14	case	_	_	0:exp-Positive|0:exp-Positive
+14	cafetera	cafetero	NOUN	_	_	2	nmod	_	_	13:targ
+15	,	,	PUNCT	_	_	16	punct	_	_	_
+16	equipo	equipo	NOUN	_	_	14	conj	_	_	18:targ
+17	de	de	ADP	_	_	18	case	_	_	18:targ
+18	música	música	NOUN	_	_	16	nmod	_	_	13:targ
+19	,	,	PUNCT	_	_	20	punct	_	_	_
+20	almohadas	almohada	NOUN	_	_	14	conj	_	_	22:targ
+21	a	a	ADP	_	_	22	mark	_	_	22:exp-Positive
+22	elegir	elegir	VERB	_	_	20	acl	_	_	0:exp-Positive
+23	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-6
+# text = El trato del personal del hotel EXCELENTE .
+1	El	el	DET	_	_	2	det	_	_	4:targ
+2	trato	trato	NOUN	_	_	0	root	_	_	4:targ
+3	del	del	ADP	_	_	4	case	_	_	4:targ
+4	personal	personal	NOUN	_	_	2	nmod	_	_	7:targ
+5	del	del	ADP	_	_	6	case	_	_	_
+6	hotel	hotel	NOUN	_	_	4	nmod	_	_	_
+7	EXCELENTE	excelente	ADJ	_	_	6	amod	_	_	0:exp-Positive
+8	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00169_e9a1a49e1dcdff27b7e0398306a55d64-7
+# text = El bufet rico todo , pero poco variado , deberían de tener más variedades para un hotel de esa categoría .
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	bufet	bufet	NOUN	_	_	12	nsubj	_	_	8:targ|3:targ
+3	rico	rico	ADJ	_	_	2	amod	_	_	0:exp-Positive
+4	todo	todo	PRON	_	_	2	appos	_	_	_
+5	,	,	PUNCT	_	_	8	punct	_	_	_
+6	pero	pero	CCONJ	_	_	8	cc	_	_	_
+7	poco	poco	ADV	_	_	8	advmod	_	_	8:exp-Negative
+8	variado	variado	ADJ	_	_	4	conj	_	_	0:exp-Negative
+9	,	,	PUNCT	_	_	8	punct	_	_	_
+10	deberían	deber	AUX	_	_	12	aux	_	_	_
+11	de	de	ADP	_	_	12	mark	_	_	_
+12	tener	tener	VERB	_	_	0	root	_	_	_
+13	más	más	ADV	_	_	14	advmod	_	_	_
+14	variedades	variedad	NOUN	_	_	12	obj	_	_	_
+15	para	para	ADP	_	_	17	case	_	_	_
+16	un	uno	DET	_	_	17	det	_	_	_
+17	hotel	hotel	NOUN	_	_	14	nmod	_	_	_
+18	de	de	ADP	_	_	20	case	_	_	_
+19	esa	ese	DET	_	_	20	det	_	_	_
+20	categoría	categoría	NOUN	_	_	17	nmod	_	_	_
+21	.	.	PUNCT	_	_	12	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00192_d71921e938835afb2a2f356ca205f54a-1
+# text = Hotel de pésima calidad
+1	Hotel	Hotel	NOUN	_	_	0	root	_	_	_
+2	de	de	ADP	_	_	4	case	_	_	_
+3	pésima	pésimo	ADJ	_	_	4	amod	_	_	0:exp-Negative
+4	calidad	calidad	NOUN	_	_	1	nmod	_	_	3:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00192_d71921e938835afb2a2f356ca205f54a-2
+# text = Lástima que no puedo enviar las fotos de la habitación que tuvimos .
+1	Lástima	lástima	VERB	_	_	0	root	_	_	_
+2	que	que	SCONJ	_	_	5	mark	_	_	_
+3	no	no	ADV	_	_	5	advmod	_	_	_
+4	puedo	poder	AUX	_	_	5	aux	_	_	_
+5	enviar	enviar	VERB	_	_	1	xcomp	_	_	_
+6	las	el	DET	_	_	7	det	_	_	_
+7	fotos	foto	NOUN	_	_	5	obj	_	_	_
+8	de	de	ADP	_	_	10	case	_	_	_
+9	la	el	DET	_	_	10	det	_	_	_
+10	habitación	habitación	NOUN	_	_	7	nmod	_	_	_
+11	que	que	PRON	_	_	12	obj	_	_	_
+12	tuvimos	tener	VERB	_	_	10	acl	_	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00192_d71921e938835afb2a2f356ca205f54a-3
+# text = Las he enviado a IBEROLUNA .
+1	Las	él	PRON	_	_	3	obj	_	_	_
+2	he	haber	AUX	_	_	3	aux	_	_	_
+3	enviado	enviar	VERB	_	_	0	root	_	_	_
+4	a	a	ADP	_	_	5	case	_	_	_
+5	IBEROLUNA	IBEROLUNA	PROPN	_	_	3	obl	_	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00192_d71921e938835afb2a2f356ca205f54a-4
+# text = Si me dan una dirección de correo , gustosamente se las mando para que constaten que digo la verdad .
+1	Si	si	SCONJ	_	_	3	mark	_	_	_
+2	me	yo	PRON	_	_	3	obj	_	_	_
+3	dan	dar	VERB	_	_	12	advcl	_	_	_
+4	una	uno	DET	_	_	5	det	_	_	_
+5	dirección	dirección	NOUN	_	_	3	obj	_	_	_
+6	de	de	ADP	_	_	7	case	_	_	_
+7	correo	correo	NOUN	_	_	5	nmod	_	_	_
+8	,	,	PUNCT	_	_	3	punct	_	_	_
+9	gustosamente	gustosamente	ADV	_	_	12	advmod	_	_	_
+10	se	él	PRON	_	_	12	obj	_	_	_
+11	las	el	DET	_	_	12	det	_	_	_
+12	mando	mandar	VERB	_	_	0	root	_	_	_
+13	para	para	ADP	_	_	15	mark	_	_	_
+14	que	que	SCONJ	_	_	15	mark	_	_	_
+15	constaten	constatar	VERB	_	_	12	advcl	_	_	_
+16	que	que	SCONJ	_	_	17	mark	_	_	_
+17	digo	decir	VERB	_	_	15	ccomp	_	_	_
+18	la	el	DET	_	_	19	det	_	_	_
+19	verdad	verdad	NOUN	_	_	17	obj	_	_	_
+20	.	.	PUNCT	_	_	12	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00026_1a796942f4b036a10e049eb319b81bcc-1
+# text = Sencillo aunque bien ubicado
+1	Sencillo	sencillo	ADJ	_	_	0	root	_	_	0:exp-Negative
+2	aunque	aunque	SCONJ	_	_	4	mark	_	_	_
+3	bien	bien	ADV	_	_	4	advmod	_	_	4:exp-Positive
+4	ubicado	ubicado	ADJ	_	_	1	advmod	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00026_1a796942f4b036a10e049eb319b81bcc-2
+# text = Es un hotel sencillo , pero lo mejor es su ubicación : a 200 metros de Centrale ( la impresionante estación central de Milán ) desde donde todo Milán y el Norte de Italia está a tu alcance .
+1	Es	ser	AUX	_	_	3	cop	_	_	_
+2	un	uno	DET	_	_	3	det	_	_	_
+3	hotel	hotel	NOUN	_	_	0	root	_	_	4:targ
+4	sencillo	sencillo	ADJ	_	_	3	amod	_	_	0:exp-Negative
+5	,	,	PUNCT	_	_	11	punct	_	_	_
+6	pero	pero	CCONJ	_	_	11	cc	_	_	_
+7	lo	él	PRON	_	_	8	det	_	_	8:exp-Positive
+8	mejor	mejor	ADJ	_	_	11	nsubj	_	_	0:exp-Positive
+9	es	ser	AUX	_	_	11	cop	_	_	_
+10	su	su	DET	_	_	11	det	_	_	11:targ
+11	ubicación	ubicación	NOUN	_	_	3	conj	_	_	8:targ
+12	:	:	PUNCT	_	_	15	punct	_	_	_
+13	a	a	ADP	_	_	15	case	_	_	15:exp-Positive
+14	200	200	NUM	_	_	15	nummod	_	_	15:exp-Positive
+15	metros	metro	NOUN	_	_	11	nmod	_	_	0:exp-Positive
+16	de	de	ADP	_	_	17	case	_	_	_
+17	Centrale	Centrale	PROPN	_	_	15	nmod	_	_	15:targ
+18	(	(	PUNCT	_	_	21	punct	_	_	_
+19	la	el	DET	_	_	21	det	_	_	_
+20	impresionante	impresionante	ADJ	_	_	21	amod	_	_	0:exp-Positive
+21	estación	estación	NOUN	_	_	17	appos	_	_	24:targ
+22	central	central	ADJ	_	_	21	amod	_	_	24:targ
+23	de	de	ADP	_	_	24	case	_	_	24:targ
+24	Milán	Milán	PROPN	_	_	21	nmod	_	_	20:targ
+25	)	)	PUNCT	_	_	21	punct	_	_	_
+26	desde	desde	ADP	_	_	27	case	_	_	_
+27	donde	donde	PRON	_	_	35	obl	_	_	_
+28	todo	todo	DET	_	_	29	det	_	_	_
+29	Milán	Milán	PROPN	_	_	35	nsubj	_	_	_
+30	y	y	CCONJ	_	_	32	cc	_	_	_
+31	el	el	DET	_	_	32	det	_	_	_
+32	Norte	Norte	PROPN	_	_	29	conj	_	_	_
+33	de	de	ADP	_	_	34	case	_	_	_
+34	Italia	Italia	PROPN	_	_	32	flat	_	_	_
+35	está	estar	VERB	_	_	11	acl	_	_	_
+36	a	a	ADP	_	_	38	case	_	_	_
+37	tu	tu	DET	_	_	38	det	_	_	_
+38	alcance	alcance	NOUN	_	_	35	obl	_	_	_
+39	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00026_1a796942f4b036a10e049eb319b81bcc-3
+# text = El personal es muy atento aunque los idiomas no sean lo suyo ...
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	personal	personal	NOUN	_	_	5	nsubj	_	_	5:targ
+3	es	ser	AUX	_	_	5	cop	_	_	_
+4	muy	mucho	ADV	_	_	5	advmod	_	_	5:exp-Positive
+5	atento	atento	ADJ	_	_	0	root	_	_	0:exp-Positive
+6	aunque	aunque	SCONJ	_	_	11	mark	_	_	_
+7	los	el	DET	_	_	8	det	_	_	8:targ
+8	idiomas	idioma	NOUN	_	_	11	nsubj	_	_	12:targ
+9	no	no	ADV	_	_	11	advmod	_	_	12:exp-Negative
+10	sean	ser	AUX	_	_	11	cop	_	_	12:exp-Negative
+11	lo	él	PRON	_	_	5	advcl	_	_	12:exp-Negative
+12	suyo	suyo	DET	_	_	11	compound	_	_	0:exp-Negative
+13	...	...	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00026_1a796942f4b036a10e049eb319b81bcc-4
+# text = El desayuno , variado , se sirve en el sótano .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	desayuno	desayuno	NOUN	_	_	7	nsubj	_	_	4:targ
+3	,	,	PUNCT	_	_	4	punct	_	_	_
+4	variado	variado	ADJ	_	_	2	amod	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	4	punct	_	_	_
+6	se	él	PRON	_	_	7	obj	_	_	_
+7	sirve	servir	VERB	_	_	0	root	_	_	_
+8	en	en	ADP	_	_	10	case	_	_	_
+9	el	el	DET	_	_	10	det	_	_	_
+10	sótano	sótano	NOUN	_	_	7	obj	_	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00032_22946ddfaa7c13e09725a2d1469d9e43-1
+# text = Esperaba más de Marriott
+1	Esperaba	esperar	VERB	_	_	0	root	_	_	2:exp-Negative
+2	más	más	ADV	_	_	1	obj	_	_	0:exp-Negative
+3	de	de	ADP	_	_	4	case	_	_	_
+4	Marriott	Marriott	PROPN	_	_	1	obj	_	_	2:targ
+
+# sent_id = ../opener/es/kaf/hotel/spanish00032_22946ddfaa7c13e09725a2d1469d9e43-2
+# text = stuvimos en este hotel porque tenia un buen precio y estaba bien situado para ir a Oberursel , donde se hacian los conciertos del Hessentag 2011 .
+1	stuvimos	stener	VERB	_	_	0	root	_	_	_
+2	en	en	ADP	_	_	4	case	_	_	_
+3	este	este	DET	_	_	4	det	_	_	_
+4	hotel	hotel	NOUN	_	_	1	obl	_	_	_
+5	porque	porque	SCONJ	_	_	6	mark	_	_	_
+6	tenia	tener	VERB	_	_	1	advcl	_	_	_
+7	un	uno	DET	_	_	9	det	_	_	_
+8	buen	buen	ADJ	_	_	9	amod	_	_	0:exp-Positive
+9	precio	precio	NOUN	_	_	6	obj	_	_	13:targ|8:targ
+10	y	y	CCONJ	_	_	13	cc	_	_	_
+11	estaba	estar	AUX	_	_	13	cop	_	_	_
+12	bien	bien	ADV	_	_	13	advmod	_	_	13:exp-Positive
+13	situado	situado	ADJ	_	_	6	conj	_	_	0:exp-Positive
+14	para	para	ADP	_	_	15	mark	_	_	_
+15	ir	ir	VERB	_	_	13	advcl	_	_	_
+16	a	a	ADP	_	_	17	case	_	_	_
+17	Oberursel	Oberursel	PROPN	_	_	15	obl	_	_	_
+18	,	,	PUNCT	_	_	21	punct	_	_	_
+19	donde	donde	PRON	_	_	21	obl	_	_	_
+20	se	él	PRON	_	_	21	obj	_	_	_
+21	hacian	hacer	VERB	_	_	17	acl	_	_	_
+22	los	el	DET	_	_	23	det	_	_	_
+23	conciertos	concierto	NOUN	_	_	21	nsubj	_	_	_
+24	del	del	ADP	_	_	25	case	_	_	_
+25	Hessentag	Hessentag	PROPN	_	_	23	nmod	_	_	_
+26	2011	2011	NOUN	_	_	25	appos	_	_	_
+27	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00032_22946ddfaa7c13e09725a2d1469d9e43-3
+# text = Pero a partir de aqui , todo lo demas era normalito
+1	Pero	pero	CCONJ	_	_	11	advmod	_	_	_
+2	a	a	ADP	_	_	5	case	_	_	_
+3	partir	partir	NOUN	_	_	2	fixed	_	_	_
+4	de	de	ADP	_	_	2	fixed	_	_	_
+5	aqui	aqui	NOUN	_	_	9	obl	_	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_	_
+7	todo	todo	PRON	_	_	9	nsubj	_	_	9:targ
+8	lo	él	PRON	_	_	9	obj	_	_	9:targ
+9	demas	demer	VERB	_	_	11	csubj	_	_	11:targ
+10	era	ser	AUX	_	_	11	cop	_	_	_
+11	normalito	normalito	ADJ	_	_	0	root	_	_	0:exp-Negative
+
+# sent_id = ../opener/es/kaf/hotel/spanish00032_22946ddfaa7c13e09725a2d1469d9e43-4
+# text = La habitacion que nos dieron no me acabo de convencer , estoy acostumbrado a usar hoteles Marriott ( y Courtyard por supuesto ) y este quiza sea el mas cutre de todos los que haya ido
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	habitacion	habitacion	NOUN	_	_	8	nsubj	_	_	9:targ
+3	que	que	PRON	_	_	5	nsubj	_	_	_
+4	nos	yo	PRON	_	_	5	obj	_	_	_
+5	dieron	dar	VERB	_	_	2	acl	_	_	_
+6	no	no	ADV	_	_	8	advmod	_	_	9:exp-Negative
+7	me	yo	PRON	_	_	8	obj	_	_	9:exp-Negative
+8	acabo	acabar	VERB	_	_	0	root	_	_	9:exp-Negative
+9	de	de	ADP	_	_	10	mark	_	_	0:exp-Negative
+10	convencer	convencer	VERB	_	_	8	xcomp	_	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_	_
+12	estoy	estar	AUX	_	_	13	cop	_	_	_
+13	acostumbrado	acostumbrado	ADJ	_	_	10	advcl	_	_	_
+14	a	a	ADP	_	_	15	mark	_	_	_
+15	usar	usar	VERB	_	_	13	xcomp	_	_	_
+16	hoteles	hotel	NOUN	_	_	15	obj	_	_	_
+17	Marriott	Marriott	PROPN	_	_	16	appos	_	_	_
+18	(	(	PUNCT	_	_	20	punct	_	_	_
+19	y	y	CCONJ	_	_	20	cc	_	_	_
+20	Courtyard	Courtyard	PROPN	_	_	17	conj	_	_	_
+21	por	por	ADP	_	_	20	advmod	_	_	_
+22	supuesto	supuesto	NOUN	_	_	21	fixed	_	_	_
+23	)	)	PUNCT	_	_	20	punct	_	_	_
+24	y	y	CCONJ	_	_	29	cc	_	_	_
+25	este	este	DET	_	_	26	det	_	_	30:targ
+26	quiza	quiza	NOUN	_	_	29	nsubj	_	_	_
+27	sea	ser	AUX	_	_	29	cop	_	_	_
+28	el	el	DET	_	_	29	det	_	_	30:exp-Negative
+29	mas	mas	NOUN	_	_	10	conj	_	_	30:exp-Negative
+30	cutre	cutre	ADJ	_	_	29	amod	_	_	0:exp-Negative
+31	de	de	ADP	_	_	36	mark	_	_	_
+32	todos	todo	DET	_	_	33	det	_	_	_
+33	los	el	DET	_	_	36	det	_	_	_
+34	que	que	PRON	_	_	36	obj	_	_	_
+35	haya	haber	AUX	_	_	36	aux	_	_	_
+36	ido	ir	VERB	_	_	29	acl	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00032_22946ddfaa7c13e09725a2d1469d9e43-5
+# text = Usadlo cuando necesites estar en esa ubicacion , pero no es muy comodo para visitar el centro de la ciudad , el mismo Marriott es mucho mejor .
+1	Usadlo	Usadlo	PROPN	_	_	27	nsubj	_	_	_
+2	cuando	cuando	SCONJ	_	_	3	mark	_	_	_
+3	necesites	necesitar	VERB	_	_	27	advcl	_	_	_
+4	estar	estar	VERB	_	_	3	xcomp	_	_	_
+5	en	en	ADP	_	_	7	case	_	_	_
+6	esa	ese	DET	_	_	7	det	_	_	_
+7	ubicacion	ubicacion	NOUN	_	_	4	obl	_	_	_
+8	,	,	PUNCT	_	_	13	punct	_	_	_
+9	pero	pero	CCONJ	_	_	13	cc	_	_	_
+10	no	no	ADV	_	_	13	advmod	_	_	20:exp-Negative
+11	es	ser	AUX	_	_	13	cop	_	_	20:exp-Negative
+12	muy	mucho	ADV	_	_	13	advmod	_	_	20:exp-Negative
+13	comodo	comodo	ADJ	_	_	3	conj	_	_	20:exp-Negative
+14	para	para	ADP	_	_	15	mark	_	_	20:exp-Negative
+15	visitar	visitar	VERB	_	_	13	acl	_	_	20:exp-Negative
+16	el	el	DET	_	_	17	det	_	_	20:exp-Negative
+17	centro	centro	NOUN	_	_	15	obj	_	_	20:exp-Negative
+18	de	de	ADP	_	_	20	case	_	_	20:exp-Negative
+19	la	el	DET	_	_	20	det	_	_	20:exp-Negative
+20	ciudad	ciudad	NOUN	_	_	17	nmod	_	_	0:exp-Negative
+21	,	,	PUNCT	_	_	3	punct	_	_	_
+22	el	el	DET	_	_	24	det	_	_	24:targ
+23	mismo	mismo	DET	_	_	22	det	_	_	24:targ
+24	Marriott	Marriott	PROPN	_	_	27	nsubj	_	_	27:targ
+25	es	ser	AUX	_	_	27	cop	_	_	_
+26	mucho	mucho	ADV	_	_	27	advmod	_	_	27:exp-Positive
+27	mejor	mejor	ADJ	_	_	0	root	_	_	0:exp-Positive
+28	.	.	PUNCT	_	_	27	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00032_22946ddfaa7c13e09725a2d1469d9e43-6
+# text = Tambien mas caro , ojo .
+1	Tambien	tambien	INTJ	_	_	3	dep	_	_	_
+2	mas	mas	ADV	_	_	3	advmod	_	_	3:exp-Negative
+3	caro	caro	ADJ	_	_	0	root	_	_	0:exp-Negative
+4	,	,	PUNCT	_	_	3	punct	_	_	_
+5	ojo	ojo	NOUN	_	_	3	dep	_	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00145_cb759f0c83445611c480895d0e80b364-1
+# text = Buen hotel si vas al Camp Nou
+1	Buen	buen	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	hotel	hotel	NOUN	_	_	0	root	_	_	1:targ
+3	si	si	SCONJ	_	_	4	mark	_	_	_
+4	vas	ir	VERB	_	_	2	acl	_	_	_
+5	al	al	ADP	_	_	6	case	_	_	_
+6	Camp	Camp	PROPN	_	_	4	obl	_	_	_
+7	Nou	Nou	NUM	_	_	6	nummod	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00145_cb759f0c83445611c480895d0e80b364-2
+# text = El hotel cuenta con ocho plantas si no recuerdo mal y una gran cantidad de habitaciones , La limpieza es correcta y el desayuno tipo buffet .
+1	El	el	DET	_	_	2	det	_	_	_
+2	hotel	hotel	NOUN	_	_	3	nsubj	_	_	_
+3	cuenta	contar	VERB	_	_	0	root	_	_	4:exp-Positive
+4	con	con	ADP	_	_	6	case	_	_	0:exp-Positive
+5	ocho	ocho	NUM	_	_	6	nummod	_	_	6:targ
+6	plantas	planta	NOUN	_	_	3	obj	_	_	4:targ
+7	si	si	SCONJ	_	_	9	mark	_	_	_
+8	no	no	ADV	_	_	9	advmod	_	_	_
+9	recuerdo	recordar	VERB	_	_	3	advcl	_	_	_
+10	mal	mal	ADV	_	_	9	advmod	_	_	_
+11	y	y	CCONJ	_	_	14	cc	_	_	_
+12	una	uno	DET	_	_	14	det	_	_	14:exp-Positive
+13	gran	gran	ADJ	_	_	14	amod	_	_	14:exp-Positive
+14	cantidad	cantidad	NOUN	_	_	21	nsubj	_	_	0:exp-Positive
+15	de	de	ADP	_	_	16	case	_	_	_
+16	habitaciones	habitación	NOUN	_	_	14	nmod	_	_	14:targ
+17	,	,	PUNCT	_	_	21	punct	_	_	_
+18	La	el	DET	_	_	19	det	_	_	19:targ
+19	limpieza	limpieza	PROPN	_	_	21	nsubj	_	_	21:targ
+20	es	ser	AUX	_	_	21	cop	_	_	21:exp-Positive
+21	correcta	correcto	ADJ	_	_	3	conj	_	_	0:exp-Positive
+22	y	y	CCONJ	_	_	24	cc	_	_	_
+23	el	el	DET	_	_	24	det	_	_	24:targ
+24	desayuno	desayuno	NOUN	_	_	21	conj	_	_	26:targ
+25	tipo	tipo	NOUN	_	_	24	appos	_	_	26:exp-Positive
+26	buffet	buffet	NOUN	_	_	25	nmod	_	_	0:exp-Positive
+27	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00145_cb759f0c83445611c480895d0e80b364-3
+# text = La clientela es variada aunque siempre que nos hemos hospedado hay gran cantidad de extranjeros debido a que esta muy cerca del Camp nou , esto lo hace un sitio ideal para ir al futbol .
+1	La	el	DET	_	_	2	det	_	_	_
+2	clientela	clientela	NOUN	_	_	4	nsubj	_	_	_
+3	es	ser	AUX	_	_	4	aux	_	_	_
+4	variada	variado	VERB	_	_	0	root	_	_	_
+5	aunque	aunque	SCONJ	_	_	11	mark	_	_	_
+6	siempre	siempre	ADV	_	_	10	advmod	_	_	_
+7	que	que	PRON	_	_	10	obj	_	_	_
+8	nos	yo	PRON	_	_	10	obj	_	_	_
+9	hemos	haber	AUX	_	_	10	aux	_	_	_
+10	hospedado	hospedar	VERB	_	_	11	advcl	_	_	_
+11	hay	haber	AUX	_	_	4	advcl	_	_	_
+12	gran	gran	ADJ	_	_	13	amod	_	_	_
+13	cantidad	cantidad	NOUN	_	_	11	obj	_	_	_
+14	de	de	ADP	_	_	15	case	_	_	_
+15	extranjeros	extranjero	NOUN	_	_	13	nmod	_	_	_
+16	debido	debido	ADJ	_	_	21	mark	_	_	_
+17	a	a	ADP	_	_	16	fixed	_	_	_
+18	que	que	SCONJ	_	_	16	fixed	_	_	_
+19	esta	este	DET	_	_	21	det	_	_	21:exp-Positive
+20	muy	mucho	ADV	_	_	21	advmod	_	_	21:exp-Positive
+21	cerca	cerca	ADV	_	_	28	advmod	_	_	0:exp-Positive
+22	del	del	ADP	_	_	23	case	_	_	24:targ
+23	Camp	Camp	PROPN	_	_	21	obl	_	_	24:targ
+24	nou	nou	NUM	_	_	23	nummod	_	_	21:targ
+25	,	,	PUNCT	_	_	21	punct	_	_	_
+26	esto	este	PRON	_	_	28	nsubj	_	_	_
+27	lo	él	PRON	_	_	28	obj	_	_	_
+28	hace	hacer	VERB	_	_	11	advcl	_	_	_
+29	un	uno	DET	_	_	30	det	_	_	_
+30	sitio	sitio	NOUN	_	_	28	nsubj	_	_	35:targ
+31	ideal	ideal	ADJ	_	_	30	amod	_	_	35:exp-Positive
+32	para	para	ADP	_	_	33	mark	_	_	35:exp-Positive
+33	ir	ir	VERB	_	_	30	acl	_	_	35:exp-Positive
+34	al	al	ADP	_	_	35	case	_	_	35:exp-Positive
+35	futbol	futbol	NOUN	_	_	33	obl	_	_	0:exp-Positive
+36	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-1
+# text = En familia Senator Gran Via
+1	En	en	ADP	_	_	2	case	_	_	_
+2	familia	familia	NOUN	_	_	0	root	_	_	_
+3	Senator	Senator	PROPN	_	_	2	appos	_	_	_
+4	Gran	Gran	ADJ	_	_	3	flat	_	_	_
+5	Via	Via	PROPN	_	_	3	flat	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-2
+# text = Viviendo la navidad en madrid .
+1	Viviendo	vivir	VERB	_	_	0	root	_	_	_
+2	la	el	DET	_	_	3	det	_	_	_
+3	navidad	navidad	NOUN	_	_	1	obj	_	_	_
+4	en	en	ADP	_	_	5	case	_	_	_
+5	madrid	madrid	NOUN	_	_	1	obl	_	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-3
+# text = Hemos estado en diciembre alojados en este hotel con nuestros tres hijos .
+1	Hemos	haber	AUX	_	_	2	aux	_	_	_
+2	estado	estar	VERB	_	_	0	root	_	_	_
+3	en	en	ADP	_	_	4	case	_	_	_
+4	diciembre	diciembre	NOUN	_	_	2	obl	_	_	_
+5	alojados	alojado	ADJ	_	_	2	obj	_	_	_
+6	en	en	ADP	_	_	8	case	_	_	_
+7	este	este	DET	_	_	8	det	_	_	_
+8	hotel	hotel	NOUN	_	_	5	obl	_	_	_
+9	con	con	ADP	_	_	12	case	_	_	_
+10	nuestros	nuestro	DET	_	_	12	det	_	_	_
+11	tres	tres	NUM	_	_	10	nummod	_	_	_
+12	hijos	hijo	NOUN	_	_	5	obl	_	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-4
+# text = Ya conocíamos esta cadena y estamos muy contentos con ella .
+1	Ya	ya	ADV	_	_	2	advmod	_	_	_
+2	conocíamos	conocer	VERB	_	_	0	root	_	_	_
+3	esta	este	DET	_	_	4	det	_	_	_
+4	cadena	cadena	NOUN	_	_	2	obj	_	_	_
+5	y	y	CCONJ	_	_	8	cc	_	_	_
+6	estamos	estar	AUX	_	_	8	cop	_	_	8:exp-Positive
+7	muy	mucho	ADV	_	_	8	advmod	_	_	8:exp-Positive
+8	contentos	contento	ADJ	_	_	2	conj	_	_	0:exp-Positive
+9	con	con	ADP	_	_	10	case	_	_	10:targ
+10	ella	él	PRON	_	_	8	nmod	_	_	8:targ
+11	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-5
+# text = La ubicación del hotel es privilegiada y se encuentra entre medias de la plaza de callao y plaza españa .
+1	La	el	DET	_	_	2	det	_	_	4:targ
+2	ubicación	ubicación	NOUN	_	_	6	nsubj	_	_	4:targ
+3	del	del	ADP	_	_	4	case	_	_	4:targ
+4	hotel	hotel	NOUN	_	_	2	nmod	_	_	6:targ
+5	es	ser	AUX	_	_	6	aux	_	_	6:exp-Positive
+6	privilegiada	privilegiado	VERB	_	_	0	root	_	_	0:exp-Positive
+7	y	y	CCONJ	_	_	9	cc	_	_	_
+8	se	él	PRON	_	_	9	obj	_	_	12:exp-Positive|12:exp-Positive
+9	encuentra	encontrar	VERB	_	_	6	conj	_	_	12:exp-Positive|12:exp-Positive
+10	entre	entre	ADP	_	_	11	case	_	_	12:exp-Positive|12:exp-Positive
+11	medias	medias	NOUN	_	_	9	obl	_	_	12:exp-Positive|12:exp-Positive
+12	de	de	ADP	_	_	14	case	_	_	0:exp-Positive|0:exp-Positive
+13	la	el	DET	_	_	14	det	_	_	16:targ
+14	plaza	plaza	NOUN	_	_	11	nmod	_	_	16:targ
+15	de	de	ADP	_	_	16	case	_	_	16:targ
+16	callao	callao	NOUN	_	_	14	nmod	_	_	12:targ
+17	y	y	CCONJ	_	_	18	cc	_	_	_
+18	plaza	plaza	NOUN	_	_	16	conj	_	_	19:targ
+19	españa	españo	ADJ	_	_	18	amod	_	_	12:targ
+20	.	.	PUNCT	_	_	6	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-6
+# text = El trato de los trabajadores del hotel es muy agradable y las habitaciones son bastante espaciosas .
+1	El	el	DET	_	_	2	det	_	_	7:targ
+2	trato	trato	NOUN	_	_	10	nsubj	_	_	7:targ
+3	de	de	ADP	_	_	5	case	_	_	7:targ
+4	los	el	DET	_	_	5	det	_	_	7:targ
+5	trabajadores	trabajador	NOUN	_	_	2	nmod	_	_	7:targ
+6	del	del	ADP	_	_	7	case	_	_	7:targ
+7	hotel	hotel	NOUN	_	_	5	nmod	_	_	10:targ
+8	es	ser	AUX	_	_	10	cop	_	_	10:exp-Positive
+9	muy	mucho	ADV	_	_	10	advmod	_	_	10:exp-Positive
+10	agradable	agradable	ADJ	_	_	0	root	_	_	0:exp-Positive
+11	y	y	CCONJ	_	_	16	cc	_	_	_
+12	las	el	DET	_	_	13	det	_	_	13:targ
+13	habitaciones	habitación	NOUN	_	_	16	nsubj	_	_	16:targ
+14	son	ser	AUX	_	_	16	cop	_	_	16:exp-Positive
+15	bastante	bastante	ADV	_	_	16	advmod	_	_	16:exp-Positive
+16	espaciosas	espacioso	ADJ	_	_	10	conj	_	_	0:exp-Positive
+17	.	.	PUNCT	_	_	10	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-7
+# text = Además , el minibar , wifi y caja fuerte está incluido en el precio y es algo de agradecer porque no es muy habitual .
+1	Además	además	ADV	_	_	11	advmod	_	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_	_
+3	el	el	DET	_	_	4	det	_	_	4:targ
+4	minibar	minibar	VERB	_	_	11	csubj	_	_	14:targ
+5	,	,	PUNCT	_	_	6	punct	_	_	_
+6	wifi	wifi	NOUN	_	_	4	obj	_	_	14:targ
+7	y	y	CCONJ	_	_	8	cc	_	_	_
+8	caja	caja	NOUN	_	_	6	conj	_	_	9:targ
+9	fuerte	fuerte	ADJ	_	_	8	amod	_	_	14:targ
+10	está	estar	AUX	_	_	11	cop	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+11	incluido	incluido	ADJ	_	_	0	root	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+12	en	en	ADP	_	_	14	case	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+13	el	el	DET	_	_	14	det	_	_	14:exp-Positive|14:exp-Positive|14:exp-Positive
+14	precio	precio	NOUN	_	_	11	obl	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+15	y	y	CCONJ	_	_	17	cc	_	_	_
+16	es	ser	AUX	_	_	17	cop	_	_	_
+17	algo	algo	PRON	_	_	11	conj	_	_	24:targ
+18	de	de	ADP	_	_	19	mark	_	_	24:exp-Positive
+19	agradecer	agradecer	VERB	_	_	17	acl	_	_	24:exp-Positive
+20	porque	porque	SCONJ	_	_	24	mark	_	_	24:exp-Positive
+21	no	no	ADV	_	_	24	advmod	_	_	24:exp-Positive
+22	es	ser	AUX	_	_	24	cop	_	_	24:exp-Positive
+23	muy	mucho	ADV	_	_	24	advmod	_	_	24:exp-Positive
+24	habitual	habitual	ADJ	_	_	17	advcl	_	_	0:exp-Positive
+25	.	.	PUNCT	_	_	11	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-8
+# text = Por poner un " pero " , resaltaría el pequeño caos que se forma en el comedor ya que lo han cambiado de sitio y ahora es muy pequeño .
+1	Por	por	ADP	_	_	2	mark	_	_	_
+2	poner	poner	VERB	_	_	8	advcl	_	_	_
+3	un	uno	DET	_	_	2	obj	_	_	_
+4	"	"	PUNCT	_	_	2	punct	_	_	_
+5	pero	pero	CCONJ	_	_	6	cc	_	_	_
+6	"	"	PUNCT	_	_	2	punct	_	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_	_
+8	resaltaría	resaltar	VERB	_	_	0	root	_	_	_
+9	el	el	DET	_	_	11	det	_	_	_
+10	pequeño	pequeño	ADJ	_	_	11	amod	_	_	_
+11	caos	caos	NOUN	_	_	8	nsubj	_	_	_
+12	que	que	PRON	_	_	14	nsubj	_	_	_
+13	se	él	PRON	_	_	14	obj	_	_	_
+14	forma	formar	VERB	_	_	11	acl	_	_	_
+15	en	en	ADP	_	_	17	case	_	_	_
+16	el	el	DET	_	_	17	det	_	_	17:targ
+17	comedor	comedor	NOUN	_	_	14	obl	_	_	29:targ
+18	ya	ya	ADV	_	_	22	mark	_	_	_
+19	que	que	SCONJ	_	_	18	fixed	_	_	_
+20	lo	él	PRON	_	_	22	obj	_	_	_
+21	han	haber	AUX	_	_	22	aux	_	_	_
+22	cambiado	cambiar	VERB	_	_	8	advcl	_	_	_
+23	de	de	ADP	_	_	24	case	_	_	_
+24	sitio	sitio	NOUN	_	_	22	obl	_	_	_
+25	y	y	CCONJ	_	_	29	cc	_	_	_
+26	ahora	ahora	ADV	_	_	29	advmod	_	_	_
+27	es	ser	AUX	_	_	29	cop	_	_	29:exp-Negative
+28	muy	mucho	ADV	_	_	29	advmod	_	_	29:exp-Negative
+29	pequeño	pequeño	ADJ	_	_	22	conj	_	_	0:exp-Negative
+30	.	.	PUNCT	_	_	8	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00129_b86a874820c8688f4e9095647e9dda72-9
+# text = En líneas generales , recomendamos este hotel .
+1	En	en	ADP	_	_	2	case	_	_	_
+2	líneas	línea	NOUN	_	_	5	obl	_	_	_
+3	generales	general	ADJ	_	_	2	amod	_	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_	_
+5	recomendamos	recomendar	VERB	_	_	0	root	_	_	0:exp-Positive
+6	este	este	DET	_	_	7	det	_	_	7:targ
+7	hotel	hotel	NOUN	_	_	5	obj	_	_	5:targ
+8	.	.	PUNCT	_	_	5	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-1
+# text = Excelente
+1	Excelente	excelente	ADJ	_	_	0	root	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-2
+# text = Lo mejor de este hotel sin duda es el servicio al cliente !!
+1	Lo	él	PRON	_	_	2	det	_	_	2:exp-Positive
+2	mejor	mejor	ADJ	_	_	10	nsubj	_	_	0:exp-Positive
+3	de	de	ADP	_	_	5	case	_	_	_
+4	este	este	DET	_	_	5	det	_	_	_
+5	hotel	hotel	NOUN	_	_	2	nmod	_	_	_
+6	sin	sin	ADP	_	_	7	case	_	_	_
+7	duda	duda	NOUN	_	_	5	nmod	_	_	_
+8	es	ser	AUX	_	_	10	cop	_	_	_
+9	el	el	DET	_	_	10	det	_	_	12:targ
+10	servicio	servicio	NOUN	_	_	0	root	_	_	12:targ
+11	al	al	ADP	_	_	12	case	_	_	12:targ
+12	cliente	cliente	NOUN	_	_	10	nmod	_	_	2:targ
+13	!!	!!	PUNCT	_	_	10	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-3
+# text = excelente personal !
+1	excelente	excelente	ADJ	_	_	2	amod	_	_	0:exp-Positive
+2	personal	personal	NOUN	_	_	0	root	_	_	1:targ
+3	!	!	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-4
+# text = te hacen sentir como en casa .
+1	te	tú	PRON	_	_	2	obj	_	_	6:exp-Positive
+2	hacen	hacer	VERB	_	_	0	root	_	_	6:exp-Positive
+3	sentir	sentir	VERB	_	_	2	xcomp	_	_	6:exp-Positive
+4	como	como	SCONJ	_	_	6	mark	_	_	6:exp-Positive
+5	en	en	ADP	_	_	6	case	_	_	6:exp-Positive
+6	casa	casa	NOUN	_	_	2	obl	_	_	0:exp-Positive
+7	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-5
+# text = La relacion calidad · precio es inmejorable .
+1	La	el	DET	_	_	2	det	_	_	5:targ
+2	relacion	relacion	NOUN	_	_	7	nsubj	_	_	5:targ
+3	calidad	calidad	NOUN	_	_	2	nmod	_	_	5:targ
+4	·	·	PUNCT	_	_	5	punct	_	_	5:targ
+5	precio	precio	NOUN	_	_	2	nmod	_	_	7:targ
+6	es	ser	AUX	_	_	7	cop	_	_	_
+7	inmejorable	inmejorable	ADJ	_	_	0	root	_	_	0:exp-Positive
+8	.	.	PUNCT	_	_	7	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-6
+# text = La comida presenta mucha variedad y tiene algunos restaurantes temáticos a parte del buffet .
+1	La	el	DET	_	_	2	det	_	_	2:targ
+2	comida	comida	NOUN	_	_	3	nsubj	_	_	5:targ
+3	presenta	presentar	VERB	_	_	0	root	_	_	_
+4	mucha	mucho	DET	_	_	5	det	_	_	5:exp-Positive
+5	variedad	variedad	NOUN	_	_	3	obj	_	_	0:exp-Positive
+6	y	y	CCONJ	_	_	7	cc	_	_	_
+7	tiene	tener	VERB	_	_	3	conj	_	_	0:exp-Positive
+8	algunos	alguno	DET	_	_	9	det	_	_	10:targ
+9	restaurantes	restaurante	NOUN	_	_	7	obj	_	_	10:targ
+10	temáticos	temático	ADJ	_	_	9	amod	_	_	7:targ
+11	a	a	ADP	_	_	14	case	_	_	_
+12	parte	parte	NOUN	_	_	11	fixed	_	_	_
+13	del	del	ADP	_	_	11	fixed	_	_	_
+14	buffet	buffet	NOUN	_	_	7	obl	_	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-7
+# text = Nosotros fuimos al italiano y japones y super bien .
+1	Nosotros	yo	PRON	_	_	2	nsubj	_	_	_
+2	fuimos	ir	VERB	_	_	0	root	_	_	_
+3	al	al	ADP	_	_	4	case	_	_	_
+4	italiano	italiano	NOUN	_	_	2	obl	_	_	_
+5	y	y	CCONJ	_	_	6	cc	_	_	_
+6	japones	japón	NOUN	_	_	4	conj	_	_	_
+7	y	y	CCONJ	_	_	8	cc	_	_	_
+8	super	super	NOUN	_	_	4	conj	_	_	_
+9	bien	bien	ADV	_	_	8	advmod	_	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-8
+# text = la piscina y la playa genial , sobre todo la playa .
+1	la	el	DET	_	_	2	det	_	_	2:targ
+2	piscina	piscina	NOUN	_	_	0	root	_	_	6:targ
+3	y	y	CCONJ	_	_	5	cc	_	_	_
+4	la	el	DET	_	_	5	det	_	_	5:targ
+5	playa	playa	NOUN	_	_	2	conj	_	_	6:targ
+6	genial	genial	ADJ	_	_	5	amod	_	_	0:exp-Positive|0:exp-Positive
+7	,	,	PUNCT	_	_	11	punct	_	_	_
+8	sobre	sobre	ADP	_	_	11	case	_	_	_
+9	todo	todo	DET	_	_	10	det	_	_	_
+10	la	el	DET	_	_	11	det	_	_	_
+11	playa	playa	NOUN	_	_	2	nmod	_	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-9
+# text = Muy divertidas las atenciones por parte del equipo de animacion !!!
+1	Muy	mucho	ADV	_	_	2	advmod	_	_	2:exp-Positive
+2	divertidas	divertido	ADJ	_	_	0	root	_	_	0:exp-Positive
+3	las	el	DET	_	_	4	det	_	_	10:targ
+4	atenciones	atención	NOUN	_	_	2	nsubj	_	_	10:targ
+5	por	por	ADP	_	_	8	case	_	_	10:targ
+6	parte	parte	NOUN	_	_	5	fixed	_	_	10:targ
+7	del	del	ADP	_	_	5	fixed	_	_	10:targ
+8	equipo	equipo	NOUN	_	_	4	nmod	_	_	10:targ
+9	de	de	ADP	_	_	10	case	_	_	10:targ
+10	animacion	animacion	NOUN	_	_	8	nmod	_	_	2:targ
+11	!!!	!!!	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00115_8dfc1adf7823d883234e5313a94ec232-10
+# text = son geniales !!
+1	son	ser	AUX	_	_	2	cop	_	_	3:exp-Positive
+2	geniales	genial	ADJ	_	_	0	root	_	_	3:exp-Positive
+3	!!	!!	PUNCT	_	_	2	punct	_	_	0:exp-Positive
+
+# sent_id = ../opener/es/kaf/hotel/spanish00044_3f4fc0639d406cb441637348ca6069b7-1
+# text = Perfecto para descansar tras un día de trabajo
+1	Perfecto	perfecto	ADJ	_	_	0	root	_	_	0:exp-Positive
+2	para	para	ADP	_	_	3	mark	_	_	3:targ
+3	descansar	descansar	VERB	_	_	1	acl	_	_	1:targ
+4	tras	tras	ADP	_	_	6	case	_	_	_
+5	un	uno	DET	_	_	6	det	_	_	_
+6	día	día	NOUN	_	_	3	obl	_	_	_
+7	de	de	ADP	_	_	8	case	_	_	_
+8	trabajo	trabajo	NOUN	_	_	6	nmod	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00044_3f4fc0639d406cb441637348ca6069b7-2
+# text = Aunque ya tiene años y quizá en breve necesite alguna reforma , sobre todo en los baños , el Hotel Senator Barcelona es un lugar perfecto para descansar después de un intenso día de trabajo .
+1	Aunque	aunque	SCONJ	_	_	3	mark	_	_	3:exp-Negative
+2	ya	ya	ADV	_	_	3	advmod	_	_	3:exp-Negative
+3	tiene	tener	VERB	_	_	25	advcl	_	_	0:exp-Negative
+4	años	año	NOUN	_	_	3	obj	_	_	3:targ
+5	y	y	CCONJ	_	_	9	cc	_	_	_
+6	quizá	quizá	ADV	_	_	9	advmod	_	_	_
+7	en	en	ADP	_	_	9	advmod	_	_	_
+8	breve	breve	NOUN	_	_	7	fixed	_	_	_
+9	necesite	necesitar	VERB	_	_	3	conj	_	_	0:exp-Negative
+10	alguna	alguno	DET	_	_	11	det	_	_	11:targ
+11	reforma	reforma	NOUN	_	_	9	obj	_	_	9:targ
+12	,	,	PUNCT	_	_	13	punct	_	_	_
+13	sobre	sobre	ADP	_	_	9	advmod	_	_	14:exp-Negative
+14	todo	todo	PRON	_	_	13	fixed	_	_	0:exp-Negative
+15	en	en	ADP	_	_	13	case	_	_	_
+16	los	el	DET	_	_	17	det	_	_	17:targ
+17	baños	baño	NOUN	_	_	13	nmod	_	_	14:targ
+18	,	,	PUNCT	_	_	3	punct	_	_	_
+19	el	el	DET	_	_	20	det	_	_	_
+20	Hotel	Hotel	PROPN	_	_	25	nsubj	_	_	22:targ
+21	Senator	Senator	PROPN	_	_	20	flat	_	_	22:targ
+22	Barcelona	Barcelona	PROPN	_	_	20	flat	_	_	28:targ
+23	es	ser	AUX	_	_	25	cop	_	_	_
+24	un	uno	DET	_	_	25	det	_	_	_
+25	lugar	lugar	NOUN	_	_	0	root	_	_	_
+26	perfecto	perfecto	ADJ	_	_	25	amod	_	_	28:exp-Positive
+27	para	para	ADP	_	_	28	mark	_	_	28:exp-Positive
+28	descansar	descansar	VERB	_	_	25	acl	_	_	0:exp-Positive
+29	después	después	ADV	_	_	28	advmod	_	_	_
+30	de	de	ADP	_	_	33	case	_	_	_
+31	un	uno	DET	_	_	33	det	_	_	_
+32	intenso	intenso	ADJ	_	_	33	amod	_	_	_
+33	día	día	NOUN	_	_	29	obl	_	_	_
+34	de	de	ADP	_	_	35	case	_	_	_
+35	trabajo	trabajo	NOUN	_	_	33	nmod	_	_	_
+36	.	.	PUNCT	_	_	25	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00044_3f4fc0639d406cb441637348ca6069b7-3
+# text = Lo mejor : la amplitud de la recepción y habitaciones , el silencio por las noches , y el murmullo del agua en las fuentes del interior y el exterior .
+1	Lo	él	PRON	_	_	2	det	_	_	_
+2	mejor	mejor	ADJ	_	_	0	root	_	_	_
+3	:	:	PUNCT	_	_	5	punct	_	_	_
+4	la	el	DET	_	_	5	det	_	_	5:exp-Positive|5:exp-Positive
+5	amplitud	amplitud	NOUN	_	_	2	obj	_	_	0:exp-Positive|0:exp-Positive
+6	de	de	ADP	_	_	8	case	_	_	_
+7	la	el	DET	_	_	8	det	_	_	8:targ
+8	recepción	recepción	NOUN	_	_	5	nmod	_	_	5:targ
+9	y	y	CCONJ	_	_	10	cc	_	_	_
+10	habitaciones	habitación	NOUN	_	_	8	conj	_	_	5:targ
+11	,	,	PUNCT	_	_	13	punct	_	_	_
+12	el	el	DET	_	_	13	det	_	_	13:exp-Positive
+13	silencio	silencio	NOUN	_	_	5	appos	_	_	0:exp-Positive
+14	por	por	ADP	_	_	16	case	_	_	_
+15	las	el	DET	_	_	16	det	_	_	16:targ
+16	noches	noche	NOUN	_	_	13	nmod	_	_	13:targ
+17	,	,	PUNCT	_	_	13	punct	_	_	_
+18	y	y	CCONJ	_	_	20	cc	_	_	_
+19	el	el	DET	_	_	20	det	_	_	22:exp-Positive|22:exp-Positive
+20	murmullo	murmullo	NOUN	_	_	5	conj	_	_	22:exp-Positive|22:exp-Positive
+21	del	del	ADP	_	_	22	case	_	_	22:exp-Positive|22:exp-Positive
+22	agua	agua	NOUN	_	_	20	nmod	_	_	0:exp-Positive|0:exp-Positive
+23	en	en	ADP	_	_	25	case	_	_	_
+24	las	el	DET	_	_	25	det	_	_	27:targ
+25	fuentes	fuente	NOUN	_	_	20	nmod	_	_	27:targ
+26	del	del	ADP	_	_	27	case	_	_	27:targ
+27	interior	interior	NOUN	_	_	25	nmod	_	_	22:targ
+28	y	y	CCONJ	_	_	30	cc	_	_	_
+29	el	el	DET	_	_	30	det	_	_	30:targ
+30	exterior	exterior	NOUN	_	_	27	conj	_	_	22:targ
+31	.	.	PUNCT	_	_	2	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00012_0c83d63297cb791b4423232d5f64b614-1
+# text = Opción barata para Las Vegas
+1	Opción	opción	NOUN	_	_	0	root	_	_	2:targ
+2	barata	barato	ADJ	_	_	1	amod	_	_	0:exp-Positive
+3	para	para	ADP	_	_	5	case	_	_	_
+4	Las	el	DET	_	_	5	det	_	_	_
+5	Vegas	Vegas	PROPN	_	_	1	nmod	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00012_0c83d63297cb791b4423232d5f64b614-2
+# text = Estuvimos alojados en Agosto de 2012 .
+1	Estuvimos	estar	VERB	_	_	0	root	_	_	_
+2	alojados	alojado	ADJ	_	_	1	obj	_	_	_
+3	en	en	ADP	_	_	4	case	_	_	_
+4	Agosto	agosto	NOUN	_	_	2	obl	_	_	_
+5	de	de	ADP	_	_	6	case	_	_	_
+6	2012	2012	NUM	_	_	4	nummod	_	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00012_0c83d63297cb791b4423232d5f64b614-3
+# text = El hotel se encuentra en medio del Strip , con lo que su ubicación es idónea .
+1	El	el	DET	_	_	2	det	_	_	2:targ
+2	hotel	hotel	NOUN	_	_	4	nsubj	_	_	8:targ
+3	se	él	PRON	_	_	4	obj	_	_	_
+4	encuentra	encontrar	VERB	_	_	0	root	_	_	_
+5	en	en	ADP	_	_	8	case	_	_	8:exp-Positive
+6	medio	medio	NOUN	_	_	5	fixed	_	_	8:exp-Positive
+7	del	del	ADP	_	_	5	fixed	_	_	8:exp-Positive
+8	Strip	Strip	PROPN	_	_	4	obl	_	_	0:exp-Positive
+9	,	,	PUNCT	_	_	16	punct	_	_	_
+10	con	con	ADP	_	_	16	case	_	_	_
+11	lo	él	PRON	_	_	16	det	_	_	_
+12	que	que	PRON	_	_	16	obl	_	_	_
+13	su	su	DET	_	_	14	det	_	_	14:targ
+14	ubicación	ubicación	NOUN	_	_	16	nsubj	_	_	16:targ
+15	es	ser	AUX	_	_	16	cop	_	_	_
+16	idónea	idóneo	ADJ	_	_	4	advcl	_	_	0:exp-Positive
+17	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00012_0c83d63297cb791b4423232d5f64b614-4
+# text = Las habitaciones son normalitas , nosotros tuvimos mala suerte porque nos tocó una habitación que daba a un escenario en el que había actuaciones hasta las 3 de la madrugada , con lo que nos tocó dormir con tapones .
+1	Las	el	DET	_	_	2	det	_	_	2:targ
+2	habitaciones	habitación	NOUN	_	_	4	nsubj	_	_	4:targ
+3	son	ser	AUX	_	_	4	cop	_	_	_
+4	normalitas	normalito	ADJ	_	_	0	root	_	_	0:exp-Positive
+5	,	,	PUNCT	_	_	4	punct	_	_	_
+6	nosotros	yo	PRON	_	_	7	nsubj	_	_	_
+7	tuvimos	tener	VERB	_	_	4	advcl	_	_	_
+8	mala	malo	ADJ	_	_	9	amod	_	_	_
+9	suerte	suerte	NOUN	_	_	7	obj	_	_	_
+10	porque	porque	SCONJ	_	_	12	mark	_	_	_
+11	nos	yo	PRON	_	_	12	obj	_	_	17:holder
+12	tocó	tocar	VERB	_	_	7	advcl	_	_	17:exp-Negative
+13	una	uno	DET	_	_	14	det	_	_	17:exp-Negative
+14	habitación	habitación	NOUN	_	_	12	nsubj	_	_	17:exp-Negative
+15	que	que	PRON	_	_	16	nsubj	_	_	17:exp-Negative
+16	daba	dar	VERB	_	_	14	acl	_	_	17:exp-Negative
+17	a	a	ADP	_	_	19	case	_	_	0:exp-Negative
+18	un	uno	DET	_	_	19	det	_	_	_
+19	escenario	escenario	NOUN	_	_	16	obj	_	_	_
+20	en	en	ADP	_	_	22	case	_	_	_
+21	el	el	DET	_	_	22	det	_	_	_
+22	que	que	PRON	_	_	23	obl	_	_	_
+23	había	haber	AUX	_	_	19	acl	_	_	_
+24	actuaciones	actuación	NOUN	_	_	23	obj	_	_	_
+25	hasta	hasta	ADP	_	_	27	case	_	_	_
+26	las	el	DET	_	_	27	det	_	_	_
+27	3	3	NUM	_	_	23	obl	_	_	_
+28	de	de	ADP	_	_	30	case	_	_	_
+29	la	el	DET	_	_	30	det	_	_	_
+30	madrugada	madrugada	NOUN	_	_	27	nmod	_	_	_
+31	,	,	PUNCT	_	_	36	punct	_	_	_
+32	con	con	ADP	_	_	36	mark	_	_	_
+33	lo	él	PRON	_	_	36	det	_	_	_
+34	que	que	PRON	_	_	36	obl	_	_	_
+35	nos	yo	PRON	_	_	36	obj	_	_	38:holder
+36	tocó	tocar	VERB	_	_	23	advcl	_	_	38:exp-Negative
+37	dormir	dormir	VERB	_	_	36	csubj	_	_	38:exp-Negative
+38	con	con	ADP	_	_	39	case	_	_	0:exp-Negative
+39	tapones	tapón	NOUN	_	_	37	obl	_	_	_
+40	.	.	PUNCT	_	_	4	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00012_0c83d63297cb791b4423232d5f64b614-5
+# text = Está bastante limpio .
+1	Está	estar	AUX	_	_	3	cop	_	_	_
+2	bastante	bastante	ADV	_	_	3	advmod	_	_	3:exp-Positive
+3	limpio	limpio	ADJ	_	_	0	root	_	_	0:exp-Positive
+4	.	.	PUNCT	_	_	3	punct	_	_	_
+
+# sent_id = ../opener/es/kaf/hotel/spanish00012_0c83d63297cb791b4423232d5f64b614-6
+# text = El WIFI no es de buena calidad , apenas llega a la habitación .
+1	El	el	DET	_	_	2	det	_	_	2:targ|2:targ
+2	WIFI	WIFI	PROPN	_	_	7	nsubj	_	_	6:targ|13:targ
+3	no	no	ADV	_	_	7	advmod	_	_	6:exp-Negative
+4	es	ser	AUX	_	_	7	cop	_	_	6:exp-Negative
+5	de	de	ADP	_	_	7	case	_	_	6:exp-Negative
+6	buena	buen	ADJ	_	_	7	amod	_	_	0:exp-Negative
+7	calidad	calidad	NOUN	_	_	0	root	_	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_	_
+9	apenas	apenas	ADV	_	_	10	advmod	_	_	13:exp-Negative
+10	llega	llegar	VERB	_	_	7	advcl	_	_	13:exp-Negative
+11	a	a	ADP	_	_	13	case	_	_	13:exp-Negative
+12	la	el	DET	_	_	13	det	_	_	13:exp-Negative
+13	habitación	habitación	NOUN	_	_	10	obl	_	_	0:exp-Negative
+14	.	.	PUNCT	_	_	7	punct	_	_	_
+
