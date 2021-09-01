@@ -8,7 +8,7 @@ Rather than treating the sentiment graph prediction task as sequence-labeling, w
 
 In the case of *head-first*, we assume that the first token in any subelement (sentiment holder, target, or expression) is the *head*. This means any incoming arcs from other subelements will point to this token, as well as all internal arcs. *Head-final* instead assumes the final token is the head. The conversion script (convert_to_conllu.py) also allows adding separate label prefix for internal arcs (--inside_label), using dependency edges (--use_dep_edges) or dependency labels (--use_dep_labels) to create more linguistically plausable graphs. The base version used in get_baseline.sh is *head-final*, but you can change this to experiment on other graph representations.
 
-Finally, the model is a variation of the Dozat and Manning parser which was implemented in the paper [End-to-End Negation Resolution as Graph Parsing](https://aclanthology.org/2020.iwpt-1.3/). You can find further details on the model in this paper and [Structured Sentiment Analysis as Dependency Graph Parsing](https://aclanthology.org/2021.acl-long.263/).
+Finally, the model is a variation of the [Dozat and Manning parser](https://openreview.net/forum?id=Hk95PK9le) which was implemented in the paper [End-to-End Negation Resolution as Graph Parsing](https://aclanthology.org/2020.iwpt-1.3/). You can find further details on the model in this paper and [Structured Sentiment Analysis as Dependency Graph Parsing](https://aclanthology.org/2021.acl-long.263/).
 
 ## Requirements
 
