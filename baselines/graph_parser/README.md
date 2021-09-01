@@ -14,7 +14,8 @@ Rather than treating the sentiment graph prediction task as sequence-labeling, w
 3. matplotlib
 4. sklearn
 5. gensim
-6. numpy
+6. stanza
+7. nltk
 
 ## Get the baseline models
 
@@ -31,3 +32,23 @@ bash ./inference.sh sentiment_graphs/multibooked_eu/head_final/dev.conllu experi
 ```
 
 The predictions (dev.conllu.pred, dev.conllu.json) will be written to the same directory where the model is found. The json files contain the predictions converted to the appropriate submission format, while the conllu.pred files show the actual predictions.
+
+## Suggested reading
+
+@inproceedings{barnes-etal-2021-structured,
+    title = "Structured Sentiment Analysis as Dependency Graph Parsing",
+    author = "Barnes, Jeremy  and
+      Kurtz, Robin  and
+      Oepen, Stephan  and
+      {\O}vrelid, Lilja  and
+      Velldal, Erik",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.263",
+    doi = "10.18653/v1/2021.acl-long.263",
+    pages = "3387--3402",
+    abstract = "Structured sentiment analysis attempts to extract full opinion tuples from a text, but over time this task has been subdivided into smaller and smaller sub-tasks, e.g., target extraction or targeted polarity classification. We argue that this division has become counterproductive and propose a new unified framework to remedy the situation. We cast the structured sentiment problem as dependency graph parsing, where the nodes are spans of sentiment holders, targets and expressions, and the arcs are the relations between them. We perform experiments on five datasets in four languages (English, Norwegian, Basque, and Catalan) and show that this approach leads to strong improvements over state-of-the-art baselines. Our analysis shows that refining the sentiment graphs with syntactic dependency information further improves results.",
+}
