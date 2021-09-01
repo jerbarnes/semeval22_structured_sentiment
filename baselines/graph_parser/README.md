@@ -2,10 +2,11 @@
 
 This subrepository contains the code and datasets described in following paper: [Structured Sentiment Analysis as Dependency Graph Parsing]().
 
-Rather than treating the sentiment graph prediction task as sequence-labeling, we can treat it as a bilexical dependency graph prediction task, although some decisions must be made. We provide two versions (a) *head-first* and (b) *head-final*, shown below:
+Rather than treating the sentiment graph prediction task as sequence-labeling, we can treat it as a bilexical dependency graph prediction task, although some assumptions must be made. The two most basic versions (a) *head-first* and (b) *head-final*, are shown below:
 
 ![bilexical](../../figures/bilexical.png)
 
+In the case of *head-first*, we assume that the first token in any subelement (sentiment holder, target, or expression) is the *head*. This means any incoming arcs from other subelements will point to this token, as well as all internal arcs. *Head-final* instead assumes the final token is the head. The conversion script (convert_to_conllu.py) also allows adding separate label prefix for internal arcs (--inside_label), using dependency edges (--use_dep_edges) or dependency labels (--use_dep_labels) to create more linguistically plausable graphs. The base version used in get_baseline.sh is *head-final*, but you can change this
 
 ## Requirements
 
