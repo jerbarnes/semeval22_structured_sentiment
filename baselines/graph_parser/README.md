@@ -22,7 +22,7 @@ Finally, the model is a variation of the [Dozat and Manning parser](https://open
 
 ## Get the baseline models
 
-In order to train the baseline models, we provide scripts which will download pretrained embeddings and train monolingual models:
+In order to train the baseline models, we provide scripts which will download pretrained embeddings, convert the json data to conllu format, and train monolingual models:
 
 ```
 bash ./get_baseline.sh
