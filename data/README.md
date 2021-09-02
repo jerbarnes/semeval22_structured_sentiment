@@ -8,6 +8,27 @@ This track assumes that we train and test on the same languages. For this we wil
 4. opener_en (English hotel reviews)
 5. opener_es (Spanish hotel reviews)
 6. darmstadt_unis (English online university reviews)
+## Requirements
+
+1. lxml
+2. tqdm
+3. stanza
+
+## Step 1:
+
+Go to the [MPQA 2.0](http://mpqa.cs.pitt.edu/corpora/mpqa_corpus/mpqa_corpus_2_0/) website, agree to the license and download the corpus. Put the zipped archive in /mpqa. Finally, run the extraction script.
+
+```
+bash process_mpqa.sh
+```
+
+
+Go to the [Darmstadt Service Review Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) website, agree to the license and download the corpus. Put the zipped archive in /darmstadt_unis
+
+```
+bash process_darmstadt.sh
+```
+
 
 ## Subtask 2: Cross-lingual structured sentiment
 This track will instead train only on a high-resource language (English) and test on several languages.
