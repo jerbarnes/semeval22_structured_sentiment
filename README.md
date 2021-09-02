@@ -45,7 +45,7 @@ This track assumes that you train and test on the same language. Participants wi
 | [MultiBooked_ca](https://aclanthology.org/L18-1104/) | Catalan |1678 |235 |2336 |2756 |
 | [OpeNER_es](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | Spanish |2057 |255 |3980 |4388 |
 | [OpeNER_en](http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4891) | English |2494 |413 |3850 |4150 |
-| [MPQA](http://mpqa.cs.pitt.edu/) | English | | | | |
+| [MPQA](http://mpqa.cs.pitt.edu/) | English | 10048 | 2279| 2452 | 2814 |
 | [Darmstadt_unis](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) | English | 2803 | 86 | 1119 | 1119 |
 
 ### Cross-lingual
