@@ -13,7 +13,7 @@ bash process_mpqa.sh
 ```
 
 
-Go to the [Darmstadt Service Review Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) website, agree to the license and download the corpus. Put the zipped archive in /darmstadt_unis
+Go to the [Darmstadt Service Review Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) website, agree to the license and download the corpus. Put the zipped archive in /darmstadt_unis and finally, run the extraction script.
 
 ```
 bash process_darmstadt.sh
