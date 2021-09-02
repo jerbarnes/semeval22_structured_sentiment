@@ -327,8 +327,8 @@ def process_file(fname, nlp):
         processed_sents.append(sent.to_dict())
     return processed_sents
 
-if __name__ == "__main__":
 
+def main():
     train = [l.strip() for l in open("datasplit/filelist_train0").readlines()]
     dev = [l.strip() for l in open("datasplit/filelist_dev").readlines()]
     data = [("train", train), ("dev", dev)]
@@ -349,3 +349,7 @@ if __name__ == "__main__":
 
         with open(os.path.join("{0}.json".format(name)), "w") as out:
             json.dump(processed, out)
+
+
+if __name__ == "__main__":
+    main()
