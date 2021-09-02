@@ -1,13 +1,3 @@
-
-## Subtask 1: Monolingual structured sentiment
-This track assumes that we train and test on the same languages. For this we will use the following datasets:
-
-1. norec (Norwegian professional reviews in multiple domains)
-2. multibooked_ca (Catalan hotel reviews)
-3. multibooked_eu (Basque hotel reviews)
-4. opener_en (English hotel reviews)
-5. opener_es (Spanish hotel reviews)
-6. darmstadt_unis (English online university reviews)
 ## Requirements
 
 1. lxml
@@ -29,6 +19,17 @@ Go to the [Darmstadt Service Review Corpus](https://tudatalib.ulb.tu-darmstadt.d
 bash process_darmstadt.sh
 ```
 
+
+
+## Subtask 1: Monolingual structured sentiment
+This track assumes that we train and test on the same languages. For this we will use the following datasets:
+
+1. norec (Norwegian professional reviews in multiple domains)
+2. multibooked_ca (Catalan hotel reviews)
+3. multibooked_eu (Basque hotel reviews)
+4. opener_en (English hotel reviews)
+5. opener_es (Spanish hotel reviews)
+6. darmstadt_unis (English online university reviews)
 
 ## Subtask 2: Cross-lingual structured sentiment
 This track will instead train only on a high-resource language (English) and test on several languages.
