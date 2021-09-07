@@ -2,7 +2,7 @@
 
 1. lxml
 2. tqdm
-3. stanza
+3. stanza >= 1.2.3
 
 ## Step 1:
 
