@@ -186,15 +186,19 @@ def get_sents(text, fname, nlp):
     for i, sentence in enumerate(tagged.sentences):
         sent_id = fname + "-" + str(i)
         text = sentence.text
-        sent_bidx = int(sentence.tokens[0].misc.split("|")[0].split("=")[1])
-        sent_eidx = int(sentence.tokens[-1].misc.split("|")[1].split("=")[1])
+        sent_bidx = sentence.tokens[0].start_char
+        sent_eidx = sentence.tokens[-1].end_char
+        #sent_bidx = int(sentence.tokens[0].misc.split("|")[0].split("=")[1])
+        #sent_eidx = int(sentence.tokens[-1].misc.split("|")[1].split("=")[1])
         offsets = (sent_bidx, sent_eidx)
         sent_tokens = []
         for token in sentence.tokens:
-            offset_info = token.misc
-            boff, eoff = offset_info.split("|")
-            bidx = int(boff.split("=")[1])
-            eidx = int(eoff.split("=")[1])
+            #offset_info = token.misc
+            #boff, eoff = offset_info.split("|")
+            #bidx = int(boff.split("=")[1])
+            #eidx = int(eoff.split("=")[1])
+            bidx = token.start_char
+            eidx = token.end_char
             sent_tokens.append(Token(token.id, token.text, (bidx, eidx)))
 
         sents.append(Sentence(sent_id,
