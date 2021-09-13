@@ -450,6 +450,24 @@ def get_files(current_dir):
     return list(zip(base_files, mark_files))
 
 
+def fix_data_format_error(current_dir):
+    for f in ['University_of_Phoenix_Online_131_11-08-2005', 'University_of_Phoenix_Online_31_12-03-2007', 'University_of_Phoenix_Online_141_10-05-2005']:
+        bf = f+'_words.xml'
+        bfile = os.path.join(current_dir, "basedata", bf)
+        lines = []
+        for line in open(bfile):
+            if '>&<' in line:
+                print(bfile)
+                print(line)
+                line = line.replace('>&<', '>&amp;<')
+                print(line)
+            lines.append(line)
+    
+        with open(bfile, 'w') as writer:
+            for line in lines:
+                writer.write(line)
+
+
 if __name__ == "__main__":
 
     basedir = "DarmstadtServiceReviewCorpus"
@@ -460,6 +478,7 @@ if __name__ == "__main__":
         splits = json.load(infile)
 
     current_dir = os.path.join(basedir, corpus)
+    fix_data_format_error(current_dir)
     ff = get_files(current_dir)
 
     #break into train, dev splits
