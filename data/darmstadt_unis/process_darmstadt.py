@@ -258,8 +258,8 @@ def get_opinions(base_file, markable_file):
                     opinions.append({"Source": holder,
                                      "Target": target,
                                      "Polar_expression": expression,
-                                     "Polarity": label,
-                                     "Intensity": intensity})
+                                     "Polarity": label.title(),
+                                     "Intensity": intensity.title()})
 
             else:
                 target_span = markups[tspan].get("span")
@@ -275,8 +275,8 @@ def get_opinions(base_file, markable_file):
                 opinions.append({"Source": holder,
                                  "Target": target,
                                  "Polar_expression": expression,
-                                 "Polarity": label,
-                                 "Intensity": intensity})
+                                 "Polarity": label.title(),
+                                 "Intensity": intensity.title()})
 
         # elif m.get("annotation_type") == "polar_target":
         #     idx = m.get("id")
@@ -430,8 +430,8 @@ def get_sentence_level_anns(document_level_anns):
             opinion = {"Source": holder,
                        "Target": target,
                        "Polar_expression": expression,
-                       "Polarity": polarity,
-                       "Intensity": intensity}
+                       "Polarity": polarity.title(),
+                       "Intensity": intensity.title()}
 
             new_opinions.append(opinion)
 
@@ -474,6 +474,9 @@ if __name__ == "__main__":
 
             o = get_opinions(bfile, mfile)
             sentence_anns = get_sentence_level_anns(o)
+            if subname in ["dev", "test"]:
+                for s in sentence_anns:
+                    s["opinions"] = []
             processed[subname].extend(sentence_anns)
 
     for subname, subcorpus in processed.items():
