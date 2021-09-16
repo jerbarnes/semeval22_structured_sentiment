@@ -17,7 +17,7 @@
 unzip DarmstadtServiceReviewCorpus.zip
 cd DarmstadtServiceReviewCorpus
 unzip universities
-grep -rl "&" universities/basedata | xargs sed -e 's/&/and/g'
+grep -rl "&" universities/basedata | xargs sed -i 's/&/and/g'
 cd ..
 python3 process_darmstadt.py
 rm -rf DarmstadtServiceReviewCorpus
