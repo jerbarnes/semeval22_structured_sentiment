@@ -215,7 +215,7 @@ def to_bio(dataset):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--datasets", default=["darmstadt_unis", "multibooked_ca", "multibooked_eu", "norec", "opener_en", "opener_es"])
+    parser.add_argument("--datasets", default=["mpqa", "darmstadt_unis", "multibooked_ca", "multibooked_eu", "norec", "opener_en", "opener_es"])
 
     args = parser.parse_args()
 
