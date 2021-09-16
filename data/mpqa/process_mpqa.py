@@ -28,6 +28,16 @@ class Opinion():
         self.polarity = polarity
         self.intensity = intensity
 
+    def normalize_polarity(self, polarity):
+        if "positive" in polarity.lower():
+            return "Positive"
+        if "negative" in polarity.lower():
+            return "Negative"
+        if "neutral" in polarity.lower():
+            return "Neutral"
+        if "both" in polarity.lower():
+            return "Neutral"
+
     def normalize_intensity(self, intensity):
         if "high" in intensity:
             return "Strong"
@@ -46,7 +56,7 @@ class Opinion():
         opinion_dict = {"Source": self.source.to_dict(),
                         "Target": self.target.to_dict(),
                         "Polar_expression": self.polar_expression.to_dict(),
-                        "Polarity": self.polarity.title(),
+                        "Polarity": self.normalize_polarity(self.polarity),
                         "Intensity": self.normalize_intensity(self.intensity)
                         }
         return opinion_dict
