@@ -30,23 +30,23 @@ class Opinion():
 
     def normalize_intensity(self, intensity):
         if "high" in intensity:
-            return "strong"
+            return "Strong"
         if "extreme" in intensity:
-            return "strong"
+            return "Strong"
         if "low" in intensity:
-            return "weak"
+            return "Weak"
         if "medium" in intensity:
-            return "average"
+            return "Average"
         if "neutral" in intensity:
-            return "average"
+            return "Average"
         if "Standard" in intensity:
-            return "average"
+            return "Average"
 
     def to_dict(self):
         opinion_dict = {"Source": self.source.to_dict(),
                         "Target": self.target.to_dict(),
                         "Polar_expression": self.polar_expression.to_dict(),
-                        "Polarity": self.polarity,
+                        "Polarity": self.polarity.title(),
                         "Intensity": self.normalize_intensity(self.intensity)
                         }
         return opinion_dict
