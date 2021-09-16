@@ -91,9 +91,9 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
 * `'Polar_expression'`: a list of text and character offsets for the opinion expression
 
-* `'Polarity'`: sentiment label ('negative', 'positive', 'neutral')
+* `'Polarity'`: sentiment label ('Negative', 'Positive', 'Neutral')
 
-* `'Intensity'`: sentiment intensity ('average', 'strong', 'weak')
+* `'Intensity'`: sentiment intensity ('Average', 'Strong', 'Weak')
 
 
 ```
@@ -107,15 +107,15 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
                     "Source": [["I"], ["44:45"]],
                     "Target": [["this hotel"], ["66:76"]],
                     "Polar_expression": [["would not recommend"], ["46:65"]],
-                    "Polarity": "negative",
-                    "Intensity": "average"
+                    "Polarity": "Negative",
+                    "Intensity": "Average"
                   },
                  {
                     "Source": [[], []],
                     "Target": [["the price"], ["12:21"]],
                     "Polar_expression": [["decent"], ["25:31"]],
-                    "Polarity": "positive",
-                    "Intensity": "average"}
+                    "Polarity": "Positive",
+                    "Intensity": "Average"}
                 ]
 }
 ```
