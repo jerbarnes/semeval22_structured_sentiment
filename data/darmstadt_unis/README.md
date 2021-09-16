@@ -8,3 +8,8 @@ Then run the process_darmstadt.sh script from the command line:
 bash preprocess_darmstadt.sh
 ```
 
+If you are running OSX, use this command instead:
+
+```
+bash preprocess_darmstadt_OSX.sh
+```
