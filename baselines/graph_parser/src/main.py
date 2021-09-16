@@ -277,7 +277,7 @@ def get_args(forced_args=None):
     parser.add_argument(
         "--predict_file",
         help="Skips training and instead does predictions on given file." +
-        " Predictions are saved in predictions.conllu.",
+        " Predictions are saved in predictions.conllu/predictions.json.",
         metavar="FILE",
         #default="",
         )
@@ -377,22 +377,23 @@ def run_parser(args):
         other.load(args.recycle + "best_model.save")
         model.upd_from_other(other, *args.recycle_layers.split(","))
 
-
     if args.freeze is not None:
         model.freeze_params(*args.freeze.split(","))
 
     if (args.load and args.cont) or args.load is None:
         model.train()
 
+    if (args.load and args.cont and not args.disable_val_eval) or (args.load is None and not args.disable_val_eval):
         # load the best_model.save instead of using the current one
         model = ModelInteractor.factory(args, vocabs)
         model.load(args.dir + "best_model.save")
-
-
-
-    if (args.load and args.cont) or args.load is None:
         predict(model, args, args.val, args.elmo_dev, vocabs)
-    predict(model, args, args.predict_file, args.elmo_test, vocabs)
+
+    if args.predict_file is not None:
+        # load the best_model.save instead of using the current one
+        model = ModelInteractor.factory(args, vocabs)
+        model.load(args.dir + "best_model.save")
+        predict(model, args, args.predict_file, args.elmo_test, vocabs)
 
 
 if __name__ == "__main__":
