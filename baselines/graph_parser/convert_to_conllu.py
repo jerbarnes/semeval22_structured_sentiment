@@ -103,6 +103,7 @@ if __name__ == "__main__":
 
     dataset = os.path.basename(args.json_dir)
     nlp = stanza.Pipeline(dataset_to_lang[dataset],
+                          processors='tokenize,pos,lemma,depparse',
                           tokenize_no_ssplit=True,
                           tokenize_pretokenized=True)
 
