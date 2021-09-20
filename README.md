@@ -178,5 +178,6 @@ A: Sign up at our [codalab website](https://competitions.codalab.org/competition
     * Erik Velldal
     * Stephan Oepen
 
+[Mailing list (Google group) for the task](mailto:structured-sent-participants@googlegroups.com)
 
 
