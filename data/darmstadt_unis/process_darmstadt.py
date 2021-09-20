@@ -474,7 +474,7 @@ if __name__ == "__main__":
 
             o = get_opinions(bfile, mfile)
             sentence_anns = get_sentence_level_anns(o)
-            if subname in ["dev", "test"]:
+            if subname in ["test"]:
                 for s in sentence_anns:
                     s["opinions"] = []
             processed[subname].extend(sentence_anns)

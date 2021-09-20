@@ -357,7 +357,7 @@ def main():
             new = process_file(fname, nlp)
             processed.extend(new)
 
-        if name in ["dev", "test"]:
+        if name in ["test"]:
             for sent in processed:
                 sent["opinions"] = []
 
