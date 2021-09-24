@@ -163,6 +163,10 @@ Q: How do I participate?
 
 A: Sign up at our [codalab website](https://competitions.codalab.org/competitions/33556), download the [data](./data), train the [baselines](./baselines) and submit the results to the codalab website.
 
+Q: Can I run the graph parsing baseline on GPU?
+
+A: The code is not set up to run on GPU right now, but if you want to implement it and issue a pull request, we'd be happy to incorporate that into the repository.
+
 
 ## Task organizers
 
