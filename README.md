@@ -49,7 +49,10 @@ This track assumes that you train and test on the same language. Participants wi
 | [Darmstadt_unis](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2448) | English | 2803 | 86 | 1119 | 1119 |
 
 ### Cross-lingual
-This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not come directly from the test datasets.
+This track will explore how well models can generalize across languages. The test data will be the `MultiBooked Datasets (Catalan and Basque)` and the `OpeNER Spanish` dataset. For training, you can use any of the other datasets, as well as any other resource that does not contain sentiment annotations in the target language.
+
+This setup is often known as zero-shot cross-lingual transfer and we will assume that all submissions follow this format.
+
 
 ## Evaluation
 
