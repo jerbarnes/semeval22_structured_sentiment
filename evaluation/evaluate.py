@@ -247,7 +247,7 @@ def main():
                     print(i)
 
             #import pdb; pdb.set_trace()
-            assert g == p, "missing some sentences"
+            assert g == p, "in dataset {}-{} missing some sentences".format(dataset, subtask)
 
             f1 = tuple_f1(gold, preds)
             results.append(f1)
