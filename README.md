@@ -2,6 +2,11 @@
 
 This Github repository hosts the data and baseline models for the [SemEval-2022 shared task 10](https://competitions.codalab.org/competitions/33556) on structured sentiment. In this repository you will find the datasets, baselines, and other useful information on the shared task.
 
+
+## LATEST NEWS
+
+**6.10.2021**: Updated MPQA and Darmstadt dev data on the codalab. You may need to check your data to make sure that you're working with the newest version in order to submit.
+
 **Table of contents:**
 
 1. [Problem description](#problem-description)
