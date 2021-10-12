@@ -22,10 +22,6 @@ def main():
     g = sorted(gold.keys())
     p = sorted(preds.keys())
 
-    for i in g:
-        if i not in p:
-            i
-
     assert g == p, "missing some sentences"
 
     f1 = tuple_f1(gold, preds)
