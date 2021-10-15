@@ -466,6 +466,10 @@ if __name__ == "__main__":
     train = [filenames for filenames in ff if filenames[0].split("_words")[0] in splits["train"]]
     dev = [filenames for filenames in ff if filenames[0].split("_words")[0] in splits["dev"]]
 
+
+    # import list of
+    problematic_sentences = [line.strip() for line in open("missing_polar_expression_offsets.txt")]
+
     for subname, subcorpus in [("train", train), ("dev", dev)]:
 
         for bf, mf in subcorpus:
@@ -477,7 +481,20 @@ if __name__ == "__main__":
             if subname in ["test"]:
                 for s in sentence_anns:
                     s["opinions"] = []
+
+            # remove sentences which have polar expressions with no offsets
+            for sentence in sentence_anns:
+                if sentence["sent_id"] in problematic_sentences:
+                    new_opinions = []
+                    for opinion in sentence["opinions"]:
+                        text, offset = opinion["Polar_expression"]
+                        if offset != []:
+                            new_opinions.append(opinion)
+                    sentence["opinions"] = new_opinions
+
             processed[subname].extend(sentence_anns)
+
+
 
     for subname, subcorpus in processed.items():
         with open(os.path.join("{0}.json".format(subname)), "w") as out:
