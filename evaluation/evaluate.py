@@ -239,15 +239,12 @@ def main():
 
             # make sure they have the same keys
             # Todo: make the error message more useful by including the missing values
-            g = sorted(gold.keys())
-            p = sorted(preds.keys())
 
-            for i in g:
-                if i not in p:
-                    print(i)
+            g = set(gold.keys())
+            p = set(preds.keys())
 
-            #import pdb; pdb.set_trace()
-            assert g == p, "in dataset {}-{} missing some sentences".format(dataset, subtask)
+            assert g.issubset(p), f"missing some sentences: {g.difference(p)}"
+            assert p.issubset(g), f"predictions contain sentences that are not in golds: {p.difference(g)}"
 
             f1 = tuple_f1(gold, preds)
             results.append(f1)
