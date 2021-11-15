@@ -5,6 +5,10 @@ import json
 import stanza
 from tqdm import tqdm
 
+from nltk.tokenize.simple import SpaceTokenizer
+
+tk = SpaceTokenizer()
+
 
 class Subelement():
     def __init__(self, type, texts, offsets):
@@ -320,6 +324,33 @@ def get_opinions(lre_file, text, agents, attitudes, attitudes_type, targets):
                             opinions.append(opinion)
     return opinions
 
+def convert_char_offsets_to_token_idxs(char_offsets, token_offsets):
+    """
+    char_offsets: list of str
+    token_offsets: list of tuples
+
+    >>> text = "I think the new uni ( ) is a great idea"
+    >>> char_offsets = ["8:19"]
+    >>> token_offsets =
+    [(0,1), (2,7), (8,11), (12,15), (16,19), (20,21), (22,23), (24,26), (27,28), (29,34), (35,39)]
+
+    >>> convert_char_offsets_to_token_idxs(char_offsets, token_offsets)
+    >>> (2,3,4)
+    """
+    token_idxs = []
+    #
+    for char_offset in char_offsets:
+        bidx, eidx = char_offset.split(":")
+        bidx, eidx = int(bidx), int(eidx)
+        intoken = False
+        for i, (b, e) in enumerate(token_offsets):
+            if b == bidx:
+                intoken = True
+            if intoken:
+                token_idxs.append(i)
+            if e == eidx:
+                intoken = False
+    return frozenset(token_idxs)
 
 def process_file(fname, nlp):
     #print(fname)
@@ -338,7 +369,22 @@ def process_file(fname, nlp):
         sent.update_text()
         sent.update_holder()
         sent.update_opinion_offsets()
-        processed_sents.append(sent.to_dict())
+        sentence = sent.to_dict()
+        # remove any annotations with incorrect polar expressions
+        new_opinions = []
+        for opinion in sentence["opinions"]:
+            offset_text, offset = opinion["Polar_expression"]
+            text = sentence["text"]
+            exp_char_idxs = [i.split(":") for i in offset]
+
+            token_offsets = list(tk.span_tokenize(text))
+            exp = convert_char_offsets_to_token_idxs(offset, token_offsets)
+            if offset != [] and exp != frozenset():
+                new_opinions.append(opinion)
+            else:
+                print(sentence["sent_id"])
+        sentence["opinions"] = new_opinions
+        processed_sents.append(sentence)
     return processed_sents
 
 

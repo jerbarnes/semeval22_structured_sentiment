@@ -468,7 +468,7 @@ if __name__ == "__main__":
 
 
     # import list of
-    problematic_sentences = [line.strip() for line in open("missing_polar_expression_offsets.txt")]
+    problematic_sentences = [line.strip() for line in open("problematic.txt")]
 
     for subname, subcorpus in [("train", train), ("dev", dev)]:
 
@@ -482,13 +482,17 @@ if __name__ == "__main__":
                 for s in sentence_anns:
                     s["opinions"] = []
 
-            # remove sentences which have polar expressions with no offsets
+            # remove sentences which have polar expressions with no or incorrect offsets
             for sentence in sentence_anns:
                 if sentence["sent_id"] in problematic_sentences:
                     new_opinions = []
                     for opinion in sentence["opinions"]:
-                        text, offset = opinion["Polar_expression"]
-                        if offset != []:
+                        offset_text, offset = opinion["Polar_expression"]
+                        text = sentence["text"]
+                        offsets = [i.split(":") for i in offset]
+                        offsets = sorted([(int(i), int(j)) for i, j in offsets])
+                        offset_text2 = [text[b:e] for b, e in offsets]
+                        if offset != [] and set(offset_text) == set(offset_text2):
                             new_opinions.append(opinion)
                     sentence["opinions"] = new_opinions
 
