@@ -5,6 +5,8 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 
 ## LATEST NEWS
 
+**15.11.2021**: Updated Darmstadt and MPQA processing script to remove annotations which contain polar expessions with incorrect offsets, giving errors during evaluation (see issue #17).
+
 **15.10.2021**: Updated Darmstadt processing script to remove annotations which contain polar expessions with no offset (see issue #9).
 
 **6.10.2021**: Updated MPQA and Darmstadt dev data on the codalab. You may need to check your data to make sure that you're working with the newest version in order to submit.
