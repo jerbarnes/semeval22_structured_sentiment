@@ -374,12 +374,13 @@ def process_file(fname, nlp):
         new_opinions = []
         for opinion in sentence["opinions"]:
             offset_text, offset = opinion["Polar_expression"]
+            polarity = opinion["Polarity"]
             text = sentence["text"]
             exp_char_idxs = [i.split(":") for i in offset]
 
             token_offsets = list(tk.span_tokenize(text))
             exp = convert_char_offsets_to_token_idxs(offset, token_offsets)
-            if offset != [] and exp != frozenset():
+            if offset != [] and exp != frozenset() and polarity is not None:
                 new_opinions.append(opinion)
             else:
                 print(sentence["sent_id"])
