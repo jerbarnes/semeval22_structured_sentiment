@@ -1,8 +1,8 @@
 ## Requirements
 
-1. lxml
-2. tqdm
-3. stanza >= 1.2.3
+1. lxml==4.3.2
+2. tqdm=4.56.0
+3. stanza==1.1.1
 
 ## Step 1:
 
