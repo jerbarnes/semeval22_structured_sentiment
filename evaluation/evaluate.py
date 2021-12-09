@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf-8
-from __future__ import print_function
+from __future__ import print_function, division
 import sys
 import os
 import json
@@ -243,8 +243,8 @@ def main():
             g = set(gold.keys())
             p = set(preds.keys())
 
-            assert g.issubset(p), f"missing some sentences: {g.difference(p)}"
-            assert p.issubset(g), f"predictions contain sentences that are not in golds: {p.difference(g)}"
+            assert g.issubset(p), "missing some sentences: {}".format(g.difference(p))
+            assert p.issubset(g), "predictions contain sentences that are not in golds: {}".format(p.difference(g))
 
             f1 = tuple_f1(gold, preds)
             results.append(f1)
