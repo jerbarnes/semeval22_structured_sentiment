@@ -5,6 +5,8 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 
 ## LATEST NEWS
 
+**09.12.2021**: Updated the evaluation script on codalab, as previous versions gave incorrectly low results when run on codalab due to floor division in python 2.7 (codalab still runs on python 2, see issue #16).
+
 **29.11.2021**: Updated MPQA processing script to remove annotations with no polarity (see issue #20). If you have the data from before this date, you will need to rerun the preprocessing scripts.
 
 **15.11.2021**: Updated Darmstadt and MPQA processing script to remove annotations which contain polar expessions with incorrect offsets, giving errors during evaluation (see issue #17). If you have the data from before this date, you will need to rerun the preprocessing scripts.
