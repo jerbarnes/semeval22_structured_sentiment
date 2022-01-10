@@ -453,10 +453,10 @@ def get_files(current_dir):
 if __name__ == "__main__":
 
     basedir = "DarmstadtServiceReviewCorpus"
-    processed = {"train": [], "dev": []}
+    processed = {"train": [], "dev": [], "test": []}
     corpus = "universities"
 
-    with open("splits.json") as infile:
+    with open("full_splits.json") as infile:
         splits = json.load(infile)
 
     current_dir = os.path.join(basedir, corpus)
@@ -465,12 +465,13 @@ if __name__ == "__main__":
     #break into train, dev splits
     train = [filenames for filenames in ff if filenames[0].split("_words")[0] in splits["train"]]
     dev = [filenames for filenames in ff if filenames[0].split("_words")[0] in splits["dev"]]
+    test = [filenames for filenames in ff if filenames[0].split("_words")[0] in splits["test"]]
 
 
     # import list of
     problematic_sentences = [line.strip() for line in open("problematic.txt")]
 
-    for subname, subcorpus in [("train", train), ("dev", dev)]:
+    for subname, subcorpus in [("train", train), ("dev", dev), ("test", test)]:
 
         for bf, mf in subcorpus:
             bfile = os.path.join(current_dir, "basedata", bf)
