@@ -392,7 +392,8 @@ def process_file(fname, nlp):
 def main():
     train = [l.strip() for l in open("datasplit/filelist_train0").readlines()]
     dev = [l.strip() for l in open("datasplit/filelist_dev").readlines()]
-    data = [("train", train), ("dev", dev)]
+    test = [l.strip() for l in open("datasplit/filelist_test0").readlines()]
+    data = [("train", train), ("dev", dev), ("test", test)]
 
     nlp = stanza.Pipeline("en", processors='tokenize')
 
