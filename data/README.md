@@ -30,18 +30,20 @@ This track assumes that we train and test on the same languages. For this we wil
 4. opener_en (English hotel reviews)
 5. opener_es (Spanish hotel reviews)
 6. darmstadt_unis (English online university reviews)
+7. MPQA
 
 ## Subtask 2: Cross-lingual structured sentiment
 This track will instead train only on a high-resource language (English) and test on several languages.
 
 Train:
 1. opener_en
+2. MPQA
+3. darmstadt_unis
 
 Test:
 1. opener_es
 2. multibooked_ca
 3. multibooked_eu
-4. Several surprise languages that will not be available until the evaluation phase.
 
 That means that the cross-lingual models should be able to adapt quickly to new languages.
 
