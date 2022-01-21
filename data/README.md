@@ -35,10 +35,7 @@ This track assumes that we train and test on the same languages. For this we wil
 ## Subtask 2: Cross-lingual structured sentiment
 This track will instead train only on a high-resource language (English) and test on several languages.
 
-Train:
-1. opener_en
-2. MPQA
-3. darmstadt_unis
+For training, you can use any of the other datasets, as well as any other resource that does not contain sentiment annotations in the target language.
 
 Test:
 1. opener_es
