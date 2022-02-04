@@ -32,6 +32,7 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 8. [Important dates](#important-dates)
 9. [Frequently Asked Questions](#frequently-asked-questions)
 10. [Task organizers](#task-organizers)
+11. [Citation](#citation)
 
 ## Problem description
 
@@ -202,4 +203,39 @@ A: The code is not set up to run on GPU right now, but if you want to implement 
 
 [Mailing list (Google group) for the task](mailto:structured-sent-participants@googlegroups.com)
 
+
+## Citation
+
+If you use the baselines or data from this shared task, please cite the following paper:
+
+@inproceedings{barnes-etal-2022-semeval,
+    title = "{S}em{E}val-2022 Task 10: Structured Sentiment Analysis",
+    author = "Barnes, Jeremy and
+              Kutuzov, Andrey and,
+              Oberl{\"a}nder, Laura Ana Maria and
+              Troiano, Enrica and
+              Buchmann, Jan and
+              Agerri, Rodrigo and
+              {\O}vrelid, Lilja  and
+              Velldal, Erik and
+              Oepen, Stephan",
+    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    month = july,
+    year = "2022",
+    address = "Seattle",
+    publisher = "Association for Computational Linguistics"
+}
+
+
+For the specific datasets, use the following:
+
+1. NoReC
+
+2. MultiBooked
+
+3. OpeNER
+
+4. MPQA
+
+5. Darmstadt Service Reviews
 
