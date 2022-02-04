@@ -208,6 +208,7 @@ A: The code is not set up to run on GPU right now, but if you want to implement 
 
 If you use the baselines or data from this shared task, please cite the following paper:
 
+```
 @inproceedings{barnes-etal-2022-semeval,
     title = "{S}em{E}val-2022 Task 10: Structured Sentiment Analysis",
     author = "Barnes, Jeremy and
@@ -225,7 +226,7 @@ If you use the baselines or data from this shared task, please cite the followin
     address = "Seattle",
     publisher = "Association for Computational Linguistics"
 }
-
+```
 
 For the specific datasets, use the following:
 
