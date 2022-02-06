@@ -102,13 +102,14 @@ def perform_analysis(sent_keys, gold_sents, pred_sents, negation_sents, element=
         gold_tuples = convert_opinion_to_tuple(gold)
         pred_tuples = convert_opinion_to_tuple(pred)
         for opinion, tup in zip(gold["opinions"], gold_tuples):
+            p_source, p_target, p_exp, p_pol, g_source, g_target, g_exp, g_pol = [None] * 8
             # IF IN SCOPE OF NEGATION
             if in_neg_scope(opinion[element], neg_range):
                 analysis_dict["in_neg_scope"].add((key, tup))
                 matches = get_matching_exp(tup, pred_tuples)
+                g_source, g_target, g_exp, g_pol = tup
                 # IF PREDICTED
                 if len(matches) > 0:
-                    g_source, g_target, g_exp, g_pol = tup
                     for match in matches:
                         p_source, p_target, p_exp, p_pol = match
                         # IF POLARITY IS INCORRECT
@@ -123,9 +124,9 @@ def perform_analysis(sent_keys, gold_sents, pred_sents, negation_sents, element=
             else:
                 analysis_dict["not_in_neg_scope"].add((key, tup))
                 matches = get_matching_exp(tup, pred_tuples)
+                g_source, g_target, g_exp, g_pol = tup
                 # IF PREDICTED
                 if len(matches) > 0:
-                    g_source, g_target, g_exp, g_pol = tup
                     for match in matches:
                         p_source, p_target, p_exp, p_pol = match
                         # IF POLARITY IS INCORRECT
