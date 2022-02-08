@@ -15,3 +15,6 @@ python3 domain_analysis.py ../data/norec/test_labeled.json $PREDFILE metadata.js
 
 # negation analysis
 python3 neg_scope_analysis.py ../data/norec/test_labeled.json $PREDFILE negation_test.json
+
+# overlap analysis
+python3 overlap_analysis.py ../data/norec/test_labeled.json $PREDFILE
