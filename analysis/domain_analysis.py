@@ -24,7 +24,7 @@ def open_json(json_file):
     """
     with open(json_file) as o:
         file = json.load(o)
-    sent_dict = dict([(sent["sent_id"], sent) for sent in file])
+    sent_dict = {sent["sent_id"]: sent for sent in file}
     sent_keys = set(sent_dict.keys())
     return sent_keys, sent_dict
 
