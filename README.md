@@ -208,7 +208,7 @@ A: The code is not set up to run on GPU right now, but if you want to implement 
 
 ## Citation
 
-If you use the baselines or data from this shared task, please cite the following paper:
+If you use the baselines or data from this shared task, please cite the following paper, as well as the papers for the specific datasets that you use (see the bib files that follow afterwards) :
 
 ```
 @inproceedings{barnes-etal-2022-semeval,
