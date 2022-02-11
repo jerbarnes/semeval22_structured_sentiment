@@ -234,11 +234,88 @@ For the specific datasets, use the following:
 
 1. NoReC
 
+```
+@inproceedings{ovrelid-etal-2020-fine,
+    title = "A Fine-grained Sentiment Dataset for {N}orwegian",
+    author = "{\O}vrelid, Lilja  and
+      M{\ae}hlum, Petter  and
+      Barnes, Jeremy  and
+      Velldal, Erik",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.618",
+    pages = "5025--5033",
+    abstract = "We here introduce NoReC{\_}fine, a dataset for fine-grained sentiment analysis in Norwegian, annotated with respect to polar expressions, targets and holders of opinion. The underlying texts are taken from a corpus of professionally authored reviews from multiple news-sources and across a wide variety of domains, including literature, games, music, products, movies and more. We here present a detailed description of this annotation effort. We provide an overview of the developed annotation guidelines, illustrated with examples and present an analysis of inter-annotator agreement. We also report the first experimental results on the dataset, intended as a preliminary benchmark for further experiments.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+```
+
 2. MultiBooked
+
+```
+@inproceedings{barnes-etal-2018-multibooked,
+    title = "{M}ulti{B}ooked: A Corpus of {B}asque and {C}atalan Hotel Reviews Annotated for Aspect-level Sentiment Classification",
+    author = "Barnes, Jeremy  and
+      Badia, Toni  and
+      Lambert, Patrik",
+    booktitle = "Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)",
+    month = may,
+    year = "2018",
+    address = "Miyazaki, Japan",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L18-1104",
+}
+```
 
 3. OpeNER
 
+```
+@inproceedings{Agerri2013,
+author = {Agerri, Rodrigo and Cuadros, Montse and Gaines, Sean and Rigau, German},
+booktitle = {Sociedad Espa{\~{n}}ola para el Procesamiento del Lenguaje Natural},
+pages = {215--218},
+title = {{OpeNER: Open polarity enhanced named entity recognition.}},
+volume = {51},
+year = {2013}
+}
+```
+
+
 4. MPQA
 
+```
+@article{Wiebe2005b,
+author = {Wiebe, Janyce
+        and Wilson, Theresa
+        and Cardie, Claire},
+journal = {Language Resources and Evaluation},
+number = {2-3},
+pages = {165--210},
+title = {{Annotating expressions of opinions and emotions in language}},
+volume = {39},
+year = {2005}
+}
+```
+
 5. Darmstadt Service Reviews
+
+```
+@inproceedings{toprak-etal-2010-sentence,
+    title = "Sentence and Expression Level Annotation of Opinions in User-Generated Discourse",
+    author = "Toprak, Cigdem  and
+      Jakob, Niklas  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2010",
+    address = "Uppsala, Sweden",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P10-1059",
+    pages = "575--584",
+}
+```
 
