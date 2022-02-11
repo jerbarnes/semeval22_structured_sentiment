@@ -5,7 +5,7 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 
 ## LATEST NEWS
 
-**4.02.22**: Evaluation period has finished. We encourage all participants to submit a system description paper (more info to come), deadline is February 23rd. [Guidelines from SemEval](https://semeval.github.io/paper-requirements.html). If you do submit, please cite the [Shared Task Description](#citation).
+**4.02.22**: Evaluation period has finished. We encourage all participants to submit a system description paper (more info to come), deadline is February 23rd. [Guidelines from SemEval](https://semeval.github.io/paper-requirements.html). If you do submit, please cite the [Shared Task Description and datasets](#citation).
 
 **11.01.2022**: Added test data for the evaluation phase. Additionally, we corrected the problems associated with issue #9 in train, dev, and test splits. We've also updated the example_submission.zip in the evaluation subrepo for the evaluation phase. Therefore, we recommend you pull the changes.
 
