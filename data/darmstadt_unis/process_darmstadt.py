@@ -479,9 +479,6 @@ if __name__ == "__main__":
 
             o = get_opinions(bfile, mfile)
             sentence_anns = get_sentence_level_anns(o)
-            if subname in ["test"]:
-                for s in sentence_anns:
-                    s["opinions"] = []
 
             # remove sentences which have polar expressions with no or incorrect offsets
             for sentence in sentence_anns:

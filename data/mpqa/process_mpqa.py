@@ -405,10 +405,6 @@ def main():
             new = process_file(fname, nlp)
             processed.extend(new)
 
-        if name in ["test"]:
-            for sent in processed:
-                sent["opinions"] = []
-
         with open(os.path.join("{0}.json".format(name)), "w") as out:
             json.dump(processed, out)
 
