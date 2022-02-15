@@ -3,6 +3,9 @@
 import sys
 from unittest.mock import MagicMock
 sys.modules.setdefault("click", MagicMock())
+
+import json
+from pathlib import Path
 import count_errors
 from domain_analysis import open_json
 # we don't need the keys
@@ -11,32 +14,36 @@ open_json = lambda file, open_json=open_json: open_json(file)[1]
 ROLES = ["Source", "Target", "Polar_expression"]
 
 def token_ids_from_offsets(tokens, offsets, text=None):
-    token_ids = set()
-    for start, stop in offsets:
-        if stop < 0:
-            # convert negative indices to length of text plus index
-            stop += sum(len(token) for token in tokens) + len(tokens) - 1
-        cindex = tindex = 0
-        while len(tokens) > tindex:
-            # do we start before this token?
-            if start == cindex:
-                tstart = tindex
-            # "consume" token
-            cindex += len(tokens[tindex])
-            tindex += 1
-            # do we stop after this token?
-            if stop == cindex:
-                token_ids.update(range(tstart, tindex))
-                break
-            # consume whitespace
-            cindex += 1
-        else:
-            # we never broke out of the loop: no matching end found at token
-            # boundary
-            # if text:
-            #     print("Oh no.", repr(text), repr(text[start:stop]))
-            raise RuntimeError(f"No match for {start}:{stop} in {tokens}")
-    return token_ids
+    try:
+        token_ids = set()
+        for start, stop in offsets:
+            if stop < 0:
+                # convert negative indices to length of text plus index
+                stop += sum(len(token) for token in tokens) + len(tokens) - 1
+            cindex = tindex = 0
+            while len(tokens) > tindex:
+                # do we start before this token?
+                if start == cindex:
+                    tstart = tindex
+                # "consume" token
+                cindex += len(tokens[tindex])
+                tindex += 1
+                # do we stop after this token?
+                if stop == cindex:
+                    token_ids.update(range(tstart, tindex))
+                    break
+                # consume whitespace
+                cindex += 1
+            else:
+                # we never broke out of the loop: no matching end found at token
+                # boundary
+                # if text:
+                #     print("Oh no.", repr(text), repr(text[start:stop]))
+                return set()
+        return token_ids
+    except UnboundLocalError:
+        # end lined up, but beginning didn't
+        return set()
 
 def iobify(instance, role):
     tokens = instance["text"].split(" ")
@@ -74,9 +81,26 @@ def get_sequences(golds, preds, role):
 
 if __name__ == "__main__":
     golds, preds = map(open_json, sys.argv[1:])
+    pred_path = Path(sys.argv[2])
+    dataset = pred_path.parent.name
+    mono_or_single = pred_path.parent.parent.name
+    team = pred_path.parent.parent.parent.name
 
     # transform into form expected by metrics (token-based IOB)
     for role in ROLES:
         gold_sequences, pred_sequences = get_sequences(golds, preds, role)
-        print(role)
-        print(count_errors.error_classes(gold_sequences, pred_sequences))
+        try:
+            errors = count_errors.error_classes(gold_sequences, pred_sequences)
+        except AssertionError:
+            # bad annotation, skip role
+            continue
+        # print(role, file=sys.stderr)
+        # print(errors, file=sys.stderr)
+        json.dump({
+            "role": role,
+            "errors": errors,
+            "team": team,
+            "dataset": dataset,
+            "mono/single": mono_or_single,
+        }, sys.stdout)
+        print()
