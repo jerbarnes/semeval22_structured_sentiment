@@ -6,6 +6,8 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from statsmodels.graphics.mosaicplot import mosaic
 
+palette = sns.color_palette(["mediumseagreen", "royalblue", "peru"])
+
 with open("relevant_teams") as f:
     relevant_teams = {line.rstrip("\n") for line in f}
 
@@ -48,11 +50,18 @@ with open("assembled_overlap.json") as f:
                 )
 
 sns.set(font_scale=0.7)
+# sns.set_theme(style="white", palette=None)
+# sns.color_palette("husl", 9)
 for dataset, monomulti in data:
     print("Scattering", dataset)
     df = pd.DataFrame(data[dataset, monomulti])
     axis = sns.scatterplot(
-        data=df, x="Team", y="Relative frequency", hue="Role", style="Error type"
+        data=df,
+        x="Team",
+        y="Relative frequency",
+        hue="Role",
+        style="Error type",
+        palette=palette,
     )
     axis.tick_params(axis="x", rotation=30)
     lgd = axis.legend(loc="center right", bbox_to_anchor=(1.3, 0.6), fancybox=True)
@@ -68,7 +77,7 @@ for dataset, monomulti in data:
 
     if monomulti == "monolingual":
         print("Boxing", dataset)
-        axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order)
+        axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order, palette=palette)
         axis.tick_params(axis="x", rotation=15)
         fig = axis.get_figure()
         fig.savefig(f"box_{dataset}_{monomulti}.pdf")
@@ -77,7 +86,7 @@ for dataset, monomulti in data:
 for setting in ("monolingual", "crosslingual"):
     print("Boxing", setting)
     df = pd.DataFrame(item for (_ds, monomulti), items in data.items() for item in items if monomulti == setting)
-    axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order)
+    axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order, palette=palette)
     axis.tick_params(axis="x", rotation=15)
     fig = axis.get_figure()
     fig.savefig(f"box_all_{setting}.pdf")
