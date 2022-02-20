@@ -5,6 +5,8 @@ This Github repository hosts the data and baseline models for the [SemEval-2022 
 
 ## LATEST NEWS
 
+**20.02.22**: The [OpenReview instance for SemEval](https://openreview.net/group?id=aclweb.org/NAACL/2022/Workshop/Semeval) is now available. You can submit your system description papers here by Feb 28.
+
 **4.02.22**: Evaluation period has finished. We encourage all participants to submit a system description paper (more info to come), deadline is February 28th. [Guidelines from SemEval](https://semeval.github.io/paper-requirements.html). If you do submit, please cite the [Shared Task Description and datasets](#citation).
 
 **11.01.2022**: Added test data for the evaluation phase. Additionally, we corrected the problems associated with issue #9 in train, dev, and test splits. We've also updated the example_submission.zip in the evaluation subrepo for the evaluation phase. Therefore, we recommend you pull the changes.
