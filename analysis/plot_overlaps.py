@@ -4,7 +4,6 @@ from collections import defaultdict
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
-from statsmodels.graphics.mosaicplot import mosaic
 
 palette = sns.color_palette(["mediumseagreen", "royalblue", "peru"])
 
@@ -16,15 +15,15 @@ error_map = {
     "I": "Too early",  # "Early Stop",
     "III": "Too early",  # "Early Start & Stop",
     "IV": "Too early",  # "Early Start",
-    "V": "Surround",
-    "VI": "Contained",
+    "V": "Other", # "Surround"
+    "VI": "Other", # "Contained"
     "VII": "Too late",  # "Late Start",
     "VIII": "Too late",  # "Late Start & Stop",
     "X": "False positive",
     "XI": "Multiple",
     "XII": "False negative",
 }
-order = ["False positive", "False negative", "Multiple", "Too early", "Too late", "Surround", "Contained"]
+order = ["False positive", "False negative", "Multiple", "Too early", "Too late", "Other"]
 
 data = defaultdict(list)
 with open("assembled_overlap.json") as f:
@@ -64,21 +63,18 @@ for dataset, monomulti in data:
         palette=palette,
     )
     axis.tick_params(axis="x", rotation=30)
-    lgd = axis.legend(loc="center right", bbox_to_anchor=(1.3, 0.6), fancybox=True)
     plt.tight_layout()
     plt.autoscale()
     fig = axis.get_figure()
     fig.savefig(
         f"scatter_{dataset}_{monomulti}.pdf",
-        bbox_extra_artists=(lgd,),
-        bbox_inches="tight",
     )
     plt.clf()
 
     if monomulti == "monolingual":
         print("Boxing", dataset)
         axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order, palette=palette)
-        axis.tick_params(axis="x", rotation=15)
+        axis.tick_params(axis="x", rotation=0)
         fig = axis.get_figure()
         fig.savefig(f"box_{dataset}_{monomulti}.pdf")
     plt.clf()
@@ -87,7 +83,7 @@ for setting in ("monolingual", "crosslingual"):
     print("Boxing", setting)
     df = pd.DataFrame(item for (_ds, monomulti), items in data.items() for item in items if monomulti == setting)
     axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order, palette=palette)
-    axis.tick_params(axis="x", rotation=15)
+    axis.tick_params(axis="x", rotation=0)
     fig = axis.get_figure()
     fig.savefig(f"box_all_{setting}.pdf")
     plt.clf()
