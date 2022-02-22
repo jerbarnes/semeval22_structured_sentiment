@@ -23,6 +23,11 @@ error_map = {
     "XI": "Multiple",
     "XII": "False negative",
 }
+role_map = {
+    "Polar_expression": "Expression",
+    "Source": "Holder",
+    "Target": "Target",
+}
 order = ["False positive", "False negative", "Multiple", "Too early", "Too late", "Other"]
 
 data = defaultdict(list)
@@ -41,24 +46,24 @@ with open("assembled_overlap.json") as f:
                     {
                         "Team": line["team"],
                         "Error type": error_map[error_type],
-                        "Role": line["role"],
+                        "Opinion span type": role_map[line["role"]],
                         "Dataset": line["dataset"],
                         "Relative frequency": value,
                         "Absolute counts": line["errors"][error_type],
                     }
                 )
 
-sns.set(font_scale=0.7)
 # sns.set_theme(style="white", palette=None)
 # sns.color_palette("husl", 9)
 for dataset, monomulti in data:
+    sns.set(font_scale=0.7)
     print("Scattering", dataset)
     df = pd.DataFrame(data[dataset, monomulti])
     axis = sns.scatterplot(
         data=df,
         x="Team",
         y="Relative frequency",
-        hue="Role",
+        hue="Opinion span type",
         style="Error type",
         palette=palette,
     )
@@ -71,9 +76,10 @@ for dataset, monomulti in data:
     )
     plt.clf()
 
+    sns.set(font_scale=0.9)
     if monomulti == "monolingual":
         print("Boxing", dataset)
-        axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order, palette=palette)
+        axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Opinion span type", order=order, palette=palette)
         axis.tick_params(axis="x", rotation=0)
         fig = axis.get_figure()
         fig.savefig(f"box_{dataset}_{monomulti}.pdf")
@@ -82,7 +88,7 @@ for dataset, monomulti in data:
 for setting in ("monolingual", "crosslingual"):
     print("Boxing", setting)
     df = pd.DataFrame(item for (_ds, monomulti), items in data.items() for item in items if monomulti == setting)
-    axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Role", order=order, palette=palette)
+    axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Opinion span type", order=order, palette=palette)
     axis.tick_params(axis="x", rotation=0)
     fig = axis.get_figure()
     fig.savefig(f"box_all_{setting}.pdf")
