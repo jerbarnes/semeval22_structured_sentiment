@@ -5,7 +5,6 @@ fi
 if [ ! -f count_errors.py ]; then
     curl https://raw.githubusercontent.com/sarnthil/emotion-stimulus-detection/main/scripts/eval/count_errors.py > count_errors.py
 fi
-exit
 
 # location of the predictions.json file
 PREDFILE=$1
