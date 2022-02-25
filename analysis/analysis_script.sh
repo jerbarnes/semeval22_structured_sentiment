@@ -18,3 +18,8 @@ python3 neg_scope_analysis.py ../data/norec/test_labeled.json $PREDFILE negation
 # overlap analysis
 ./assemble_overlap_data.sh
 python3  plot_overlaps.py
+
+# qualitative analysis
+GOLDPATH=$2 # location of gold test data
+PREDPATH=$3 # location of teams submissions
+python3 aggregate_qualitative_analysis.py $GOLDPATH $PREDPATH
