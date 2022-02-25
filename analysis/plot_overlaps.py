@@ -7,8 +7,8 @@ from matplotlib import pyplot as plt
 
 palette = sns.color_palette(["mediumseagreen", "royalblue", "peru"])
 
-with open("relevant_teams") as f:
-    relevant_teams = {line.rstrip("\n") for line in f}
+with open("relevant_teams.json") as f:
+    relevant_teams = json.load(f)
 
 error_map = {
     "II": "Too late",  # "Late Stop",
@@ -34,7 +34,8 @@ data = defaultdict(list)
 with open("assembled_overlap.json") as f:
     for line in f:
         line = json.loads(line)
-        if line["team"] not in relevant_teams:
+        setting = line["mono/single"]
+        if line["team"] not in relevant_teams[setting]:
             continue
         total = sum(line["errors"].values())
         for error_type in line["errors"]:

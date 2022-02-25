@@ -16,7 +16,6 @@ team_map = {
     },
     "crosslingual": {
         "Cong666": "Cong666 (MT-speech)",
-        "Team ohhhmygosh ": "ohhhmygosh",
         "colorful": "colorful",
         "Team Hitachi ": "Hitachi",
         "Team sixsixsix ": "sixsixsix",
@@ -25,6 +24,7 @@ team_map = {
         "Team Mirs ": "Mirs",
         "Team LyS_ACoruña ": "LyS\\_ACoruña",
         "Team OPI ": "OPI",
+        "KE_AI": "KE\\_AI",
     }
 }
 error_map = {
