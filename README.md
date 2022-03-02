@@ -216,14 +216,13 @@ If you use the baselines or data from this shared task, please cite the followin
 @inproceedings{barnes-etal-2022-semeval,
     title = "{S}em{E}val-2022 Task 10: Structured Sentiment Analysis",
     author = "Barnes, Jeremy and
-              Kutuzov, Andrey and,
               Oberl{\"a}nder, Laura Ana Maria and
               Troiano, Enrica and
+              Kutuzov, Andrey and
               Buchmann, Jan and
               Agerri, Rodrigo and
               {\O}vrelid, Lilja  and
-              Velldal, Erik and
-              Oepen, Stephan",
+              Velldal, Erik",
     booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
     month = july,
     year = "2022",
