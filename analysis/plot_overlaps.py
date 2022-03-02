@@ -86,11 +86,22 @@ for dataset, monomulti in data:
         fig.savefig(f"box_{dataset}_{monomulti}.pdf")
     plt.clf()
 
-for setting in ("monolingual", "crosslingual"):
-    print("Boxing", setting)
-    df = pd.DataFrame(item for (_ds, monomulti), items in data.items() for item in items if monomulti == setting)
-    axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Opinion span type", order=order, palette=palette)
-    axis.tick_params(axis="x", rotation=0)
-    fig = axis.get_figure()
-    fig.savefig(f"box_all_{setting}.pdf")
-    plt.clf()
+with open("outliers.txt", "w") as f:
+    for setting in ("monolingual", "crosslingual"):
+        print("Boxing", setting)
+        df = pd.DataFrame(item for (_ds, monomulti), items in data.items() for item in items if monomulti == setting)
+        f.write(f"Setting: {setting}\n")
+        for role in ("Holder", "Target", "Expression"):
+            for etype in ("False negative", "False positive", "Multiple"):
+                f.write(f"{role} :: {etype}:\n")
+                f.write(str(
+                    df[(df["Opinion span type"] == role) & (df["Error type"] == etype)].sort_values(by=["Relative frequency"])[-5:]
+                ))
+                f.write("\n")
+        f.write("\n")
+        axis = sns.boxplot(data=df, x="Error type", y="Relative frequency", hue="Opinion span type", order=order, palette=palette)
+        axis.tick_params(axis="x", rotation=0)
+        axis.set_ylim(0, 0.32)
+        fig = axis.get_figure()
+        fig.savefig(f"box_all_{setting}.pdf")
+        plt.clf()
